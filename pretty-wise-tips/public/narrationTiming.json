@@ -1,0 +1,40 @@
+{
+  "status": "provisional manual timing; no audio supplied; not speech aligned",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "label": "The silence"
+    },
+    {
+      "start": 4,
+      "end": 9,
+      "label": "The question"
+    },
+    {
+      "start": 9,
+      "end": 17,
+      "label": "The pattern"
+    },
+    {
+      "start": 17,
+      "end": 26,
+      "label": "The realization"
+    },
+    {
+      "start": 26,
+      "end": 34,
+      "label": "Her own plans"
+    },
+    {
+      "start": 34,
+      "end": 40,
+      "label": "The return"
+    },
+    {
+      "start": 40,
+      "end": 47,
+      "label": "The difference"
+    }
+  ]
+}

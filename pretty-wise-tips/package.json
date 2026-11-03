@@ -1,0 +1,19 @@
+{
+  "name": "pretty-wise-tips",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio src/index.tsx",
+    "render": "node scripts/render.mjs",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.484",
+    "@remotion/cli": "4.0.484"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/react": "19.0.0"
+  }
+}
