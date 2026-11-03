@@ -31,3 +31,7 @@ For future episodes, change `voiceover-script.txt`, `public/narrationTiming.json
 ## Validation
 
 TypeScript check and seven rendered frame inspections at 1, 7, 13, 22, 30, 37 and 44 seconds. See `out/contact-sheet.jpg` and individual PNGs. All animation is deterministic from Remotion frames. Timing is provisional and unequal across the seven story beats. Current scene transitions are direct editorial cuts; cards use staggered spring reveals.
+
+## Episode 02 — How to Stop Overthinking His Texts
+
+See [episode instructions](episodes/02-overthinking/README.md). Run `npm run dev:02` or `npm run render:02` for the 30-second, six-scene, visuals-only Reel. The promised CALM checklist is included alongside the episode brief.

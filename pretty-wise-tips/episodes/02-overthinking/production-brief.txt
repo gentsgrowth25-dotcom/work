@@ -1,0 +1,171 @@
+Create a 30-second vertical 9:16 2D animated Instagram Reel for the page “Pretty Wise Tips.”
+
+TOPIC:
+How to Stop Overthinking His Texts
+
+GOAL:
+This video must feel like a high-retention educational Reel for women. It should give practical psychology-based advice in a visually engaging way. The animation should encourage viewers to:
+1. keep watching until the end,
+2. comment in the middle of the video,
+3. feel like they learned something useful.
+
+IMPORTANT STRATEGY:
+- Hook the viewer in the first 2 seconds.
+- Tease that the last step is the most important.
+- Add a comment CTA in the middle of the video, not only at the end.
+- Promise something useful if they comment.
+- Make the visuals dynamic enough to hold attention, but still clean and feminine.
+- This is NOT an entertainment skit. It is an advice-based animated explainer.
+- Do NOT generate audio. This is visuals only.
+- Build the visuals so they can later match a voiceover.
+
+STYLE:
+- Elegant feminine 2D animation
+- Clean, modern, polished, premium-looking
+- Soft but engaging motion
+- Use a white or very light background with warm feminine accent colors
+- Use the Pretty Wise Tips brand accent color anywhere another template might normally use blue
+- Minimal but expressive character design
+- Smooth transitions
+- On-screen text should be easy to read, bold, clean, and short
+- Visual style should feel social-media friendly, not childish
+
+MAIN CHARACTER:
+A young woman, attractive and relatable, feminine, expressive face, soft features, stylish casual outfit, holding or checking her phone. She should visually represent a woman who is emotionally invested and slightly anxious at the start, then becomes calmer and more grounded by the end.
+
+VIDEO STRUCTURE:
+Total duration: 30 seconds
+6 scenes maximum
+Fast pacing, no wasted time
+
+SCENE 1 (0:00 - 0:04)
+Purpose: strong hook + curiosity + retention promise
+
+Visual:
+Show the woman staring at her phone anxiously after sending a text. She keeps checking the screen. Her mood clearly shifts because there is no reply.
+Use quick zooms and motion to immediately grab attention.
+
+On-screen text:
+“Does one unanswered text ruin your mood?”
+Small supporting text:
+“Stay till the end — step 3 is the most important.”
+
+Animation notes:
+- Show “message sent” on phone
+- No reply bubble appears
+- Facial expression: worried, overthinking
+- Add subtle tension through animated thought symbols or spinning thoughts
+
+SCENE 2 (0:04 - 0:09)
+Purpose: explain the overthinking problem visually
+
+Visual:
+Split-screen or comparison visual.
+On one side: “FACT” with the phone showing “No reply yet.”
+On the other side: “GUESS” with imagined thoughts appearing around her head like:
+“He’s losing interest”
+“I said something wrong”
+“He doesn’t care”
+
+On-screen text:
+“Separate facts from guesses.”
+
+Animation notes:
+- FACT side should feel calm and simple
+- GUESS side should feel chaotic and cluttered
+- Emphasize the difference visually
+
+SCENE 3 (0:09 - 0:14)
+Purpose: deliver tip 2 and keep momentum
+
+Visual:
+The woman intentionally puts her phone down, takes a breath, and shifts attention to something healthy and grounding.
+Show her doing one or two calming actions, like journaling, drinking water, stretching, or working at her desk.
+
+On-screen text:
+“Step 2: Redirect your focus.”
+
+Small supporting text:
+“Your mind needs evidence, not panic.”
+
+Animation notes:
+- Shift tone from anxious to calmer
+- Use lighter, calmer motion
+- Keep visuals aesthetically pleasing and feminine
+
+SCENE 4 (0:14 - 0:19)
+Purpose: get comments in the middle of the video
+
+Visual:
+Bring in a clean, attention-grabbing comment CTA section.
+Show a comment bubble animation and a small illustrated checklist or mini guide icon.
+The main character looks toward the text as if presenting it.
+
+On-screen text:
+“Comment ‘CALM’”
+Second line:
+“and I’ll send you the 3-question reset checklist”
+
+Optional small text:
+“for when you start overthinking”
+
+Animation notes:
+- Make this part highly readable
+- Keep it visually attractive and very clear
+- This should feel like a helpful gift, not spam
+- Hold this scene long enough for people to read and comment
+
+SCENE 5 (0:19 - 0:24)
+Purpose: rebuild retention and prepare for final payoff
+
+Visual:
+Return to the main character.
+Show her noticing a pattern — for example, multiple moments of inconsistent replies or mixed signals represented in a clean visual timeline or repeated phone scenes.
+
+On-screen text:
+“Now the most important step...”
+
+Then:
+“If it keeps happening, stop guessing.”
+
+Animation notes:
+- Build anticipation
+- Use motion to transition into the final insight
+- Make it feel like we are arriving at the key lesson
+
+SCENE 6 (0:24 - 0:30)
+Purpose: final and strongest lesson
+
+Visual:
+Show the woman confidently communicating her needs in a calm, mature way.
+For example, she is shown sending a composed message or standing confidently beside a clear boundary visual.
+End with her looking peaceful, grounded, and emotionally in control.
+
+On-screen text:
+“Communicate clearly.”
+Second line:
+“If inconsistency is a pattern, ask for clarity.”
+
+Final closing text:
+“Your peace matters too.”
+
+Animation notes:
+- Final tone should feel empowering, calm, and mature
+- End with confidence and emotional peace
+- Strong final frame for replay value
+
+GENERAL ANIMATION NOTES:
+- Keep the pacing tight and optimized for Instagram retention
+- Use expressive body language and facial expressions
+- Use subtle zooms, pans, pop-in text, and smooth transitions
+- Every scene should visually match the message being taught
+- Avoid clutter, but do not make it boring
+- The on-screen text should support retention and comprehension
+- No long paragraphs on screen
+- Keep each caption short and impactful
+- Make the first 2 seconds especially strong
+- Make the comment CTA in the middle very obvious
+- Make the final tip feel like the payoff the viewer waited for
+
+DELIVERABLE:
+Generate the full 30-second animated visual sequence only, in vertical 9:16 format, ready for voiceover to be added afterward.

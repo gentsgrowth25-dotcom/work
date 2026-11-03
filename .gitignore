@@ -1,4 +1,4 @@
-node_modules/
+node_modules
 pretty-wise-tips/out/*
 !pretty-wise-tips/out/.gitkeep
 .DS_Store
