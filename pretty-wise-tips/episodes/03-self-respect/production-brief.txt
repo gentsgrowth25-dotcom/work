@@ -1,0 +1,180 @@
+# PRETTY WISE TIPS — EPISODE 03 (REVISED)
+
+Create a premium, 30-second, fully animated 2D Instagram Reel.
+
+**Title:** 3 Signs Your Self-Respect Is Growing
+
+**Format:** 9:16 vertical, 1080 × 1920, 30 FPS, exactly 900 frames.
+
+**Production:** Generate visuals FIRST. Do not generate voiceover or music. Narration will be produced afterward using ElevenLabs.
+
+## VISUAL STYLE
+
+Preserve the established Pretty Wise Tips visual identity.
+
+- Premium feminine 2D vector animation.
+- Dusty rose, soft pink, cream and deep plum colors.
+- Large, expressive characters occupying a substantial portion of the frame.
+- Smooth character movement, facial animation, and camera transitions.
+- Minimal, impactful text.
+- No static slideshow scenes.
+- No unnecessary empty white backgrounds.
+- Strong visual motion from the first frame.
+- Make every illustration communicate the lesson.
+
+Use one consistent young adult female character with brunette hair and a pink-and-cream outfit.
+
+## SCENE 1 — 0:00–0:05
+### THE HOOK
+
+Narration:
+"Three signs your self-respect is growing. The last might feel like guilt."
+
+Animation:
+Start immediately with a close-up of the woman looking uncomfortable as several people make demands of her.
+
+Three numbered circles rapidly animate into view.
+
+Circle number three pulses and briefly changes into a question mark.
+
+Show her expression transitioning from uncertainty toward confidence.
+
+On-screen text:
+"3 SIGNS OF REAL SELF-RESPECT"
+
+Smaller text:
+"#3 might feel like guilt"
+
+Create instant curiosity. Do not use an introductory logo animation.
+
+## SCENE 2 — 0:05–0:10
+### SIGN 1 — STOP OVEREXPLAINING
+
+Narration:
+"One: You stop overexplaining. Saying 'I can't today' can be enough."
+
+Animation:
+Show the woman typing a long message filled with explanations.
+
+The message grows increasingly long.
+
+She pauses, deletes the unnecessary text, and replaces it with a respectful, concise response:
+
+"I can't today, sorry!"
+
+She looks noticeably relieved.
+
+On-screen text:
+"1. STOP OVEREXPLAINING"
+
+Use a smooth camera zoom toward the final message.
+
+## SCENE 3 — 0:10–0:17
+### SIGN 2 — PRIORITIZE YOUR OWN GOALS
+
+Narration:
+"Two: You protect time for your goals, instead of treating everyone else's plans as more important."
+
+Animation:
+Show a calendar rapidly filling with requests, social plans and obligations.
+
+The woman appears overwhelmed.
+
+She then creates a clearly marked block for her personal goal.
+
+Transition into her actually working toward that goal at a desk.
+
+Show the difference between a cluttered calendar and one with intentional personal time.
+
+On-screen text:
+"2. MAKE TIME FOR YOURSELF"
+
+Keep the scene educational and visually easy to understand.
+
+## SCENE 4 — 0:17–0:21
+### MID-VIDEO COMMENT CTA
+
+Narration:
+"Comment RESPECT for my free five-day self-respect challenge."
+
+Animation:
+A large Instagram-style comment bubble appears.
+
+The word RESPECT types itself into the bubble.
+
+An elegant five-day challenge checklist appears beside it.
+
+On-screen text:
+"COMMENT 'RESPECT'"
+
+Secondary text:
+"FREE 5-DAY CHALLENGE"
+
+Use a subtle animated checklist preview.
+
+Make this section immediately understandable without making it feel like a commercial.
+
+## SCENE 5 — 0:21–0:30
+### SIGN 3 — THE MAIN PAYOFF
+
+Narration:
+"Three: You set a reasonable boundary, even when guilt appears. That discomfort doesn't necessarily mean you're wrong. Sometimes, you're simply practicing self-respect."
+
+Animation:
+Show the woman respectfully declining an unreasonable request.
+
+The other person looks disappointed.
+
+The woman initially feels guilty.
+
+A thought bubble appears:
+"Am I being selfish?"
+
+The camera moves closer to her face as she thinks.
+
+Then show two distinct visual elements:
+
+LEFT:
+"FEELING GUILTY"
+
+RIGHT:
+"DOING SOMETHING WRONG"
+
+The two labels separate, showing that they are not necessarily the same thing.
+
+She maintains her reasonable boundary calmly and confidently.
+
+On-screen text:
+"3. GUILT ≠ WRONGDOING"
+
+Final text:
+"SELF-RESPECT TAKES PRACTICE"
+
+Finish with a short, elegant Pretty Wise Tips logo reveal during the final second.
+
+## RETENTION REQUIREMENTS
+
+Apply the storytelling and retention techniques established from the five reference videos:
+
+1. Strong visual and verbal hook from the first second.
+2. Create curiosity about the final sign.
+3. Deliver useful information throughout, not only at the end.
+4. Explain each sign through an understandable real-life example.
+5. Include a clear comment opportunity around 17 seconds.
+6. Make the third sign the most nuanced and useful.
+7. Create meaningful visual movement approximately every 2–3 seconds.
+8. No static title cards, frozen characters, repetitive slides or filler.
+9. Keep on-screen text large and easy to read on a phone.
+10. Ensure the final lesson resolves the hook.
+
+## FINAL OUTPUT
+
+Create a complete, rendered, silent 30-second 2D animation.
+
+Composition: PrettyWiseTipsEpisode03
+
+Filename: pretty-wise-tips-episode-03.mp4
+
+Use editable scene-timing constants so the video can be synchronized with the ElevenLabs recording later.
+
+Check all visual transitions, character consistency, caption positioning and scene durations before rendering.

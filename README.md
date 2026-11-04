@@ -21,3 +21,13 @@ The exported MP4 is the revised animation with floating cards, drawn highlights 
 - [Six-scene preview sheet](exports/pretty-wise-tips-episode-02-preview-v1.jpg).
 - [CALM checklist](pretty-wise-tips/episodes/02-overthinking/CALM-checklist.md) for manual delivery to commenters.
 - [Episode build instructions](pretty-wise-tips/episodes/02-overthinking/README.md).
+
+## Episode 03 — 3 Signs Your Self-Respect Is Growing
+
+- [Silent 30-second animated MP4](exports/pretty-wise-tips-episode-03.mp4) — choose **Download raw file**. Exactly 900 frames at 30 fps, 1080 × 1920.
+- [Editable source ZIP](exports/pretty-wise-tips-episode-03-source-v1.zip).
+- [Scene preview sheet](exports/pretty-wise-tips-episode-03-preview-v1.jpg).
+- [Free five-day RESPECT challenge](pretty-wise-tips/episodes/03-self-respect/RESPECT-five-day-challenge.md), for manual delivery to commenters.
+- [Episode instructions and voiceover workflow](pretty-wise-tips/episodes/03-self-respect/README.md).
+
+This revised brief uses dusty rose, pink, cream and deep plum, with larger characters. No voiceover or music was generated.

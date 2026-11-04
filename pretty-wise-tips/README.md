@@ -35,3 +35,7 @@ TypeScript check and seven rendered frame inspections at 1, 7, 13, 22, 30, 37 an
 ## Episode 02 — How to Stop Overthinking His Texts
 
 See [episode instructions](episodes/02-overthinking/README.md). Run `npm run dev:02` or `npm run render:02` for the 30-second, six-scene, visuals-only Reel. The promised CALM checklist is included alongside the episode brief.
+
+## Episode 03 — 3 Signs Your Self-Respect Is Growing
+
+See [episode instructions](episodes/03-self-respect/README.md). Run `npm run dev:03` or `npm run render:03` for the revised five-scene, 900-frame, silent animation. Episode 03 follows its specific rose-and-cream visual brief. The exact narration script, timing map, and free five-day RESPECT challenge are included.

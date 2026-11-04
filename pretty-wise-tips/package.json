@@ -6,7 +6,9 @@
     "render": "node scripts/render.mjs",
     "check": "tsc --noEmit",
     "dev:02": "remotion studio src/episode02.tsx",
-    "render:02": "remotion render src/episode02.tsx PrettyWiseTipsEpisode02 out/pretty-wise-tips-episode-02-v1.mp4 --browser-executable=/usr/bin/chromium --concurrency=2 --muted"
+    "render:02": "remotion render src/episode02.tsx PrettyWiseTipsEpisode02 out/pretty-wise-tips-episode-02-v1.mp4 --browser-executable=/usr/bin/chromium --concurrency=2 --muted",
+    "dev:03": "remotion studio src/episode03.tsx",
+    "render:03": "remotion render src/episode03.tsx PrettyWiseTipsEpisode03 out/pretty-wise-tips-episode-03.mp4 --browser-executable=/usr/bin/chromium --concurrency=2 --muted"
   },
   "dependencies": {
     "react": "19.0.0",

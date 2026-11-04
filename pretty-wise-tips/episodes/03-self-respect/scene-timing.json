@@ -1,0 +1,32 @@
+{
+  "status": "Fixed visuals-first timeline; no audio supplied or speech alignment performed",
+  "fps": 30,
+  "durationInFrames": 900,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "narration": "Three signs your self-respect is growing. The last might feel like guilt."
+    },
+    {
+      "start": 5,
+      "end": 10,
+      "narration": "One: You stop overexplaining. Saying 'I can't today' can be enough."
+    },
+    {
+      "start": 10,
+      "end": 17,
+      "narration": "Two: You protect time for your goals, instead of treating everyone else's plans as more important."
+    },
+    {
+      "start": 17,
+      "end": 21,
+      "narration": "Comment RESPECT for my free five-day self-respect challenge."
+    },
+    {
+      "start": 21,
+      "end": 30,
+      "narration": "Three: You set a reasonable boundary, even when guilt appears. That discomfort doesn't necessarily mean you're wrong. Sometimes, you're simply practicing self-respect."
+    }
+  ]
+}
