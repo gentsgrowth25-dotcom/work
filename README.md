@@ -31,3 +31,13 @@ The exported MP4 is the revised animation with floating cards, drawn highlights 
 - [Episode instructions and voiceover workflow](pretty-wise-tips/episodes/03-self-respect/README.md).
 
 This revised brief uses dusty rose, pink, cream and deep plum, with larger characters. No voiceover or music was generated.
+
+## Episode 04 — Your Healthy Breakfast Might Be Missing Something
+
+- [Voiced MP4](exports/pretty-wise-tips-episode-04.mp4) — choose **Download raw file**.
+- [Editable source ZIP](exports/pretty-wise-tips-episode-04-source-v1.zip).
+- [Seven-scene preview](exports/pretty-wise-tips-episode-04-preview-v1.jpg).
+- [BOWL breakfast-builder checklist](pretty-wise-tips/episodes/04-breakfast/BOWL-breakfast-builder-checklist.md).
+- [Audio alignment notes](pretty-wise-tips/episodes/04-breakfast/README.md).
+
+This edition follows the supplied 33.57-second ElevenLabs recording, with a short final hold, rather than the draft's provisional 30 seconds. White backgrounds and recovered original #CE89FE brand accent are used throughout.

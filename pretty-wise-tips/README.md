@@ -39,3 +39,7 @@ See [episode instructions](episodes/02-overthinking/README.md). Run `npm run dev
 ## Episode 03 — 3 Signs Your Self-Respect Is Growing
 
 See [episode instructions](episodes/03-self-respect/README.md). Run `npm run dev:03` or `npm run render:03` for the revised five-scene, 900-frame, silent animation. Episode 03 follows its specific rose-and-cream visual brief. The exact narration script, timing map, and free five-day RESPECT challenge are included.
+
+## Episode 04 — Your Healthy Breakfast Might Be Missing Something
+
+See [episode instructions](episodes/04-breakfast/README.md). `npm run dev:04` and `npm run render:04` use the uploaded ElevenLabs narration with an audio-timed 34-second timeline. The seven scenes return to white backgrounds and the original #CE89FE accent. Source includes the narration, editable phrase timing, local alignment script, and BOWL breakfast-builder checklist.

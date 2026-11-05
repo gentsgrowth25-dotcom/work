@@ -1,0 +1,248 @@
+# PRETTY WISE TIPS — EPISODE 04
+## Your Healthy Breakfast Might Be Missing Something
+
+Build a complete, professional 30-second 2D animated Instagram Reel for Pretty Wise Tips.
+
+**Format:** Vertical 9:16, 1080 × 1920, 30 FPS, exactly 900 frames.
+
+**Production order:** Create the visuals FIRST. The ElevenLabs narration will be generated afterward. Do not add audio, music, or sound effects to this initial render.
+
+## 1. STRICT BRAND COLOR SYSTEM
+
+This is mandatory. Previous videos drifted away from our colors.
+
+- Primary background: PURE WHITE (#FFFFFF).
+- Primary accent: Our original PURPLE-MAUVE brand color.
+- First inspect existing project assets and theme settings to recover the exact original purple-mauve color.
+- If the original is unavailable, use #92739A as a temporary mauve approximation.
+- Dark charcoal is permitted for readable text and outlines.
+- Natural character skin and hair colors are permitted.
+- Food illustrations should use restrained natural tones, with mauve as the dominant graphic accent.
+
+No pink or cream backgrounds. No blue or yellow UI accents. No multicolored gradients.
+
+Keep every scene predominantly white. Use purple-mauve for text emphasis, numbered markers, visual highlights, character clothing and transitions.
+
+Define shared theme constants and apply them consistently across all seven scenes.
+
+## 2. ANIMATION STYLE
+
+Create premium, modern 2D editorial animations for an educational women's wellness account.
+
+The visuals must look deliberately animated, not like PowerPoint slides.
+
+Requirements:
+- Large, expressive female character.
+- Smooth, intentional character movement.
+- Strong visual storytelling through objects, comparisons and transformations.
+- Bold, minimal on-screen text.
+- Professional typography with consistent font weights.
+- Animated food ingredients and nutrition concepts.
+- Camera close-ups and composition changes approximately every 2–3 seconds.
+- No static character posing for extended periods.
+- No needless decorative motion or distracting flashes.
+- No introductory logo animation.
+
+Maintain a consistent adult female character with brunette hair, mauve clothing and expressive facial animation.
+
+The opening needs immediate action.
+
+## 3. EXACT STORYBOARD
+
+### SCENE 1 — 0:00–0:07
+HOOK — THE BREAKFAST PROBLEM
+
+Narration reference:
+"Your fruit bowl can be healthy and still leave you hungry by ten. The third fix brings everything together."
+
+Start with a large animated fruit bowl in the foreground.
+
+The woman eats breakfast, looking satisfied.
+
+Immediately transition to a clock advancing to 10:00 AM.
+
+Her stomach growls visually using subtle motion lines. She looks toward the kitchen, feeling hungry again.
+
+The fruit bowl and clock move into a striking split-screen composition.
+
+ON-SCREEN TEXT:
+"HEALTHY BREAKFAST..."
+"STILL HUNGRY BY 10?"
+
+At the end, reveal three numbered circles with #3 briefly emphasized.
+
+Do not imply that fruit is unhealthy. Illustrate a possible experience rather than a guaranteed outcome.
+
+### SCENE 2 — 0:07–0:12
+TIP 1 — ADD PROTEIN
+
+Narration:
+"One: Add protein. Pair fruit with Greek yogurt or eggs for a more filling meal."
+
+Show the original fruit bowl.
+
+An illustrated container of Greek yogurt slides into view and pairs with the fruit.
+
+A protein symbol appears beside the combined meal.
+
+Briefly show eggs as an alternative food pairing.
+
+The woman notices the upgraded breakfast.
+
+ON-SCREEN TEXT:
+"1. ADD PROTEIN"
+
+Supporting text:
+"Greek yogurt • Eggs"
+
+Keep the foods clearly recognizable.
+
+### SCENE 3 — 0:12–0:16
+TIP 2 — ADD FIBER
+
+Narration:
+"Two: Add fiber. Oats and whole grains help you stay satisfied."
+
+Show oats pouring into a bowl with smooth 2D motion.
+
+A whole-grain toast illustration appears as an alternative.
+
+Use simple fiber icons and a gentle, animated digestion metaphor that communicates sustained satisfaction without making exaggerated medical claims.
+
+ON-SCREEN TEXT:
+"2. INCLUDE FIBER"
+
+Supporting text:
+"Oats • Whole grains"
+
+### SCENE 4 — 0:16–0:19
+MID-VIDEO COMMENT CTA
+
+Narration:
+"Comment BOWL for my free breakfast-builder checklist."
+
+Transition into a very clean mauve-and-white Instagram-style comment graphic.
+
+Animate the word BOWL being typed into a comment field.
+
+A miniature checklist slides into the frame, displaying three checked food categories.
+
+ON-SCREEN TEXT:
+"COMMENT 'BOWL'"
+
+Supporting text:
+"FREE BREAKFAST CHECKLIST"
+
+Make this highly visible and attractive.
+
+Keep the CTA overlay visible briefly into the beginning of the following transition if necessary for reading.
+
+Do not imply a DM has already been sent.
+
+### SCENE 5 — 0:19–0:24
+TIP 3 — COMBINE THE INGREDIENTS
+
+Narration reference:
+"Three: Combine them. Try yogurt, oats, berries, and nuts..."
+
+Show an empty breakfast bowl in the center.
+
+Animate each ingredient entering one after another:
+1. Greek yogurt.
+2. Oats.
+3. Fresh berries.
+4. Nuts.
+
+Use an energetic but smooth top-down camera angle.
+
+Each ingredient should look like part of one cohesive meal.
+
+ON-SCREEN TEXT:
+"3. COMBINE THEM"
+
+### SCENE 6 — 0:24–0:27
+THE EDUCATIONAL PAYOFF
+
+Narration reference:
+"...protein, fiber, and healthy fats in one bowl."
+
+The completed breakfast bowl moves to the center.
+
+Three illustrated nutrient labels animate around it:
+
+"PROTEIN"
+"FIBER"
+"HEALTHY FATS"
+
+Animate the labels connecting to the meal using thin mauve lines.
+
+Show the whole combination clearly before the final scene.
+
+### SCENE 7 — 0:27–0:30
+MEMORABLE CONCLUSION
+
+Narration:
+"That's the real upgrade: balance, not restriction."
+
+Show the woman enjoying her breakfast in a calm, confident posture.
+
+The breakfast bowl remains visible.
+
+A bold closing statement enters with a restrained, elegant animation.
+
+ON-SCREEN TEXT:
+"BALANCE > RESTRICTION"
+
+Add a small Pretty Wise Tips brand signature in mauve.
+
+End without a lengthy outro or fade to black.
+
+## 4. RETENTION REQUIREMENTS
+
+Apply the principles from our five previously analyzed viral scripting reference videos:
+
+- Start with a specific, relatable problem rather than a generic introductory question.
+- Create an information gap by promising that the third tip combines the earlier lessons.
+- Deliver practical advice throughout.
+- Demonstrate each tip with animated examples.
+- Place a clear comment CTA around the middle.
+- Make the final tip visually satisfying and more comprehensive than the earlier tips.
+- Resolve the opening curiosity promise.
+- Show what the voiceover means instead of displaying full sentences.
+
+For this episode, the primary retention device is the transformation of an ordinary fruit bowl into a balanced breakfast.
+
+The viewer should understand the practical lesson even when watching without sound.
+
+## 5. TECHNICAL REQUIREMENTS
+
+Use the existing React, TypeScript, SVG and Remotion setup if available.
+
+Composition:
+PrettyWiseTipsEpisode04
+
+Output:
+pretty-wise-tips-episode-04.mp4
+
+Use a fixed 900-frame timeline.
+
+Keep each scene in a reusable component and define timing separately from the visuals.
+
+Generate a silent video. Do not create artificial voiceovers.
+
+Do not burn in word-for-word spoken subtitles yet. Show only the purposeful on-screen text specified above. Full synchronized captions can be added once the actual ElevenLabs audio is available.
+
+Maintain safe margins for Instagram overlays, especially near the bottom of the frame.
+
+Before rendering, verify:
+- All backgrounds are pure white.
+- Mauve matches the established brand swatch.
+- No unrelated background or graphic colors appear.
+- No text overflows or clips.
+- Characters and foods animate smoothly.
+- All seven scenes render without blank frames.
+- The comment CTA appears in the middle.
+- The final tip visibly combines protein, fiber and healthy fats.
+- The video is exactly 30 seconds.
+
+Deliver the complete rendered visual sequence, not still images or a storyboard.

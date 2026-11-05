@@ -1,0 +1,165 @@
+{
+  "method": "Local PocketSphinx 5.1.1 forced alignment to the supplied ElevenLabs audio and provided narration; phrase-level timing estimates, not verified word-perfect captions",
+  "audioFile": "episode04/voiceover.mp3",
+  "audioDurationSeconds": 33.567313,
+  "fps": 30,
+  "durationInFrames": 1020,
+  "outroPadSeconds": 0.432687,
+  "scenes": [
+    {
+      "id": "hook",
+      "startSeconds": 0,
+      "endSeconds": 7.21,
+      "startFrame": 0,
+      "endFrame": 216
+    },
+    {
+      "id": "protein",
+      "startSeconds": 7.21,
+      "endSeconds": 13.2,
+      "startFrame": 216,
+      "endFrame": 396
+    },
+    {
+      "id": "fiber",
+      "startSeconds": 13.2,
+      "endSeconds": 17.99,
+      "startFrame": 396,
+      "endFrame": 540
+    },
+    {
+      "id": "comment",
+      "startSeconds": 17.99,
+      "endSeconds": 21.53,
+      "startFrame": 540,
+      "endFrame": 646
+    },
+    {
+      "id": "combine",
+      "startSeconds": 21.53,
+      "endSeconds": 26.35,
+      "startFrame": 646,
+      "endFrame": 790
+    },
+    {
+      "id": "nutrients",
+      "startSeconds": 26.35,
+      "endSeconds": 29.83,
+      "startFrame": 790,
+      "endFrame": 895
+    },
+    {
+      "id": "conclusion",
+      "startSeconds": 29.83,
+      "endSeconds": 34,
+      "startFrame": 895,
+      "endFrame": 1020
+    }
+  ],
+  "cues": {
+    "hungry": {
+      "seconds": 2.58,
+      "frame": 77
+    },
+    "ten": {
+      "seconds": 3.16,
+      "frame": 95
+    },
+    "third": {
+      "seconds": 4.34,
+      "frame": 130
+    },
+    "addProtein": {
+      "seconds": 8.08,
+      "frame": 242
+    },
+    "protein": {
+      "seconds": 8.25,
+      "frame": 248
+    },
+    "greekYogurt": {
+      "seconds": 10.12,
+      "frame": 304
+    },
+    "eggs": {
+      "seconds": 11.21,
+      "frame": 336
+    },
+    "addFiber": {
+      "seconds": 13.99,
+      "frame": 420
+    },
+    "fiber": {
+      "seconds": 14.22,
+      "frame": 427
+    },
+    "oats": {
+      "seconds": 15.22,
+      "frame": 457
+    },
+    "wholeGrains": {
+      "seconds": 15.68,
+      "frame": 470
+    },
+    "comment": {
+      "seconds": 17.99,
+      "frame": 540
+    },
+    "bowlCTA": {
+      "seconds": 18.42,
+      "frame": 553
+    },
+    "freeChecklist": {
+      "seconds": 19.22,
+      "frame": 577
+    },
+    "combine": {
+      "seconds": 22.35,
+      "frame": 670
+    },
+    "yogurtIn": {
+      "seconds": 23.75,
+      "frame": 712
+    },
+    "oatsIn": {
+      "seconds": 24.51,
+      "frame": 735
+    },
+    "berriesIn": {
+      "seconds": 24.97,
+      "frame": 749
+    },
+    "nutsIn": {
+      "seconds": 25.66,
+      "frame": 770
+    },
+    "proteinLabel": {
+      "seconds": 26.35,
+      "frame": 790
+    },
+    "fiberLabel": {
+      "seconds": 26.96,
+      "frame": 809
+    },
+    "fatsLabel": {
+      "seconds": 27.66,
+      "frame": 830
+    },
+    "oneBowl": {
+      "seconds": 28.43,
+      "frame": 853
+    },
+    "upgrade": {
+      "seconds": 30.32,
+      "frame": 910
+    },
+    "balance": {
+      "seconds": 31.54,
+      "frame": 946
+    },
+    "restriction": {
+      "seconds": 32.69,
+      "frame": 981
+    }
+  }
+}

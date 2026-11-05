@@ -1,0 +1,47 @@
+{
+  "videoDuration": 34.0,
+  "frames": 1020,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "audioComparisons": [
+    {
+      "regionSeconds": [
+        0,
+        5
+      ],
+      "audioLagSeconds": 0.0,
+      "correlation": 0.9999818524941262
+    },
+    {
+      "regionSeconds": [
+        7,
+        13
+      ],
+      "audioLagSeconds": 0.0,
+      "correlation": 0.9999750447945331
+    },
+    {
+      "regionSeconds": [
+        17,
+        23
+      ],
+      "audioLagSeconds": 0.0,
+      "correlation": 0.9999872835118585
+    },
+    {
+      "regionSeconds": [
+        28,
+        33.5
+      ],
+      "audioLagSeconds": 0.0,
+      "correlation": 0.9999730837773408
+    }
+  ],
+  "fullDecode": "passed",
+  "audioMux": "Original audio muxed directly with FFmpeg to avoid initial Remotion mix delay",
+  "timingMethod": "PocketSphinx forced alignment with phrase pauses checked; not manually verified word-perfect captions"
+}

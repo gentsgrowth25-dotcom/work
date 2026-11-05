@@ -1,0 +1,569 @@
+{
+  "method": "PocketSphinx 5.1.1 forced alignment against the storyboard transcript; inspect phrase anchors before use",
+  "words": [
+    {
+      "word": "your(2)",
+      "start": 0.0,
+      "end": 0.18,
+      "prob": 1.00020001
+    },
+    {
+      "word": "fruit",
+      "start": 0.18,
+      "end": 0.48,
+      "prob": 1.00020001
+    },
+    {
+      "word": "bowl",
+      "start": 0.48,
+      "end": 0.69,
+      "prob": 1.00020001
+    },
+    {
+      "word": "can(2)",
+      "start": 0.69,
+      "end": 0.86,
+      "prob": 1.00020001
+    },
+    {
+      "word": "be",
+      "start": 0.86,
+      "end": 0.99,
+      "prob": 1.00020001
+    },
+    {
+      "word": "healthy",
+      "start": 0.99,
+      "end": 1.58,
+      "prob": 1.00020001
+    },
+    {
+      "word": "and(2)",
+      "start": 1.58,
+      "end": 1.82,
+      "prob": 1.00020001
+    },
+    {
+      "word": "still",
+      "start": 1.82,
+      "end": 2.24,
+      "prob": 1.00020001
+    },
+    {
+      "word": "leave",
+      "start": 2.24,
+      "end": 2.43,
+      "prob": 1.00020001
+    },
+    {
+      "word": "you",
+      "start": 2.43,
+      "end": 2.58,
+      "prob": 1.00020001
+    },
+    {
+      "word": "hungry",
+      "start": 2.58,
+      "end": 2.99,
+      "prob": 1.00020001
+    },
+    {
+      "word": "by",
+      "start": 2.99,
+      "end": 3.16,
+      "prob": 1.00020001
+    },
+    {
+      "word": "ten",
+      "start": 3.16,
+      "end": 3.72,
+      "prob": 1.00020001
+    },
+    {
+      "word": "<sil>",
+      "start": 3.72,
+      "end": 4.21,
+      "prob": 1.00020001
+    },
+    {
+      "word": "the",
+      "start": 4.21,
+      "end": 4.34,
+      "prob": 0.9508514048019179
+    },
+    {
+      "word": "third",
+      "start": 4.34,
+      "end": 4.68,
+      "prob": 1.00020001
+    },
+    {
+      "word": "fix",
+      "start": 4.68,
+      "end": 5.12,
+      "prob": 1.00020001
+    },
+    {
+      "word": "brings",
+      "start": 5.12,
+      "end": 5.45,
+      "prob": 1.00020001
+    },
+    {
+      "word": "everything",
+      "start": 5.45,
+      "end": 6.09,
+      "prob": 1.00020001
+    },
+    {
+      "word": "together",
+      "start": 6.09,
+      "end": 6.66,
+      "prob": 1.00020001
+    },
+    {
+      "word": "<sil>",
+      "start": 6.66,
+      "end": 7.21,
+      "prob": 1.00020001
+    },
+    {
+      "word": "one",
+      "start": 7.21,
+      "end": 7.65,
+      "prob": 1.00020001
+    },
+    {
+      "word": "<sil>",
+      "start": 7.65,
+      "end": 8.08,
+      "prob": 1.00020001
+    },
+    {
+      "word": "add",
+      "start": 8.08,
+      "end": 8.25,
+      "prob": 1.00020001
+    },
+    {
+      "word": "protein",
+      "start": 8.25,
+      "end": 9.0,
+      "prob": 1.0003000300009999
+    },
+    {
+      "word": "<sil>",
+      "start": 9.0,
+      "end": 9.37,
+      "prob": 1.0003000300009999
+    },
+    {
+      "word": "pair",
+      "start": 9.37,
+      "end": 9.61,
+      "prob": 1.0003000300009999
+    },
+    {
+      "word": "fruit",
+      "start": 9.61,
+      "end": 9.95,
+      "prob": 1.0003000300009999
+    },
+    {
+      "word": "with(2)",
+      "start": 9.95,
+      "end": 10.12,
+      "prob": 0.5863295316384327
+    },
+    {
+      "word": "greek",
+      "start": 10.12,
+      "end": 10.46,
+      "prob": 1.0003000300009999
+    },
+    {
+      "word": "yogurt",
+      "start": 10.46,
+      "end": 10.9,
+      "prob": 1.0003000300009999
+    },
+    {
+      "word": "or",
+      "start": 10.9,
+      "end": 11.02,
+      "prob": 0.5384993162791452
+    },
+    {
+      "word": "<sil>",
+      "start": 11.02,
+      "end": 11.21,
+      "prob": 1.0003000300009999
+    },
+    {
+      "word": "eggs",
+      "start": 11.21,
+      "end": 11.5,
+      "prob": 1.0003000300009999
+    },
+    {
+      "word": "for(3)",
+      "start": 11.5,
+      "end": 11.66,
+      "prob": 0.7628556401681087
+    },
+    {
+      "word": "a",
+      "start": 11.66,
+      "end": 11.7,
+      "prob": 0.8010844468119569
+    },
+    {
+      "word": "more",
+      "start": 11.7,
+      "end": 11.92,
+      "prob": 1.00020001
+    },
+    {
+      "word": "filling",
+      "start": 11.92,
+      "end": 12.36,
+      "prob": 1.00020001
+    },
+    {
+      "word": "meal",
+      "start": 12.36,
+      "end": 12.76,
+      "prob": 1.00020001
+    },
+    {
+      "word": "<sil>",
+      "start": 12.76,
+      "end": 13.2,
+      "prob": 1.00020001
+    },
+    {
+      "word": "two",
+      "start": 13.2,
+      "end": 13.64,
+      "prob": 1.00020001
+    },
+    {
+      "word": "<sil>",
+      "start": 13.64,
+      "end": 13.99,
+      "prob": 1.0001
+    },
+    {
+      "word": "add",
+      "start": 13.99,
+      "end": 14.22,
+      "prob": 1.0001
+    },
+    {
+      "word": "fiber",
+      "start": 14.22,
+      "end": 14.84,
+      "prob": 1.0001
+    },
+    {
+      "word": "<sil>",
+      "start": 14.84,
+      "end": 15.22,
+      "prob": 1.0001
+    },
+    {
+      "word": "oats",
+      "start": 15.22,
+      "end": 15.55,
+      "prob": 1.0001
+    },
+    {
+      "word": "and(2)",
+      "start": 15.55,
+      "end": 15.68,
+      "prob": 1.0001
+    },
+    {
+      "word": "whole",
+      "start": 15.68,
+      "end": 15.98,
+      "prob": 1.0001
+    },
+    {
+      "word": "grains",
+      "start": 15.98,
+      "end": 16.34,
+      "prob": 1.0001
+    },
+    {
+      "word": "help",
+      "start": 16.34,
+      "end": 16.55,
+      "prob": 1.0001
+    },
+    {
+      "word": "you",
+      "start": 16.55,
+      "end": 16.63,
+      "prob": 1.0001
+    },
+    {
+      "word": "stay",
+      "start": 16.63,
+      "end": 16.87,
+      "prob": 1.0001
+    },
+    {
+      "word": "satisfied(2)",
+      "start": 16.87,
+      "end": 17.62,
+      "prob": 1.0001
+    },
+    {
+      "word": "<sil>",
+      "start": 17.62,
+      "end": 17.99,
+      "prob": 1.0
+    },
+    {
+      "word": "comment",
+      "start": 17.99,
+      "end": 18.42,
+      "prob": 1.0
+    },
+    {
+      "word": "bowl",
+      "start": 18.42,
+      "end": 18.9,
+      "prob": 1.0
+    },
+    {
+      "word": "for(2)",
+      "start": 18.9,
+      "end": 19.06,
+      "prob": 0.7977271153302641
+    },
+    {
+      "word": "my",
+      "start": 19.06,
+      "end": 19.22,
+      "prob": 1.0
+    },
+    {
+      "word": "free",
+      "start": 19.22,
+      "end": 19.62,
+      "prob": 1.0
+    },
+    {
+      "word": "breakfast",
+      "start": 19.62,
+      "end": 20.11,
+      "prob": 1.0
+    },
+    {
+      "word": "builder",
+      "start": 20.11,
+      "end": 20.42,
+      "prob": 1.0
+    },
+    {
+      "word": "checklist",
+      "start": 20.42,
+      "end": 21.16,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 21.16,
+      "end": 21.53,
+      "prob": 1.0
+    },
+    {
+      "word": "three",
+      "start": 21.53,
+      "end": 22.07,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 22.07,
+      "end": 22.35,
+      "prob": 1.0
+    },
+    {
+      "word": "combine(2)",
+      "start": 22.35,
+      "end": 22.84,
+      "prob": 1.0
+    },
+    {
+      "word": "them",
+      "start": 22.84,
+      "end": 23.19,
+      "prob": 0.7156362505180265
+    },
+    {
+      "word": "<sil>",
+      "start": 23.19,
+      "end": 23.52,
+      "prob": 1.0
+    },
+    {
+      "word": "try",
+      "start": 23.52,
+      "end": 23.75,
+      "prob": 1.0
+    },
+    {
+      "word": "yogurt",
+      "start": 23.75,
+      "end": 24.51,
+      "prob": 1.0
+    },
+    {
+      "word": "oats",
+      "start": 24.51,
+      "end": 24.97,
+      "prob": 1.0
+    },
+    {
+      "word": "berries",
+      "start": 24.97,
+      "end": 25.51,
+      "prob": 1.0
+    },
+    {
+      "word": "and(2)",
+      "start": 25.51,
+      "end": 25.66,
+      "prob": 1.0
+    },
+    {
+      "word": "nuts",
+      "start": 25.66,
+      "end": 26.16,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 26.16,
+      "end": 26.35,
+      "prob": 1.0
+    },
+    {
+      "word": "protein",
+      "start": 26.35,
+      "end": 26.96,
+      "prob": 1.0
+    },
+    {
+      "word": "fiber",
+      "start": 26.96,
+      "end": 27.47,
+      "prob": 1.0
+    },
+    {
+      "word": "and(2)",
+      "start": 27.47,
+      "end": 27.66,
+      "prob": 1.0
+    },
+    {
+      "word": "healthy",
+      "start": 27.66,
+      "end": 28.04,
+      "prob": 1.0
+    },
+    {
+      "word": "fats",
+      "start": 28.04,
+      "end": 28.43,
+      "prob": 1.0
+    },
+    {
+      "word": "in",
+      "start": 28.43,
+      "end": 28.77,
+      "prob": 1.0
+    },
+    {
+      "word": "one",
+      "start": 28.77,
+      "end": 29.02,
+      "prob": 1.0
+    },
+    {
+      "word": "bowl",
+      "start": 29.02,
+      "end": 29.46,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 29.46,
+      "end": 29.83,
+      "prob": 1.0
+    },
+    {
+      "word": "that's",
+      "start": 29.83,
+      "end": 30.19,
+      "prob": 1.0
+    },
+    {
+      "word": "the",
+      "start": 30.19,
+      "end": 30.32,
+      "prob": 0.9247830678099788
+    },
+    {
+      "word": "real",
+      "start": 30.32,
+      "end": 30.72,
+      "prob": 1.0
+    },
+    {
+      "word": "upgrade",
+      "start": 30.72,
+      "end": 31.3,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 31.3,
+      "end": 31.54,
+      "prob": 1.0
+    },
+    {
+      "word": "balance",
+      "start": 31.54,
+      "end": 32.27,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 32.27,
+      "end": 32.4,
+      "prob": 1.0
+    },
+    {
+      "word": "not",
+      "start": 32.4,
+      "end": 32.69,
+      "prob": 1.0
+    },
+    {
+      "word": "restriction",
+      "start": 32.69,
+      "end": 33.42,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 33.42,
+      "end": 33.56,
+      "prob": 1.0
+    }
+  ]
+}
