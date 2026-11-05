@@ -1,0 +1,587 @@
+{
+  "method": "Local PocketSphinx 5.1.1 forced alignment to provided transcript; estimates requiring review",
+  "words": [
+    {
+      "word": "if",
+      "start": 0.0,
+      "end": 0.19,
+      "prob": 1.0001
+    },
+    {
+      "word": "your(2)",
+      "start": 0.19,
+      "end": 0.38,
+      "prob": 1.0001
+    },
+    {
+      "word": "routine",
+      "start": 0.38,
+      "end": 0.82,
+      "prob": 1.0001
+    },
+    {
+      "word": "falls",
+      "start": 0.82,
+      "end": 1.13,
+      "prob": 1.0001
+    },
+    {
+      "word": "apart",
+      "start": 1.13,
+      "end": 1.62,
+      "prob": 1.0001
+    },
+    {
+      "word": "whenever",
+      "start": 1.62,
+      "end": 1.96,
+      "prob": 1.0001
+    },
+    {
+      "word": "you",
+      "start": 1.96,
+      "end": 2.13,
+      "prob": 1.0001
+    },
+    {
+      "word": "wake",
+      "start": 2.13,
+      "end": 2.33,
+      "prob": 1.0001
+    },
+    {
+      "word": "up",
+      "start": 2.33,
+      "end": 2.47,
+      "prob": 1.0001
+    },
+    {
+      "word": "late",
+      "start": 2.47,
+      "end": 2.92,
+      "prob": 1.0001
+    },
+    {
+      "word": "<sil>",
+      "start": 2.92,
+      "end": 3.18,
+      "prob": 0.6840795846738882
+    },
+    {
+      "word": "you're",
+      "start": 3.18,
+      "end": 3.33,
+      "prob": 1.0001
+    },
+    {
+      "word": "probably",
+      "start": 3.33,
+      "end": 3.89,
+      "prob": 1.0001
+    },
+    {
+      "word": "making",
+      "start": 3.89,
+      "end": 4.34,
+      "prob": 1.0001
+    },
+    {
+      "word": "these",
+      "start": 4.34,
+      "end": 4.69,
+      "prob": 1.0001
+    },
+    {
+      "word": "three",
+      "start": 4.69,
+      "end": 4.92,
+      "prob": 1.0001
+    },
+    {
+      "word": "mistakes",
+      "start": 4.92,
+      "end": 5.68,
+      "prob": 1.0001
+    },
+    {
+      "word": "<sil>",
+      "start": 5.68,
+      "end": 6.21,
+      "prob": 1.0001
+    },
+    {
+      "word": "one",
+      "start": 6.21,
+      "end": 6.6,
+      "prob": 1.0001
+    },
+    {
+      "word": "<sil>",
+      "start": 6.6,
+      "end": 6.99,
+      "prob": 1.0001
+    },
+    {
+      "word": "planning",
+      "start": 6.99,
+      "end": 7.49,
+      "prob": 1.0001
+    },
+    {
+      "word": "<sil>",
+      "start": 7.49,
+      "end": 7.72,
+      "prob": 1.0001
+    },
+    {
+      "word": "every(2)",
+      "start": 7.72,
+      "end": 8.01,
+      "prob": 1.0001
+    },
+    {
+      "word": "minute",
+      "start": 8.01,
+      "end": 8.53,
+      "prob": 1.0001
+    },
+    {
+      "word": "<sil>",
+      "start": 8.53,
+      "end": 8.94,
+      "prob": 1.0
+    },
+    {
+      "word": "leave",
+      "start": 8.94,
+      "end": 9.25,
+      "prob": 1.0
+    },
+    {
+      "word": "breathing",
+      "start": 9.25,
+      "end": 9.74,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "room",
+      "start": 9.74,
+      "end": 9.98,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "for(2)",
+      "start": 9.98,
+      "end": 10.15,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "unexpected",
+      "start": 10.15,
+      "end": 10.79,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "delays",
+      "start": 10.79,
+      "end": 11.51,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "<sil>",
+      "start": 11.51,
+      "end": 11.98,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "two",
+      "start": 11.98,
+      "end": 12.38,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "<sil>",
+      "start": 12.38,
+      "end": 12.75,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "changing",
+      "start": 12.75,
+      "end": 13.22,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "<sil>",
+      "start": 13.22,
+      "end": 13.43,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "everything",
+      "start": 13.43,
+      "end": 13.96,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "overnight",
+      "start": 13.96,
+      "end": 14.66,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "<sil>",
+      "start": 14.66,
+      "end": 15.01,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "start",
+      "start": 15.01,
+      "end": 15.33,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "with(2)",
+      "start": 15.33,
+      "end": 15.52,
+      "prob": 0.8025276251293519
+    },
+    {
+      "word": "one",
+      "start": 15.52,
+      "end": 15.9,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "habit",
+      "start": 15.9,
+      "end": 16.3,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "you",
+      "start": 16.3,
+      "end": 16.42,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "can(2)",
+      "start": 16.42,
+      "end": 16.58,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "actually(3)",
+      "start": 16.58,
+      "end": 17.18,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "repeat",
+      "start": 17.18,
+      "end": 17.81,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "<sil>",
+      "start": 17.81,
+      "end": 18.09,
+      "prob": 1.0
+    },
+    {
+      "word": "comment",
+      "start": 18.09,
+      "end": 18.59,
+      "prob": 1.0
+    },
+    {
+      "word": "routine",
+      "start": 18.59,
+      "end": 19.27,
+      "prob": 1.0
+    },
+    {
+      "word": "for(3)",
+      "start": 19.27,
+      "end": 19.39,
+      "prob": 0.8836503595873396
+    },
+    {
+      "word": "my",
+      "start": 19.39,
+      "end": 19.54,
+      "prob": 1.0
+    },
+    {
+      "word": "free",
+      "start": 19.54,
+      "end": 19.97,
+      "prob": 1.0
+    },
+    {
+      "word": "five",
+      "start": 19.97,
+      "end": 20.37,
+      "prob": 1.0
+    },
+    {
+      "word": "day",
+      "start": 20.37,
+      "end": 20.59,
+      "prob": 1.0
+    },
+    {
+      "word": "habit",
+      "start": 20.59,
+      "end": 20.93,
+      "prob": 1.0
+    },
+    {
+      "word": "planner",
+      "start": 20.93,
+      "end": 21.45,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 21.45,
+      "end": 21.85,
+      "prob": 1.0
+    },
+    {
+      "word": "three",
+      "start": 21.85,
+      "end": 22.36,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 22.36,
+      "end": 22.61,
+      "prob": 0.775081370575574
+    },
+    {
+      "word": "and(2)",
+      "start": 22.61,
+      "end": 22.77,
+      "prob": 1.0001
+    },
+    {
+      "word": "this",
+      "start": 22.77,
+      "end": 22.93,
+      "prob": 1.0001
+    },
+    {
+      "word": "one's",
+      "start": 22.93,
+      "end": 23.12,
+      "prob": 1.0001
+    },
+    {
+      "word": "important",
+      "start": 23.12,
+      "end": 23.82,
+      "prob": 1.0001
+    },
+    {
+      "word": "<sil>",
+      "start": 23.82,
+      "end": 24.17,
+      "prob": 1.0001
+    },
+    {
+      "word": "create",
+      "start": 24.17,
+      "end": 24.67,
+      "prob": 1.0001
+    },
+    {
+      "word": "a",
+      "start": 24.67,
+      "end": 24.8,
+      "prob": 0.9999000099990001
+    },
+    {
+      "word": "backup",
+      "start": 24.8,
+      "end": 25.31,
+      "prob": 1.0
+    },
+    {
+      "word": "routine",
+      "start": 25.31,
+      "end": 25.95,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 25.95,
+      "end": 26.27,
+      "prob": 1.0
+    },
+    {
+      "word": "can't",
+      "start": 26.27,
+      "end": 26.55,
+      "prob": 1.0
+    },
+    {
+      "word": "do",
+      "start": 26.55,
+      "end": 26.66,
+      "prob": 1.0
+    },
+    {
+      "word": "a",
+      "start": 26.66,
+      "end": 26.71,
+      "prob": 0.7037145799976409
+    },
+    {
+      "word": "thirty",
+      "start": 26.71,
+      "end": 26.99,
+      "prob": 1.0
+    },
+    {
+      "word": "minute",
+      "start": 26.99,
+      "end": 27.2,
+      "prob": 1.0
+    },
+    {
+      "word": "workout",
+      "start": 27.2,
+      "end": 27.68,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 27.68,
+      "end": 28.0,
+      "prob": 1.0
+    },
+    {
+      "word": "try",
+      "start": 28.0,
+      "end": 28.22,
+      "prob": 1.0
+    },
+    {
+      "word": "ten",
+      "start": 28.22,
+      "end": 28.46,
+      "prob": 1.0
+    },
+    {
+      "word": "minutes",
+      "start": 28.46,
+      "end": 28.77,
+      "prob": 1.0
+    },
+    {
+      "word": "instead",
+      "start": 28.77,
+      "end": 29.34,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 29.34,
+      "end": 29.77,
+      "prob": 1.0
+    },
+    {
+      "word": "consistency",
+      "start": 29.77,
+      "end": 30.69,
+      "prob": 1.0
+    },
+    {
+      "word": "isn't(2)",
+      "start": 30.69,
+      "end": 30.91,
+      "prob": 0.8760839271019522
+    },
+    {
+      "word": "about",
+      "start": 30.91,
+      "end": 31.17,
+      "prob": 1.0
+    },
+    {
+      "word": "perfect(2)",
+      "start": 31.17,
+      "end": 31.67,
+      "prob": 1.0
+    },
+    {
+      "word": "days",
+      "start": 31.67,
+      "end": 32.26,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 32.26,
+      "end": 32.42,
+      "prob": 0.7329451084623394
+    },
+    {
+      "word": "it's",
+      "start": 32.42,
+      "end": 32.54,
+      "prob": 1.0
+    },
+    {
+      "word": "about",
+      "start": 32.54,
+      "end": 32.78,
+      "prob": 1.0
+    },
+    {
+      "word": "having",
+      "start": 32.78,
+      "end": 33.09,
+      "prob": 1.0
+    },
+    {
+      "word": "a",
+      "start": 33.09,
+      "end": 33.14,
+      "prob": 0.9550441586433295
+    },
+    {
+      "word": "plan",
+      "start": 33.14,
+      "end": 33.56,
+      "prob": 1.0
+    },
+    {
+      "word": "for(2)",
+      "start": 33.56,
+      "end": 33.72,
+      "prob": 0.9576261328718441
+    },
+    {
+      "word": "imperfect",
+      "start": 33.72,
+      "end": 34.46,
+      "prob": 1.0
+    },
+    {
+      "word": "ones",
+      "start": 34.46,
+      "end": 35.08,
+      "prob": 1.0
+    },
+    {
+      "word": "</s>",
+      "start": 35.07,
+      "end": 35.08,
+      "prob": 1.0
+    }
+  ]
+}

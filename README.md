@@ -51,3 +51,14 @@ This edition follows the supplied 33.57-second ElevenLabs recording, with a shor
 - [Episode build and timing notes](pretty-wise-tips/episodes/05-gym/README.md).
 
 The supplied 33.071-second narration drives this 33.5-second edition. The original recording is preserved at its natural pace; the visual draft's fixed 30-second schedule is superseded by actual phrase timing.
+
+## Episode 06 — 3 Reasons Your Daily Routine Never Lasts
+
+- [MP4 with original narration](exports/pretty-wise-tips-episode-06.mp4) — choose **Download raw file**.
+- [Silent visual track](exports/pretty-wise-tips-episode-06-silent-v1.mp4).
+- [Editable source ZIP](exports/pretty-wise-tips-episode-06-source-v1.zip).
+- [Scene preview sheet](exports/pretty-wise-tips-episode-06-preview-v1.jpg).
+- [ROUTINE planner](pretty-wise-tips/episodes/06-routine/ROUTINE-five-day-habit-planner.md) and [spreadsheet CSV](pretty-wise-tips/episodes/06-routine/ROUTINE-five-day-habit-planner.csv).
+- [Character reference and timing notes](pretty-wise-tips/episodes/06-routine/README.md).
+
+This 35.5-second edition preserves the supplied 35.08-second narration and uses the newly supplied lavender business-suit character reference.

@@ -38,3 +38,9 @@ Push finished videos and editable source to `gentsgrowth25-dotcom/work`, with ve
 ## Credit estimates
 
 Account balances and exact Codex per-task consumption are not visible here; do not invent a fixed credit cost per video. Reusing this project should reduce setup work, but editing, tool use, render retries and subscription rules affect usage. ElevenLabs charges depend on the chosen model and plan: count script characters and apply the rate shown in the creator's account. Episode 01 is 625 characters / 99 words before an optional final newline. Budget multiple takes separately.
+
+## Current character update — Episode 06
+
+The creator explicitly supplied a new character and required it to replace the older Episode 01–05 Maya designs. For Episode 06 and future work without another character instruction, use the reference-based business-suit character assets in `pretty-wise-tips/public/episode06/character/` and `RoutineCharacter.tsx`, rather than substituting the older SVG woman. The supplied picture shows an adult woman with long flowing dark-brown hair, medium-brown skin, lavender blazer/trousers/belt, white blouse/pointed heels, and gold jewelry. Follow the actual picture where the brief's straight-hair/pearl-earring prose differs.
+
+Episode 06 uses representative reference-derived lavender #CB85ED with a pure-white canvas. Its provenance is documented in the episode folder; the cutout/pose assets are reference-conditioned image edits rather than a pixel-exact original extraction. Previous episodes retain their historical colors and assets. Preserve the confident arms-crossed reference pose for suitable closing shots, with expressive, tasteful pose/head/body animation elsewhere.

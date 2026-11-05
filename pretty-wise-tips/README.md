@@ -47,3 +47,7 @@ See [episode instructions](episodes/04-breakfast/README.md). `npm run dev:04` an
 ## Episode 05 — 3 Gym Mistakes That Could Be Holding Back Your Progress
 
 See [episode instructions](episodes/05-gym/README.md). `npm run dev:05` and `npm run render:05` use the supplied ElevenLabs recording and adjustable audio-derived timing. The 33.5-second voiced edition includes an articulated curl, recovery schedule, concrete tracking example, and the promised STRONG workout tracker.
+
+## Episode 06 — 3 Reasons Your Daily Routine Never Lasts
+
+See [episode instructions](episodes/06-routine/README.md). `npm run dev:06` and `npm run render:06` use the newly supplied business-suit character reference and actual ElevenLabs timing. The 35.5-second voiced edition includes calendar reflow, habit selection, a 30-to-10-minute backup transformation, and the ROUTINE planner.

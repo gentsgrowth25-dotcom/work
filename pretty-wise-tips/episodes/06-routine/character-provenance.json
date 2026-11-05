@@ -1,0 +1,16 @@
+{
+  "reference": "User-supplied character picture in Episode 06 message",
+  "assets": {
+    "confident.png": "Reference-conditioned background removal, preserving the illustrated business-suit character",
+    "poses.png": "Reference-conditioned concerned and presenting pose sheet"
+  },
+  "referencePrecedence": "Actual supplied image governs flowing hair and gold hoop earrings where prose says straight hair and pearls",
+  "lavenderRGB": [
+    203,
+    133,
+    237
+  ],
+  "lavenderHex": "#CB85ED",
+  "sampling": "Most frequent opaque lavender RGB triplet in reference-conditioned cutout; actual illustrated clothing uses shading, not one flat RGB",
+  "animation": "SVG head/torso/leg clip layers, pose changes and deliberate upper-body motion; no replacement by Episode 01\u201305 rigs"
+}

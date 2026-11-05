@@ -1,0 +1,56 @@
+{
+  "videoDuration": 35.5,
+  "frames": 1065,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "audioComparisons": [
+    {
+      "regionSeconds": [
+        0,
+        6
+      ],
+      "audioLagSeconds": 0.0,
+      "correlation": 0.9999687438929364
+    },
+    {
+      "regionSeconds": [
+        8,
+        14
+      ],
+      "audioLagSeconds": 0.0,
+      "correlation": 0.9999871217843748
+    },
+    {
+      "regionSeconds": [
+        18,
+        24
+      ],
+      "audioLagSeconds": 0.0,
+      "correlation": 0.9999781455885884
+    },
+    {
+      "regionSeconds": [
+        29,
+        35.05
+      ],
+      "audioLagSeconds": 0.0,
+      "correlation": 0.9999799471622223
+    }
+  ],
+  "silentVersionHasAudio": false,
+  "fullDecode": "passed",
+  "timingMethod": "Local forced alignment with editorial phrase cues; not manually verified word-perfect captions",
+  "characterAssets": "Reference-conditioned cutout and matching pose sheet; current suit character, not Episode 01\u201305 rigs",
+  "openingAlarmMotionCheck": {
+    "changedPixelsAt180x227": 3205,
+    "adjacentFrames": [
+      0,
+      1
+    ]
+  },
+  "backgroundCornerCheck": "pure white in all six sampled rendered scenes"
+}

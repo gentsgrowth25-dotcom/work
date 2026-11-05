@@ -1,0 +1,157 @@
+{
+  "audioFile": "episode06/voiceover.mp3",
+  "audioDurationSeconds": 35.082438,
+  "fps": 30,
+  "durationInFrames": 1065,
+  "method": "Local PocketSphinx forced alignment; phrase-level timing estimates requiring editorial review, not manually verified word-perfect captions",
+  "scenes": [
+    {
+      "id": "late",
+      "startFrame": 0,
+      "endFrame": 186,
+      "startSeconds": 0,
+      "endSeconds": 6.21
+    },
+    {
+      "id": "overplanning",
+      "startFrame": 186,
+      "endFrame": 359,
+      "startSeconds": 6.21,
+      "endSeconds": 11.98
+    },
+    {
+      "id": "one-habit",
+      "startFrame": 359,
+      "endFrame": 543,
+      "startSeconds": 11.98,
+      "endSeconds": 18.09
+    },
+    {
+      "id": "comment",
+      "startFrame": 543,
+      "endFrame": 656,
+      "startSeconds": 18.09,
+      "endSeconds": 21.85
+    },
+    {
+      "id": "backup",
+      "startFrame": 656,
+      "endFrame": 893,
+      "startSeconds": 21.85,
+      "endSeconds": 29.77
+    },
+    {
+      "id": "takeaway",
+      "startFrame": 893,
+      "endFrame": 1065,
+      "startSeconds": 29.77,
+      "endSeconds": 35.5
+    }
+  ],
+  "cues": {
+    "late": {
+      "frame": 74,
+      "seconds": 2.47
+    },
+    "three": {
+      "frame": 141,
+      "seconds": 4.69
+    },
+    "planning": {
+      "frame": 210,
+      "seconds": 6.99
+    },
+    "everyMinute": {
+      "frame": 232,
+      "seconds": 7.72
+    },
+    "breathingRoom": {
+      "frame": 268,
+      "seconds": 8.94
+    },
+    "delays": {
+      "frame": 304,
+      "seconds": 10.15
+    },
+    "everything": {
+      "frame": 403,
+      "seconds": 13.43
+    },
+    "start": {
+      "frame": 450,
+      "seconds": 15.01
+    },
+    "oneHabit": {
+      "frame": 466,
+      "seconds": 15.52
+    },
+    "repeat": {
+      "frame": 515,
+      "seconds": 17.18
+    },
+    "comment": {
+      "frame": 543,
+      "seconds": 18.09
+    },
+    "routine": {
+      "frame": 558,
+      "seconds": 18.59
+    },
+    "planner": {
+      "frame": 586,
+      "seconds": 19.54
+    },
+    "important": {
+      "frame": 694,
+      "seconds": 23.12
+    },
+    "createBackup": {
+      "frame": 725,
+      "seconds": 24.17
+    },
+    "backup": {
+      "frame": 744,
+      "seconds": 24.8
+    },
+    "interruption": {
+      "frame": 788,
+      "seconds": 26.27
+    },
+    "thirty": {
+      "frame": 801,
+      "seconds": 26.71
+    },
+    "ten": {
+      "frame": 847,
+      "seconds": 28.22
+    },
+    "instead": {
+      "frame": 863,
+      "seconds": 28.77
+    },
+    "consistency": {
+      "frame": 893,
+      "seconds": 29.77
+    },
+    "perfect": {
+      "frame": 935,
+      "seconds": 31.17
+    },
+    "plan": {
+      "frame": 994,
+      "seconds": 33.14
+    },
+    "imperfect": {
+      "frame": 1012,
+      "seconds": 33.72
+    }
+  },
+  "narration": [
+    "If your routine falls apart whenever you wake up late, you're probably making these three mistakes.",
+    "One: Planning every minute. Leave breathing room for unexpected delays.",
+    "Two: Changing everything overnight. Start with one habit you can actually repeat.",
+    "Comment ROUTINE for my free five-day habit planner.",
+    "Three, and this one's important: Create a backup routine. Can't do a thirty-minute workout? Try ten minutes instead.",
+    "Consistency isn't about perfect days. It's about having a plan for imperfect ones."
+  ]
+}

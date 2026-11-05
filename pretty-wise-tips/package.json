@@ -12,7 +12,9 @@
     "dev:04": "remotion studio src/episode04.tsx",
     "render:04": "node scripts/render-episode04.mjs",
     "dev:05": "remotion studio src/episode05.tsx",
-    "render:05": "node scripts/render-episode05.mjs"
+    "render:05": "node scripts/render-episode05.mjs",
+    "dev:06": "remotion studio src/episode06.tsx",
+    "render:06": "node scripts/render-episode06.mjs"
   },
   "dependencies": {
     "react": "19.0.0",
