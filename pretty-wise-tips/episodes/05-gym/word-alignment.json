@@ -1,0 +1,551 @@
+{
+  "method": "Local PocketSphinx 5.1.1 forced alignment to provided transcript; estimates requiring review",
+  "words": [
+    {
+      "word": "three",
+      "start": 0.0,
+      "end": 0.37,
+      "prob": 1.0
+    },
+    {
+      "word": "common",
+      "start": 0.37,
+      "end": 0.85,
+      "prob": 1.0
+    },
+    {
+      "word": "gym",
+      "start": 0.85,
+      "end": 1.04,
+      "prob": 1.0
+    },
+    {
+      "word": "mistakes",
+      "start": 1.04,
+      "end": 1.59,
+      "prob": 1.0
+    },
+    {
+      "word": "could",
+      "start": 1.59,
+      "end": 1.85,
+      "prob": 1.0
+    },
+    {
+      "word": "be",
+      "start": 1.85,
+      "end": 2.0,
+      "prob": 1.0
+    },
+    {
+      "word": "holding",
+      "start": 2.0,
+      "end": 2.46,
+      "prob": 1.0
+    },
+    {
+      "word": "back",
+      "start": 2.46,
+      "end": 2.72,
+      "prob": 1.0
+    },
+    {
+      "word": "your(2)",
+      "start": 2.72,
+      "end": 2.82,
+      "prob": 1.0
+    },
+    {
+      "word": "progress",
+      "start": 2.82,
+      "end": 3.6,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 3.6,
+      "end": 4.02,
+      "prob": 1.0
+    },
+    {
+      "word": "and(2)",
+      "start": 4.02,
+      "end": 4.15,
+      "prob": 1.0
+    },
+    {
+      "word": "the",
+      "start": 4.15,
+      "end": 4.21,
+      "prob": 1.0
+    },
+    {
+      "word": "last",
+      "start": 4.21,
+      "end": 4.58,
+      "prob": 0.9132957988134089
+    },
+    {
+      "word": "one",
+      "start": 4.58,
+      "end": 4.99,
+      "prob": 1.0
+    },
+    {
+      "word": "makes",
+      "start": 4.99,
+      "end": 5.28,
+      "prob": 1.0
+    },
+    {
+      "word": "results",
+      "start": 5.28,
+      "end": 5.68,
+      "prob": 1.0
+    },
+    {
+      "word": "harder",
+      "start": 5.68,
+      "end": 6.16,
+      "prob": 1.0
+    },
+    {
+      "word": "to",
+      "start": 6.16,
+      "end": 6.3,
+      "prob": 0.42077513131739797
+    },
+    {
+      "word": "notice",
+      "start": 6.3,
+      "end": 6.94,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 6.94,
+      "end": 7.53,
+      "prob": 1.0
+    },
+    {
+      "word": "one",
+      "start": 7.53,
+      "end": 7.95,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 7.95,
+      "end": 8.22,
+      "prob": 1.0
+    },
+    {
+      "word": "swinging",
+      "start": 8.22,
+      "end": 8.77,
+      "prob": 1.0
+    },
+    {
+      "word": "your(2)",
+      "start": 8.77,
+      "end": 8.9,
+      "prob": 1.0
+    },
+    {
+      "word": "weights",
+      "start": 8.9,
+      "end": 9.52,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 9.52,
+      "end": 9.93,
+      "prob": 1.0
+    },
+    {
+      "word": "go",
+      "start": 9.93,
+      "end": 10.06,
+      "prob": 1.0
+    },
+    {
+      "word": "lighter",
+      "start": 10.06,
+      "end": 10.65,
+      "prob": 1.0
+    },
+    {
+      "word": "and(2)",
+      "start": 10.65,
+      "end": 10.79,
+      "prob": 1.0
+    },
+    {
+      "word": "control",
+      "start": 10.79,
+      "end": 11.44,
+      "prob": 1.0
+    },
+    {
+      "word": "each",
+      "start": 11.44,
+      "end": 11.8,
+      "prob": 1.0
+    },
+    {
+      "word": "rep",
+      "start": 11.8,
+      "end": 12.13,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 12.13,
+      "end": 12.72,
+      "prob": 1.0
+    },
+    {
+      "word": "two",
+      "start": 12.72,
+      "end": 13.17,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 13.17,
+      "end": 13.43,
+      "prob": 1.0
+    },
+    {
+      "word": "training",
+      "start": 13.43,
+      "end": 13.87,
+      "prob": 1.0
+    },
+    {
+      "word": "hard",
+      "start": 13.87,
+      "end": 14.3,
+      "prob": 1.0
+    },
+    {
+      "word": "without(2)",
+      "start": 14.3,
+      "end": 14.79,
+      "prob": 1.0
+    },
+    {
+      "word": "enough",
+      "start": 14.79,
+      "end": 15.08,
+      "prob": 1.0
+    },
+    {
+      "word": "recovery(2)",
+      "start": 15.08,
+      "end": 15.8,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 15.8,
+      "end": 16.2,
+      "prob": 1.0
+    },
+    {
+      "word": "give",
+      "start": 16.2,
+      "end": 16.37,
+      "prob": 1.0
+    },
+    {
+      "word": "your(2)",
+      "start": 16.37,
+      "end": 16.48,
+      "prob": 1.0
+    },
+    {
+      "word": "muscles",
+      "start": 16.48,
+      "end": 16.9,
+      "prob": 1.0
+    },
+    {
+      "word": "time",
+      "start": 16.9,
+      "end": 17.18,
+      "prob": 1.0
+    },
+    {
+      "word": "to(2)",
+      "start": 17.18,
+      "end": 17.31,
+      "prob": 0.48356783577930457
+    },
+    {
+      "word": "rest",
+      "start": 17.31,
+      "end": 17.96,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 17.96,
+      "end": 18.31,
+      "prob": 1.0
+    },
+    {
+      "word": "comment",
+      "start": 18.31,
+      "end": 18.72,
+      "prob": 1.0
+    },
+    {
+      "word": "strong",
+      "start": 18.72,
+      "end": 19.35,
+      "prob": 1.0
+    },
+    {
+      "word": "for(3)",
+      "start": 19.35,
+      "end": 19.48,
+      "prob": 0.9057471911621854
+    },
+    {
+      "word": "my",
+      "start": 19.48,
+      "end": 19.62,
+      "prob": 1.0
+    },
+    {
+      "word": "free",
+      "start": 19.62,
+      "end": 19.97,
+      "prob": 1.0
+    },
+    {
+      "word": "workout",
+      "start": 19.97,
+      "end": 20.39,
+      "prob": 1.0
+    },
+    {
+      "word": "tracker",
+      "start": 20.39,
+      "end": 20.93,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 20.93,
+      "end": 21.43,
+      "prob": 1.0
+    },
+    {
+      "word": "three",
+      "start": 21.43,
+      "end": 22.0,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 22.0,
+      "end": 22.31,
+      "prob": 1.0
+    },
+    {
+      "word": "never",
+      "start": 22.31,
+      "end": 22.72,
+      "prob": 1.0
+    },
+    {
+      "word": "recording",
+      "start": 22.72,
+      "end": 23.19,
+      "prob": 1.0
+    },
+    {
+      "word": "your(2)",
+      "start": 23.19,
+      "end": 23.3,
+      "prob": 1.0
+    },
+    {
+      "word": "lifts",
+      "start": 23.3,
+      "end": 23.88,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 23.88,
+      "end": 24.24,
+      "prob": 1.0
+    },
+    {
+      "word": "track",
+      "start": 24.24,
+      "end": 24.56,
+      "prob": 1.0
+    },
+    {
+      "word": "your(2)",
+      "start": 24.56,
+      "end": 24.69,
+      "prob": 1.0
+    },
+    {
+      "word": "weights",
+      "start": 24.69,
+      "end": 25.01,
+      "prob": 1.0
+    },
+    {
+      "word": "and",
+      "start": 25.01,
+      "end": 25.16,
+      "prob": 1.0
+    },
+    {
+      "word": "reps",
+      "start": 25.16,
+      "end": 25.48,
+      "prob": 1.0
+    },
+    {
+      "word": "so",
+      "start": 25.48,
+      "end": 25.62,
+      "prob": 1.0
+    },
+    {
+      "word": "you",
+      "start": 25.62,
+      "end": 25.74,
+      "prob": 1.0
+    },
+    {
+      "word": "can(2)",
+      "start": 25.74,
+      "end": 25.88,
+      "prob": 1.0
+    },
+    {
+      "word": "actually(3)",
+      "start": 25.88,
+      "end": 26.45,
+      "prob": 1.0
+    },
+    {
+      "word": "see",
+      "start": 26.45,
+      "end": 26.82,
+      "prob": 1.0
+    },
+    {
+      "word": "when(4)",
+      "start": 26.82,
+      "end": 27.02,
+      "prob": 1.0
+    },
+    {
+      "word": "you're",
+      "start": 27.02,
+      "end": 27.16,
+      "prob": 1.0
+    },
+    {
+      "word": "improving",
+      "start": 27.16,
+      "end": 27.9,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 27.9,
+      "end": 28.32,
+      "prob": 1.0
+    },
+    {
+      "word": "remember",
+      "start": 28.32,
+      "end": 28.98,
+      "prob": 1.0
+    },
+    {
+      "word": "a",
+      "start": 28.98,
+      "end": 29.1,
+      "prob": 0.8803870572512831
+    },
+    {
+      "word": "good",
+      "start": 29.1,
+      "end": 29.33,
+      "prob": 1.0
+    },
+    {
+      "word": "workout",
+      "start": 29.33,
+      "end": 29.81,
+      "prob": 1.0
+    },
+    {
+      "word": "isn't(2)",
+      "start": 29.81,
+      "end": 30.23,
+      "prob": 0.8577931173733059
+    },
+    {
+      "word": "just(2)",
+      "start": 30.23,
+      "end": 30.47,
+      "prob": 1.0
+    },
+    {
+      "word": "exhausting",
+      "start": 30.47,
+      "end": 31.28,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 31.28,
+      "end": 31.53,
+      "prob": 1.0
+    },
+    {
+      "word": "it's",
+      "start": 31.53,
+      "end": 31.68,
+      "prob": 1.0
+    },
+    {
+      "word": "helping",
+      "start": 31.68,
+      "end": 32.09,
+      "prob": 1.0
+    },
+    {
+      "word": "you",
+      "start": 32.09,
+      "end": 32.2,
+      "prob": 1.0
+    },
+    {
+      "word": "progress(2)",
+      "start": 32.2,
+      "end": 33.07,
+      "prob": 1.0
+    },
+    {
+      "word": "</s>",
+      "start": 33.06,
+      "end": 33.07,
+      "prob": 1.0
+    }
+  ]
+}

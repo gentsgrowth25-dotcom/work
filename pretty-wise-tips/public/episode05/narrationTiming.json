@@ -1,0 +1,129 @@
+{
+  "audioFile": "episode05/voiceover.mp3",
+  "audioDurationSeconds": 33.071,
+  "fps": 30,
+  "durationInFrames": 1005,
+  "method": "PocketSphinx forced alignment against supplied narration; phrase-level estimates, not word-perfect manual transcription",
+  "scenes": [
+    {
+      "id": "hook",
+      "startFrame": 0,
+      "endFrame": 226,
+      "startSeconds": 0,
+      "endSeconds": 7.53
+    },
+    {
+      "id": "control",
+      "startFrame": 226,
+      "endFrame": 382,
+      "startSeconds": 7.53,
+      "endSeconds": 12.72
+    },
+    {
+      "id": "recovery",
+      "startFrame": 382,
+      "endFrame": 549,
+      "startSeconds": 12.72,
+      "endSeconds": 18.31
+    },
+    {
+      "id": "comment",
+      "startFrame": 549,
+      "endFrame": 643,
+      "startSeconds": 18.31,
+      "endSeconds": 21.43
+    },
+    {
+      "id": "tracking",
+      "startFrame": 643,
+      "endFrame": 850,
+      "startSeconds": 21.43,
+      "endSeconds": 28.32
+    },
+    {
+      "id": "takeaway",
+      "startFrame": 850,
+      "endFrame": 1005,
+      "startSeconds": 28.32,
+      "endSeconds": 33.5
+    }
+  ],
+  "cues": {
+    "lastPreview": {
+      "frame": 126,
+      "seconds": 4.21
+    },
+    "swinging": {
+      "frame": 247,
+      "seconds": 8.22
+    },
+    "lighter": {
+      "frame": 302,
+      "seconds": 10.06
+    },
+    "control": {
+      "frame": 324,
+      "seconds": 10.79
+    },
+    "trainingHard": {
+      "frame": 403,
+      "seconds": 13.43
+    },
+    "recovery": {
+      "frame": 452,
+      "seconds": 15.08
+    },
+    "muscleRest": {
+      "frame": 486,
+      "seconds": 16.2
+    },
+    "rest": {
+      "frame": 519,
+      "seconds": 17.31
+    },
+    "comment": {
+      "frame": 549,
+      "seconds": 18.31
+    },
+    "strong": {
+      "frame": 562,
+      "seconds": 18.72
+    },
+    "tracker": {
+      "frame": 589,
+      "seconds": 19.62
+    },
+    "recording": {
+      "frame": 669,
+      "seconds": 22.31
+    },
+    "track": {
+      "frame": 727,
+      "seconds": 24.24
+    },
+    "weight": {
+      "frame": 741,
+      "seconds": 24.69
+    },
+    "reps": {
+      "frame": 755,
+      "seconds": 25.16
+    },
+    "improving": {
+      "frame": 815,
+      "seconds": 27.16
+    },
+    "remember": {
+      "frame": 850,
+      "seconds": 28.32
+    },
+    "exhausting": {
+      "frame": 914,
+      "seconds": 30.47
+    },
+    "progress": {
+      "frame": 966,
+      "seconds": 32.2
+    }
+  }
+}

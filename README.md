@@ -41,3 +41,13 @@ This revised brief uses dusty rose, pink, cream and deep plum, with larger chara
 - [Audio alignment notes](pretty-wise-tips/episodes/04-breakfast/README.md).
 
 This edition follows the supplied 33.57-second ElevenLabs recording, with a short final hold, rather than the draft's provisional 30 seconds. White backgrounds and recovered original #CE89FE brand accent are used throughout.
+
+## Episode 05 — 3 Gym Mistakes That Could Be Holding Back Your Progress
+
+- [Voiced MP4](exports/pretty-wise-tips-episode-05.mp4) — choose **Download raw file**.
+- [Editable source ZIP](exports/pretty-wise-tips-episode-05-source-v1.zip).
+- [Scene preview sheet](exports/pretty-wise-tips-episode-05-preview-v1.jpg).
+- [Free STRONG workout tracker CSV](pretty-wise-tips/episodes/05-gym/STRONG-workout-tracker.csv) and [instructions](pretty-wise-tips/episodes/05-gym/STRONG-workout-tracker.md).
+- [Episode build and timing notes](pretty-wise-tips/episodes/05-gym/README.md).
+
+The supplied 33.071-second narration drives this 33.5-second edition. The original recording is preserved at its natural pace; the visual draft's fixed 30-second schedule is superseded by actual phrase timing.

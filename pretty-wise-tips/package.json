@@ -10,7 +10,9 @@
     "dev:03": "remotion studio src/episode03.tsx",
     "render:03": "remotion render src/episode03.tsx PrettyWiseTipsEpisode03 out/pretty-wise-tips-episode-03.mp4 --browser-executable=/usr/bin/chromium --concurrency=2 --muted",
     "dev:04": "remotion studio src/episode04.tsx",
-    "render:04": "node scripts/render-episode04.mjs"
+    "render:04": "node scripts/render-episode04.mjs",
+    "dev:05": "remotion studio src/episode05.tsx",
+    "render:05": "node scripts/render-episode05.mjs"
   },
   "dependencies": {
     "react": "19.0.0",

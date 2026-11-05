@@ -43,3 +43,7 @@ See [episode instructions](episodes/03-self-respect/README.md). Run `npm run dev
 ## Episode 04 — Your Healthy Breakfast Might Be Missing Something
 
 See [episode instructions](episodes/04-breakfast/README.md). `npm run dev:04` and `npm run render:04` use the uploaded ElevenLabs narration with an audio-timed 34-second timeline. The seven scenes return to white backgrounds and the original #CE89FE accent. Source includes the narration, editable phrase timing, local alignment script, and BOWL breakfast-builder checklist.
+
+## Episode 05 — 3 Gym Mistakes That Could Be Holding Back Your Progress
+
+See [episode instructions](episodes/05-gym/README.md). `npm run dev:05` and `npm run render:05` use the supplied ElevenLabs recording and adjustable audio-derived timing. The 33.5-second voiced edition includes an articulated curl, recovery schedule, concrete tracking example, and the promised STRONG workout tracker.

@@ -1,0 +1,290 @@
+# PRETTY WISE TIPS — EPISODE 05
+## 3 Gym Mistakes That Could Be Holding Back Your Progress
+
+Create a complete, premium-quality, 30-second 2D animated Instagram Reel.
+
+**Format:** Vertical 9:16, 1080 × 1920, 30 FPS, exactly 900 frames.
+
+**Production:** VISUALS FIRST. Generate the complete silent animation. ElevenLabs narration will be added afterward.
+
+**IMPORTANT:** This is an update to Episode 05. Replace the previous opening and scene timings with the instructions below. Keep the existing project and reusable animation components.
+
+---
+
+## 1. STRICT BRAND IDENTITY
+
+The entire video must maintain the established Pretty Wise Tips color palette.
+
+- Main background: pure white (#FFFFFF).
+- Accent: the EXACT purple-mauve color used in our original project.
+- Fallback mauve: #92739A, only if the original value cannot be recovered.
+- Text: dark charcoal.
+- Clothing and interface elements: purple-mauve and white.
+- Gym equipment: neutral illustrative colors.
+
+Do not introduce pink, blue, cream, yellow or unrelated accent colors.
+
+Keep the background predominantly white throughout.
+
+Reuse the established character design and brand typography.
+
+## 2. VISUAL STYLE
+
+Our previous animation suffered from static illustrations, excessive empty space and slow visual development.
+
+Correct those problems.
+
+- Use large 2D characters and objects.
+- Begin meaningful movement on frame one.
+- Change the visual composition every 1–2 seconds when it helps explain the content.
+- Show close-ups of exercise techniques.
+- Use expressive character animation.
+- Animate the equipment naturally.
+- Use quick, purposeful transitions rather than repetitive slide changes.
+- Make diagrams large enough to understand on a phone.
+- Keep headings short.
+- Avoid long introductions, blank frames, and slow logo animations.
+
+The result should feel like a polished animated educational Reel, not a slideshow.
+
+## 3. EXACT STORYBOARD AND NARRATION ALIGNMENT
+
+### SCENE 1 — 0:00–0:04
+**HOOK: INTRODUCE THE THREE GYM MISTAKES**
+
+Narration:
+"Three common gym mistakes could be holding back your progress. And the last one makes results harder to notice."
+
+Visuals:
+
+Begin immediately with a dynamic close-up of a woman lifting a dumbbell in a gym.
+
+The character should occupy most of the frame.
+
+Three large numbered markers appear around her.
+
+Animate three rapid visual previews:
+
+1. A swinging dumbbell.
+2. An exhausted woman.
+3. An empty workout notebook with a question mark.
+
+The third preview should receive additional visual emphasis.
+
+On-screen text:
+"3 GYM MISTAKES"
+
+Secondary text:
+"#3 HIDES YOUR PROGRESS"
+
+Do not use a generic introductory title screen.
+
+### SCENE 2 — 0:04–0:10
+**MISTAKE 1: SWINGING YOUR WEIGHTS**
+
+Narration:
+"One: Swinging your weights. Go lighter and control each rep."
+
+Visuals:
+
+Show the woman performing an uncontrolled dumbbell curl.
+
+Her upper body swings excessively to lift the weight.
+
+Use an animated movement path to demonstrate the problem.
+
+Immediately show her choosing a lighter dumbbell and performing a controlled repetition.
+
+Create a clear before-and-after comparison.
+
+On-screen text:
+"1. STOP SWINGING"
+
+Supporting text:
+"CONTROL EACH REP"
+
+Keep the animation technically plausible. The elbow, wrist and shoulder movements must look natural.
+
+### SCENE 3 — 0:10–0:15
+**MISTAKE 2: NOT RECOVERING**
+
+Narration:
+"Two: Training hard without enough recovery. Give your muscles time to rest."
+
+Visuals:
+
+Show a weekly training calendar filling with repeated hard sessions for the same muscles.
+
+The character appears fatigued.
+
+Transform the calendar into a more balanced schedule that includes appropriate recovery time.
+
+Show the woman feeling rested and ready to train again.
+
+On-screen text:
+"2. RECOVERY MATTERS"
+
+Supporting text:
+"REST HELPS YOU PROGRESS"
+
+Avoid suggesting that exercising on consecutive days is inherently harmful. The visual should specifically illustrate insufficient recovery between demanding sessions for the same muscles.
+
+### SCENE 4 — 0:15–0:18
+**MID-VIDEO COMMENT CTA**
+
+Narration:
+"Comment STRONG for my free workout tracker."
+
+Visuals:
+
+Animate a large Instagram-style comment bubble.
+
+Type:
+"STRONG"
+
+Beside the comment, animate a miniature workout-tracking sheet.
+
+Show clearly labeled columns:
+"EXERCISE"
+"WEIGHT"
+"REPS"
+
+On-screen text:
+"COMMENT 'STRONG'"
+
+Supporting text:
+"FREE WORKOUT TRACKER"
+
+Keep the composition clean, white and purple-mauve.
+
+Do not show a fake DM delivery confirmation.
+
+### SCENE 5 — 0:18–0:26
+**MISTAKE 3: NOT RECORDING YOUR LIFTS**
+
+Narration:
+"Three: Never recording your lifts. Track your weights and reps so you can actually see when you're improving."
+
+Visuals:
+
+Show the woman completing a dumbbell exercise.
+
+She looks uncertain about whether she's getting stronger.
+
+A large workout notebook appears in the foreground.
+
+Animate a clear example:
+
+WEEK 1
+5 kg × 8 reps
+
+WEEK 2
+5 kg × 9 reps
+
+Make the increase visually obvious.
+
+Add a small upward progress indicator.
+
+Show the woman confidently recording her workout.
+
+On-screen text:
+"3. TRACK YOUR LIFTS"
+
+Supporting text:
+"SEE YOUR PROGRESS"
+
+This is the main educational payoff promised in the hook.
+
+Do not imply that every workout must improve or that progress always happens weekly.
+
+### SCENE 6 — 0:26–0:30
+**FINAL TAKEAWAY**
+
+Narration:
+"Remember, a good workout isn't just exhausting. It's helping you progress."
+
+Visuals:
+
+Show the woman reviewing her workout records.
+
+A simple purple-mauve progress chart animates behind her.
+
+Transition to a confident close-up of the woman holding her training notebook.
+
+On-screen text:
+"TRACK PROGRESS"
+
+Then:
+"NOT JUST EXHAUSTION"
+
+End with a small Pretty Wise Tips brand signature.
+
+No lengthy outro.
+
+---
+
+## 4. RETENTION AND ANIMATION REQUIREMENTS
+
+Apply the techniques from our five previously analyzed viral-video references.
+
+**Clear context first:** Tell viewers immediately that this video covers three gym mistakes.
+
+**Specific curiosity:** The opening promises that mistake number three explains why progress can be difficult to notice.
+
+**Immediate payoff:** Show the first exercise mistake within the first few seconds.
+
+**Multiple useful moments:** Each mistake must include a practical correction.
+
+**Mid-video engagement:** Place the workout tracker comment invitation around the middle of the Reel.
+
+**Strong final payoff:** Use a concrete workout-recording example to resolve the opening curiosity.
+
+Additional requirements:
+
+- Keep characters large and expressive.
+- No static slide presentations.
+- No excessive unused white space.
+- Meaningful animation from frame one.
+- Use visual demonstrations instead of unnecessary decorative effects.
+- Short, readable captions.
+- Smooth scene transitions.
+- Preserve character consistency.
+- Maintain strict white-and-purple-mauve branding.
+- Do not add unnecessary narration or text.
+
+## 5. TECHNICAL IMPLEMENTATION
+
+Use the existing React, TypeScript, SVG and Remotion setup.
+
+Composition:
+PrettyWiseTipsEpisode05
+
+Output file:
+pretty-wise-tips-episode-05.mp4
+
+Exactly 900 frames at 30 FPS.
+
+Do not generate narration, music or sound effects.
+
+Use the supplied narration as the content and timing reference. Keep scene timings adjustable so the actual ElevenLabs recording can be synchronized afterward.
+
+Do not generate word-for-word subtitles until the final audio has been added.
+
+Respect Instagram safe areas.
+
+## 6. FINAL QUALITY CONTROL
+
+Before rendering, verify:
+
+1. The video is exactly 30 seconds.
+2. The first frame contains immediate movement.
+3. The opening clearly introduces three gym mistakes.
+4. The first practical tip begins within the opening seconds.
+5. The character is significantly larger than in Episode 04.
+6. All three mistakes include visual explanations.
+7. The comment CTA appears midway through the video.
+8. The third mistake provides the promised educational payoff.
+9. White and purple-mauve remain consistent throughout.
+10. No blank frames, clipped text, unnatural exercise movements or long static scenes.
+
+Generate and render the complete silent animation, ready for ElevenLabs voiceover synchronization.

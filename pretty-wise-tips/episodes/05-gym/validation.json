@@ -1,0 +1,53 @@
+{
+  "videoDuration": 33.5,
+  "frames": 1005,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "audioComparisons": [
+    {
+      "regionSeconds": [
+        0,
+        6
+      ],
+      "audioLagSeconds": 0.0,
+      "correlation": 0.9999675789932437
+    },
+    {
+      "regionSeconds": [
+        9,
+        15
+      ],
+      "audioLagSeconds": 0.0,
+      "correlation": 0.9999856540122807
+    },
+    {
+      "regionSeconds": [
+        18,
+        23
+      ],
+      "audioLagSeconds": 0.0,
+      "correlation": 0.9999889832501415
+    },
+    {
+      "regionSeconds": [
+        27,
+        33.05
+      ],
+      "audioLagSeconds": 0.0,
+      "correlation": 0.9999792983639619
+    }
+  ],
+  "fullDecode": "passed",
+  "timingMethod": "Local forced alignment; phrase pauses checked; not word-perfect manual verification",
+  "openingMotionCheck": {
+    "characterRegionChangedPixelsAt200x300": 7081,
+    "adjacentFrames": [
+      0,
+      1
+    ]
+  }
+}
