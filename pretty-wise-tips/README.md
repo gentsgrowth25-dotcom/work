@@ -51,3 +51,7 @@ See [episode instructions](episodes/05-gym/README.md). `npm run dev:05` and `npm
 ## Episode 06 — 3 Reasons Your Daily Routine Never Lasts
 
 See [episode instructions](episodes/06-routine/README.md). `npm run dev:06` and `npm run render:06` use the newly supplied business-suit character reference and actual ElevenLabs timing. The 35.5-second voiced edition includes calendar reflow, habit selection, a 30-to-10-minute backup transformation, and the ROUTINE planner.
+
+## Boundaries — Why You Feel Guilty Saying No
+
+This brief was labeled Episode 05 but is stored separately to preserve the existing gym episode. See [boundaries instructions](episodes/05-boundaries/README.md). `npm run dev:boundaries` and `npm run render:boundaries` create the 30-second voiced/silent editions, using the current character, exact supplied transcript, and phrase-timed animation. The three promised polite replies are included.

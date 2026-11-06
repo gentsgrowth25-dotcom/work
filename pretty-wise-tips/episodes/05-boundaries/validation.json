@@ -1,0 +1,54 @@
+{
+  "videoDuration": 30.0,
+  "frames": 900,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "audioComparisons": [
+    {
+      "regionSeconds": [
+        0,
+        5
+      ],
+      "audioLagSeconds": 0.0,
+      "correlation": 0.9999786317974082
+    },
+    {
+      "regionSeconds": [
+        7,
+        13
+      ],
+      "audioLagSeconds": 0.0,
+      "correlation": 0.9999845691480583
+    },
+    {
+      "regionSeconds": [
+        16,
+        22
+      ],
+      "audioLagSeconds": 0.0,
+      "correlation": 0.9999864705552249
+    },
+    {
+      "regionSeconds": [
+        23,
+        28.55
+      ],
+      "audioLagSeconds": 0.0,
+      "correlation": 0.9999881713619604
+    }
+  ],
+  "silentVersionHasAudio": false,
+  "fullDecode": "passed",
+  "timingMethod": "Forced alignment to user-supplied exact script; phrase pauses cross-checked; not manually verified word-perfect captions",
+  "openingPhoneMotionCheck": {
+    "changedPixelsAt150x300": 5577,
+    "adjacentFrames": [
+      0,
+      1
+    ]
+  }
+}

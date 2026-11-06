@@ -1,0 +1,177 @@
+# PRETTY WISE TIPS — EPISODE 05
+## Title: Why You Feel Guilty Saying No
+
+**TASK:** Create a complete, smooth, professionally animated 2D educational video for Instagram Reels and TikTok.
+
+**Duration:** Exactly 30 seconds.
+
+**Aspect ratio:** 9:16 vertical (1080 × 1920).
+
+**Production:** Visuals only. No narration, background music, or sound effects. The voiceover will be added separately using ElevenLabs.
+
+### BRAND IDENTITY — STRICT RULES
+
+- Pure white background (#FFFFFF).
+- Use our established purple-mauve brand color. Reuse the exact color value from our previous episodes; do not invent a new shade.
+- No pink, blue, cream, or unrelated accent colors.
+- Reuse our established Pretty Wise Tips female character and illustration style.
+- Keep character proportions, face, hair, clothing, and visual identity consistent.
+- Use expressive facial animation, fluid body movement, and cinematic camera transitions.
+- Make characters large enough to be clearly visible on mobile screens.
+- Avoid static presentation slides, excessive white space, and unnecessary title screens.
+
+**Animation standard:** The video must feel like a continuous animated story, not a slideshow of illustrations.
+
+### SCENE 1 — THE HOOK (0:00–0:03)
+
+**On-screen text: "WHY CAN'T YOU SAY NO?"**
+
+Immediately open on our female character sitting on her couch, visibly exhausted.
+
+Her phone suddenly lights up with a message:
+
+"Can you help me again?"
+
+She starts typing "NO" but hesitates.
+
+She deletes it and types "YES."
+
+The camera rapidly zooms toward her worried expression.
+
+A large purple-mauve question mark appears beside her.
+
+**Animation:** Finger typing, phone movement, eye movement, expressive eyebrows, quick camera zoom.
+
+**Important:** The first frame must already contain visible action. No introductory logo or title card.
+
+### SCENE 2 — THE PEOPLE-PLEASING CYCLE (0:03–0:09)
+
+Show three situations in rapid succession.
+
+**Situation A:** Her manager hands her another stack of work while she's already overwhelmed.
+
+**Situation B:** Her friend invites her somewhere, even though she desperately wants to rest.
+
+**Situation C:** Someone asks her for another favor while she's busy.
+
+In each situation, she reluctantly smiles and agrees.
+
+Her posture becomes progressively more exhausted.
+
+Small floating "YES" speech bubbles multiply around her until they crowd the screen.
+
+**Animation:** Fast match cuts, moving characters, facial reactions, and expanding speech bubbles.
+
+### SCENE 3 — THE PSYCHOLOGY (0:09–0:16)
+
+The environment transforms into a visual representation of her thoughts.
+
+Three animated thought bubbles appear around her:
+
+1. "What if they're upset?"
+2. "Will they think I'm selfish?"
+3. "What if I disappoint them?"
+
+Each thought bubble grows as she becomes increasingly anxious.
+
+Then the camera pulls back.
+
+Show the character trapped inside a circle made of other people's expectations.
+
+The circle slowly tightens.
+
+**Visual explanation:** Fear of disappointing others can make saying no feel emotionally uncomfortable, even when the boundary is reasonable.
+
+Keep this scene visually active. Use moving thought bubbles, character reactions, and a clear visual metaphor.
+
+### SCENE 4 — THE ENGAGEMENT MOMENT (0:16–0:20)
+
+The character notices an animated note appearing beside her.
+
+On-screen text:
+
+**"COMMENT 'BOUNDARIES'"**
+
+Below it:
+
+"3 polite ways to say no"
+
+Show three small illustrated message cards appearing one after another.
+
+Do not display the complete phrases yet.
+
+The character reaches toward one card as the scene transitions.
+
+This comment prompt must only be used if we can actually provide the promised resource through a reply, pinned comment, or DM.
+
+### SCENE 5 — THE SOLUTION (0:20–0:27)
+
+Return to the original phone-message situation.
+
+Her friend asks:
+
+"Can you help me tonight?"
+
+This time, the character calmly types:
+
+"I can't this time."
+
+She presses send.
+
+Show her initially looking nervous.
+
+Then she puts down her phone, relaxes her shoulders, and returns to her own plans.
+
+The surrounding thought bubbles shrink and disappear.
+
+Use a smooth transition from her anxious expression to a calm, confident smile.
+
+**On-screen text: "KIND ≠ ALWAYS AVAILABLE"**
+
+Make the text large, clear, and readable.
+
+### SCENE 6 — THE FINAL TAKEAWAY (0:27–0:30)
+
+Show our character confidently walking forward.
+
+The background remains pure white with subtle mauve animated shapes.
+
+As she walks, the floating "YES" bubbles from earlier disappear.
+
+Final text appears:
+
+**"YOU CAN BE KIND AND STILL SAY NO."**
+
+Hold the message long enough to read.
+
+End with a smooth visual finish, not an abrupt cut.
+
+### TECHNICAL ANIMATION REQUIREMENTS
+
+1. Every scene must contain meaningful character or environmental movement.
+2. Avoid frozen characters and static illustrations.
+3. Use smooth transitions rather than hard slide changes.
+4. Prioritize clear storytelling over decorative effects.
+5. Keep the visual focus centered for mobile viewing.
+6. Ensure all important text stays inside Instagram and TikTok safe areas.
+7. Avoid tiny typography and excessive on-screen wording.
+8. No silent pauses or empty frames.
+9. Maintain consistent character design throughout all scenes.
+10. Synchronize the scene progression to the planned narration timeline without requiring audio to render.
+11. Render a complete playable video, not a sequence of static images.
+12. If an existing animation project is available, extend it rather than rebuilding our character system from scratch.
+
+### FINAL QUALITY CHECK
+
+Before completing the render, verify:
+
+- Runtime is exactly 30 seconds.
+- Opening action starts immediately.
+- Every scene is animated.
+- Character proportions remain consistent.
+- Brand palette remains white and purple-mauve.
+- Text is readable on a smartphone.
+- No unexplained gaps or frozen frames.
+- The narrative has a clear beginning, psychological explanation, and satisfying resolution.
+
+**Final output:** One polished, vertical, 30-second MP4 suitable for Instagram Reels and TikTok.

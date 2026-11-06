@@ -1,0 +1,497 @@
+{
+  "method": "Local PocketSphinx 5.1.1 forced alignment to provided transcript; estimates requiring review",
+  "words": [
+    {
+      "word": "do",
+      "start": 0.0,
+      "end": 0.22,
+      "prob": 1.0001
+    },
+    {
+      "word": "you",
+      "start": 0.22,
+      "end": 0.32,
+      "prob": 1.0001
+    },
+    {
+      "word": "feel",
+      "start": 0.32,
+      "end": 0.59,
+      "prob": 1.0001
+    },
+    {
+      "word": "guilty",
+      "start": 0.59,
+      "end": 1.16,
+      "prob": 1.0001
+    },
+    {
+      "word": "<sil>",
+      "start": 1.16,
+      "end": 1.26,
+      "prob": 0.6941399052474087
+    },
+    {
+      "word": "every(2)",
+      "start": 1.26,
+      "end": 1.55,
+      "prob": 1.0001
+    },
+    {
+      "word": "time",
+      "start": 1.55,
+      "end": 1.81,
+      "prob": 1.0001
+    },
+    {
+      "word": "you",
+      "start": 1.81,
+      "end": 1.91,
+      "prob": 1.0001
+    },
+    {
+      "word": "say",
+      "start": 1.91,
+      "end": 2.12,
+      "prob": 1.0001
+    },
+    {
+      "word": "no",
+      "start": 2.12,
+      "end": 2.58,
+      "prob": 1.0001
+    },
+    {
+      "word": "<sil>",
+      "start": 2.58,
+      "end": 3.07,
+      "prob": 1.0001
+    },
+    {
+      "word": "you",
+      "start": 3.07,
+      "end": 3.22,
+      "prob": 1.0001
+    },
+    {
+      "word": "might",
+      "start": 3.22,
+      "end": 3.51,
+      "prob": 1.0001
+    },
+    {
+      "word": "be",
+      "start": 3.51,
+      "end": 3.64,
+      "prob": 1.0001
+    },
+    {
+      "word": "confusing",
+      "start": 3.64,
+      "end": 4.18,
+      "prob": 1.0001
+    },
+    {
+      "word": "someone's",
+      "start": 4.18,
+      "end": 4.59,
+      "prob": 1.0001
+    },
+    {
+      "word": "disappointment",
+      "start": 4.59,
+      "end": 5.55,
+      "prob": 1.0001
+    },
+    {
+      "word": "with(2)",
+      "start": 5.55,
+      "end": 5.78,
+      "prob": 0.53624247467573
+    },
+    {
+      "word": "doing",
+      "start": 5.78,
+      "end": 6.05,
+      "prob": 1.0
+    },
+    {
+      "word": "something",
+      "start": 6.05,
+      "end": 6.45,
+      "prob": 1.0
+    },
+    {
+      "word": "wrong",
+      "start": 6.45,
+      "end": 6.89,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 6.89,
+      "end": 7.13,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 7.13,
+      "end": 7.47,
+      "prob": 1.0
+    },
+    {
+      "word": "so",
+      "start": 7.47,
+      "end": 7.84,
+      "prob": 1.0
+    },
+    {
+      "word": "you",
+      "start": 7.84,
+      "end": 8.06,
+      "prob": 1.0
+    },
+    {
+      "word": "agree",
+      "start": 8.06,
+      "end": 8.35,
+      "prob": 1.0
+    },
+    {
+      "word": "to(3)",
+      "start": 8.35,
+      "end": 8.42,
+      "prob": 0.4188022268010072
+    },
+    {
+      "word": "plans",
+      "start": 8.42,
+      "end": 9.15,
+      "prob": 1.0
+    },
+    {
+      "word": "take",
+      "start": 9.15,
+      "end": 9.41,
+      "prob": 1.0
+    },
+    {
+      "word": "on",
+      "start": 9.41,
+      "end": 9.58,
+      "prob": 1.0
+    },
+    {
+      "word": "extra",
+      "start": 9.58,
+      "end": 9.92,
+      "prob": 1.0
+    },
+    {
+      "word": "work",
+      "start": 9.92,
+      "end": 10.4,
+      "prob": 1.0
+    },
+    {
+      "word": "and(2)",
+      "start": 10.4,
+      "end": 10.83,
+      "prob": 1.0
+    },
+    {
+      "word": "ignore",
+      "start": 10.83,
+      "end": 11.22,
+      "prob": 1.0
+    },
+    {
+      "word": "your(2)",
+      "start": 11.22,
+      "end": 11.41,
+      "prob": 1.0
+    },
+    {
+      "word": "own",
+      "start": 11.41,
+      "end": 11.76,
+      "prob": 1.0
+    },
+    {
+      "word": "needs",
+      "start": 11.76,
+      "end": 12.26,
+      "prob": 1.0
+    },
+    {
+      "word": "just",
+      "start": 12.26,
+      "end": 12.57,
+      "prob": 1.0
+    },
+    {
+      "word": "to",
+      "start": 12.57,
+      "end": 12.72,
+      "prob": 0.8337756558380129
+    },
+    {
+      "word": "avoid",
+      "start": 12.72,
+      "end": 13.03,
+      "prob": 1.0
+    },
+    {
+      "word": "upsetting",
+      "start": 13.03,
+      "end": 13.5,
+      "prob": 1.0
+    },
+    {
+      "word": "people",
+      "start": 13.5,
+      "end": 13.98,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 13.98,
+      "end": 14.16,
+      "prob": 0.7307496776992964
+    },
+    {
+      "word": "<sil>",
+      "start": 14.16,
+      "end": 14.52,
+      "prob": 1.0
+    },
+    {
+      "word": "but",
+      "start": 14.52,
+      "end": 14.83,
+      "prob": 1.0
+    },
+    {
+      "word": "here's",
+      "start": 14.83,
+      "end": 15.1,
+      "prob": 1.0
+    },
+    {
+      "word": "what",
+      "start": 15.1,
+      "end": 15.22,
+      "prob": 1.0
+    },
+    {
+      "word": "changes(2)",
+      "start": 15.22,
+      "end": 15.79,
+      "prob": 1.0
+    },
+    {
+      "word": "everything",
+      "start": 15.79,
+      "end": 16.57,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 16.57,
+      "end": 16.94,
+      "prob": 1.0
+    },
+    {
+      "word": "you",
+      "start": 16.94,
+      "end": 17.07,
+      "prob": 1.0
+    },
+    {
+      "word": "can(2)",
+      "start": 17.07,
+      "end": 17.24,
+      "prob": 1.0
+    },
+    {
+      "word": "be",
+      "start": 17.24,
+      "end": 17.36,
+      "prob": 1.0
+    },
+    {
+      "word": "kind",
+      "start": 17.36,
+      "end": 17.93,
+      "prob": 1.0
+    },
+    {
+      "word": "without",
+      "start": 17.93,
+      "end": 18.35,
+      "prob": 1.0
+    },
+    {
+      "word": "always(2)",
+      "start": 18.35,
+      "end": 18.89,
+      "prob": 1.0
+    },
+    {
+      "word": "being",
+      "start": 18.89,
+      "end": 19.18,
+      "prob": 1.0
+    },
+    {
+      "word": "available",
+      "start": 19.18,
+      "end": 19.85,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 19.85,
+      "end": 20.25,
+      "prob": 1.0
+    },
+    {
+      "word": "try",
+      "start": 20.25,
+      "end": 20.53,
+      "prob": 1.0
+    },
+    {
+      "word": "saying",
+      "start": 20.53,
+      "end": 21.04,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 21.04,
+      "end": 21.28,
+      "prob": 0.8721506027099686
+    },
+    {
+      "word": "i",
+      "start": 21.28,
+      "end": 21.38,
+      "prob": 0.8721506027099686
+    },
+    {
+      "word": "can't",
+      "start": 21.38,
+      "end": 21.75,
+      "prob": 1.0
+    },
+    {
+      "word": "this",
+      "start": 21.75,
+      "end": 21.96,
+      "prob": 1.0
+    },
+    {
+      "word": "time",
+      "start": 21.96,
+      "end": 22.4,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 22.4,
+      "end": 22.78,
+      "prob": 1.0
+    },
+    {
+      "word": "no",
+      "start": 22.78,
+      "end": 23.05,
+      "prob": 1.0
+    },
+    {
+      "word": "long",
+      "start": 23.05,
+      "end": 23.28,
+      "prob": 1.0
+    },
+    {
+      "word": "explanation",
+      "start": 23.28,
+      "end": 23.91,
+      "prob": 1.0
+    },
+    {
+      "word": "needed(2)",
+      "start": 23.91,
+      "end": 24.38,
+      "prob": 1.0
+    },
+    {
+      "word": "<sil>",
+      "start": 24.38,
+      "end": 24.89,
+      "prob": 1.0
+    },
+    {
+      "word": "comment",
+      "start": 24.89,
+      "end": 25.46,
+      "prob": 1.0
+    },
+    {
+      "word": "boundaries(2)",
+      "start": 25.46,
+      "end": 26.31,
+      "prob": 1.0
+    },
+    {
+      "word": "for(2)",
+      "start": 26.31,
+      "end": 26.46,
+      "prob": 1.0
+    },
+    {
+      "word": "three",
+      "start": 26.46,
+      "end": 26.87,
+      "prob": 1.0
+    },
+    {
+      "word": "polite",
+      "start": 26.87,
+      "end": 27.27,
+      "prob": 1.0
+    },
+    {
+      "word": "ways",
+      "start": 27.27,
+      "end": 27.65,
+      "prob": 1.0
+    },
+    {
+      "word": "to(2)",
+      "start": 27.65,
+      "end": 27.76,
+      "prob": 0.682439844132018
+    },
+    {
+      "word": "say",
+      "start": 27.76,
+      "end": 28.01,
+      "prob": 1.0
+    },
+    {
+      "word": "no",
+      "start": 28.01,
+      "end": 28.6,
+      "prob": 1.0
+    },
+    {
+      "word": "</s>",
+      "start": 28.59,
+      "end": 28.6,
+      "prob": 1.0
+    }
+  ]
+}

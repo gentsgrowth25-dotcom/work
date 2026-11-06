@@ -1,0 +1,125 @@
+{
+  "audioFile": "boundaries-v1/voiceover.mp3",
+  "audioDurationSeconds": 28.604063,
+  "durationInFrames": 900,
+  "fps": 30,
+  "method": "PocketSphinx forced alignment to user-supplied exact transcript; phrase estimates, not verified word-perfect captions",
+  "scenes": [
+    {
+      "id": "hesitation",
+      "startFrame": 0,
+      "endFrame": 92,
+      "startSeconds": 0,
+      "endSeconds": 3.07
+    },
+    {
+      "id": "psychology",
+      "startFrame": 92,
+      "endFrame": 224,
+      "startSeconds": 3.07,
+      "endSeconds": 7.47
+    },
+    {
+      "id": "cycle",
+      "startFrame": 224,
+      "endFrame": 436,
+      "startSeconds": 7.47,
+      "endSeconds": 14.52
+    },
+    {
+      "id": "resource",
+      "startFrame": 436,
+      "endFrame": 508,
+      "startSeconds": 14.52,
+      "endSeconds": 16.94
+    },
+    {
+      "id": "boundary",
+      "startFrame": 508,
+      "endFrame": 747,
+      "startSeconds": 16.94,
+      "endSeconds": 24.89
+    },
+    {
+      "id": "kind-no",
+      "startFrame": 747,
+      "endFrame": 900,
+      "startSeconds": 24.89,
+      "endSeconds": 30
+    }
+  ],
+  "cues": {
+    "guilt": {
+      "frame": 18,
+      "seconds": 0.59
+    },
+    "no": {
+      "frame": 64,
+      "seconds": 2.12
+    },
+    "confusing": {
+      "frame": 109,
+      "seconds": 3.64
+    },
+    "disappointment": {
+      "frame": 138,
+      "seconds": 4.59
+    },
+    "wrong": {
+      "frame": 194,
+      "seconds": 6.45
+    },
+    "plans": {
+      "frame": 253,
+      "seconds": 8.42
+    },
+    "work": {
+      "frame": 287,
+      "seconds": 9.58
+    },
+    "needs": {
+      "frame": 353,
+      "seconds": 11.76
+    },
+    "change": {
+      "frame": 436,
+      "seconds": 14.52
+    },
+    "kind": {
+      "frame": 521,
+      "seconds": 17.36
+    },
+    "available": {
+      "frame": 575,
+      "seconds": 19.18
+    },
+    "try": {
+      "frame": 608,
+      "seconds": 20.25
+    },
+    "response": {
+      "frame": 638,
+      "seconds": 21.28
+    },
+    "sent": {
+      "frame": 672,
+      "seconds": 22.4
+    },
+    "relax": {
+      "frame": 683,
+      "seconds": 22.78
+    },
+    "comment": {
+      "frame": 747,
+      "seconds": 24.89
+    },
+    "boundaries": {
+      "frame": 764,
+      "seconds": 25.46
+    },
+    "three": {
+      "frame": 794,
+      "seconds": 26.46
+    }
+  }
+}

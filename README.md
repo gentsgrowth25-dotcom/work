@@ -62,3 +62,14 @@ The supplied 33.071-second narration drives this 33.5-second edition. The origin
 - [Character reference and timing notes](pretty-wise-tips/episodes/06-routine/README.md).
 
 This 35.5-second edition preserves the supplied 35.08-second narration and uses the newly supplied lavender business-suit character reference.
+
+## Boundaries — Why You Feel Guilty Saying No
+
+- [30-second MP4 with narration](exports/pretty-wise-tips-boundaries-v1.mp4) — choose **Download raw file**.
+- [Silent visual track](exports/pretty-wise-tips-boundaries-v1-silent-v1.mp4).
+- [Editable source](exports/pretty-wise-tips-boundaries-source-v1.zip).
+- [Scene previews](exports/pretty-wise-tips-boundaries-preview-v1.jpg).
+- [Three polite replies, including ready-to-post pinned comment](pretty-wise-tips/episodes/05-boundaries/BOUNDARIES-three-polite-replies.md).
+- [Build and timing notes](pretty-wise-tips/episodes/05-boundaries/README.md).
+
+The pasted brief calls this Episode 05; filenames are deliberately distinct from the existing gym Episode 05. Exact user-supplied narration is preserved without speeding, with a short closing hold.
