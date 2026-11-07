@@ -16,7 +16,9 @@
     "dev:06": "remotion studio src/episode06.tsx",
     "render:06": "node scripts/render-episode06.mjs",
     "dev:boundaries": "remotion studio src/BoundariesEpisode.tsx",
-    "render:boundaries": "node scripts/render-boundaries.mjs"
+    "render:boundaries": "node scripts/render-boundaries.mjs",
+    "dev:07": "remotion studio src/episode07.tsx",
+    "render:07": "node scripts/render-episode07.mjs"
   },
   "dependencies": {
     "react": "19.0.0",

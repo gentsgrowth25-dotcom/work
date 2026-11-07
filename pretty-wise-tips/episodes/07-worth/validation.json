@@ -1,0 +1,59 @@
+{
+  "voicedDurationSeconds": 33,
+  "voicedFrames": 990,
+  "silentPreviewDurationSeconds": 30,
+  "silentPreviewFrames": 900,
+  "silentPreviewHasAudio": false,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "audioComparisons": [
+    {
+      "regionSeconds": [
+        0,
+        6
+      ],
+      "audioLagSeconds": 0.0,
+      "correlation": 0.999977923346332
+    },
+    {
+      "regionSeconds": [
+        7,
+        13
+      ],
+      "audioLagSeconds": 0.0,
+      "correlation": 0.9999796453251422
+    },
+    {
+      "regionSeconds": [
+        18,
+        24
+      ],
+      "audioLagSeconds": 0.0,
+      "correlation": 0.999979319968723
+    },
+    {
+      "regionSeconds": [
+        27,
+        32.25
+      ],
+      "audioLagSeconds": 0.0,
+      "correlation": 0.9999800670606755
+    }
+  ],
+  "fullDecode": "both passed",
+  "captionChunks": 21,
+  "captionTranscriptCoverage": "exact, complete",
+  "timingMethod": "Local forced alignment, not manually verified word-perfect timing",
+  "captionLayout": "see independent Chromium evidence in caption-layout-validation.json",
+  "openingCharacterMotion": {
+    "adjacentFrames": [
+      0,
+      1
+    ],
+    "changedPixelsIn195x300Crop": 6356
+  }
+}

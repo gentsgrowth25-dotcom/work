@@ -1,0 +1,161 @@
+{
+  "audioFile": "episode07/voiceover.mp3",
+  "audioDurationSeconds": 32.287313,
+  "fps": 30,
+  "durationInFrames": 990,
+  "method": "Local PocketSphinx 5.1.1 forced alignment to exact provided transcript; word and phrase timing estimates requiring editorial review, not manually verified word-perfect captions",
+  "scenes": [
+    {
+      "id": "hook",
+      "startFrame": 0,
+      "endFrame": 211
+    },
+    {
+      "id": "praise",
+      "startFrame": 211,
+      "endFrame": 379
+    },
+    {
+      "id": "confidence",
+      "startFrame": 379,
+      "endFrame": 572
+    },
+    {
+      "id": "cta",
+      "startFrame": 572,
+      "endFrame": 686
+    },
+    {
+      "id": "boundaries",
+      "startFrame": 686,
+      "endFrame": 917
+    },
+    {
+      "id": "closing",
+      "startFrame": 917,
+      "endFrame": 990
+    }
+  ],
+  "cues": {
+    "hookSigns": {
+      "frame": 32,
+      "seconds": 1.07
+    },
+    "hookWorth": {
+      "frame": 103,
+      "seconds": 3.44
+    },
+    "hookLast": {
+      "frame": 133,
+      "seconds": 4.43
+    },
+    "hookSelfish": {
+      "frame": 172,
+      "seconds": 5.74
+    },
+    "signOne": {
+      "frame": 211,
+      "seconds": 7.03
+    },
+    "accept": {
+      "frame": 238,
+      "seconds": 7.94
+    },
+    "compliments": {
+      "frame": 251,
+      "seconds": 8.38
+    },
+    "minimizing": {
+      "frame": 284,
+      "seconds": 9.48
+    },
+    "thankYou": {
+      "frame": 351,
+      "seconds": 11.69
+    },
+    "signTwo": {
+      "frame": 379,
+      "seconds": 12.64
+    },
+    "stopApologizing": {
+      "frame": 419,
+      "seconds": 13.96
+    },
+    "reasonable": {
+      "frame": 459,
+      "seconds": 15.3
+    },
+    "kind": {
+      "frame": 518,
+      "seconds": 17.28
+    },
+    "direct": {
+      "frame": 543,
+      "seconds": 18.09
+    },
+    "comment": {
+      "frame": 572,
+      "seconds": 19.08
+    },
+    "worth": {
+      "frame": 585,
+      "seconds": 19.5
+    },
+    "free": {
+      "frame": 611,
+      "seconds": 20.35
+    },
+    "challenge": {
+      "frame": 657,
+      "seconds": 21.91
+    },
+    "signThree": {
+      "frame": 686,
+      "seconds": 22.88
+    },
+    "fair": {
+      "frame": 725,
+      "seconds": 24.18
+    },
+    "boundary": {
+      "frame": 737,
+      "seconds": 24.55
+    },
+    "disappointed": {
+      "frame": 786,
+      "seconds": 26.19
+    },
+    "feelingGuilty": {
+      "frame": 822,
+      "seconds": 27.41
+    },
+    "guilty": {
+      "frame": 833,
+      "seconds": 27.78
+    },
+    "automatically": {
+      "frame": 858,
+      "seconds": 28.61
+    },
+    "wrong": {
+      "frame": 890,
+      "seconds": 29.65
+    },
+    "closing": {
+      "frame": 917,
+      "seconds": 30.56
+    },
+    "real": {
+      "frame": 925,
+      "seconds": 30.84
+    },
+    "selfRespect": {
+      "frame": 938,
+      "seconds": 31.26
+    },
+    "plannerPreview": {
+      "frame": 623,
+      "seconds": 20.77
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "originalPreserved": true,
+  "captions": 21,
+  "framesChecked": 990,
+  "minHighlighted": 0,
+  "maxHighlighted": 1,
+  "highlightErrors": [],
+  "maxLineCount": 2,
+  "maxPanelWidth": 814.609375,
+  "maxPanelHeight": 185.25,
+  "maxTextWidth": 766.609375,
+  "horizontalOverflow": [],
+  "fontSizes": [
+    "72px"
+  ],
+  "renderedTextPreserved": true,
+  "widestCaption": {
+    "index": 1,
+    "text": "signs you're becoming",
+    "fontSize": "72px",
+    "lineCount": 1,
+    "lineWidths": [
+      766.609375
+    ],
+    "panelWidth": 814.609375,
+    "outerWidth": 900,
+    "leftOverflow": 0,
+    "rightOverflow": 0,
+    "height": 104.625,
+    "wordsPreserved": true
+  },
+  "method": "Actual current AnimatedCaption component rendered to static markup; DOM dimensions measured in Chromium through existing Remotion openBrowser. All timeline frames separately checked for highlight counts."
+}

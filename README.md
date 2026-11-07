@@ -73,3 +73,14 @@ This 35.5-second edition preserves the supplied 35.08-second narration and uses 
 - [Build and timing notes](pretty-wise-tips/episodes/05-boundaries/README.md).
 
 The pasted brief calls this Episode 05; filenames are deliberately distinct from the existing gym Episode 05. Exact user-supplied narration is preserved without speeding, with a short closing hold.
+
+## Episode 07 — 3 Signs You're Becoming a Woman Who Knows Her Worth
+
+- [Captioned MP4 with narration](exports/pretty-wise-tips-episode-07.mp4) — choose **Download raw file**.
+- [Exactly 30-second silent timing preview](exports/pretty-wise-tips-episode-07-silent-30s-v1.mp4).
+- [Editable source and caption data](exports/pretty-wise-tips-episode-07-source-v1.zip).
+- [Scene preview sheet](exports/pretty-wise-tips-episode-07-preview-v1.jpg).
+- [Five-day WORTH confidence challenge](pretty-wise-tips/episodes/07-worth/WORTH-five-day-confidence-challenge.md).
+- [Caption and timing workflow](pretty-wise-tips/episodes/07-worth/README.md).
+
+The narrated version is 33 seconds so the full 32.29-second supplied recording stays at its natural pace. The separate 30-second silent preview compresses the visual clock and is not synchronized to that longer recording.
