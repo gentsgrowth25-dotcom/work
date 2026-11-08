@@ -1,0 +1,507 @@
+{
+  "schemaVersion": 1,
+  "brand": "Pretty Wise Tips",
+  "episodeId": "not-waiting-to-be-chosen",
+  "title": "I'm Not Waiting to Be Chosen",
+  "assetRoot": "public/",
+  "availability": "Audio supplied; reference and all production artwork missing. Development plates are explicitly marked and are not finished scene illustrations.",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "aspectRatio": "9:16",
+    "preferredArtworkScale": 2,
+    "colorSpace": "sRGB",
+    "formats": [
+      "png",
+      "webp"
+    ],
+    "independentLayersRequireAlpha": true,
+    "layerRegistration": "All full-canvas layer exports in one shot share identical dimensions, origin and scale. Motion pivots and transforms use composition pixels in episode data."
+  },
+  "referenceAssets": [
+    {
+      "id": "airplane-wing-reference",
+      "path": "characters/main/airplane-reference.png",
+      "status": "missing",
+      "requiredFor": "reference-informed-design-approval",
+      "note": "Mentioned in the brief but not included among the supplied attachments. Original design must not trace an existing television frame."
+    }
+  ],
+  "characterAssets": [
+    {
+      "id": "master-character-reference",
+      "path": "characters/main/reference-sheet.png",
+      "status": "missing",
+      "requiredFor": "character-design-deliverable",
+      "contents": [
+        "front",
+        "three-quarter",
+        "side-profile",
+        "neutral",
+        "confident-smile",
+        "thoughtful",
+        "disappointed",
+        "closed-eye",
+        "mouth-shape-library"
+      ],
+      "note": "Specification supplied in docs/CHARACTER_SPEC.md; the actual illustrated sheet is pending artwork."
+    }
+  ],
+  "audioAssets": [
+    {
+      "id": "pilot-elevenlabs",
+      "status": "supplied",
+      "sourceAttachment": "ElevenLabs_2026-11-08T12_14_36_Georgia K - Warm Engaging Customer Care_pvc_s50_sim75_v4 (1).mp3",
+      "durationSeconds": 23.562438,
+      "sampleRate": 44100,
+      "channels": 1,
+      "note": "Use the project voiceover path configured in episode data. Music is optional and none was supplied.",
+      "projectPath": "audio/pilot-elevenlabs.mp3",
+      "sha256": "f5e618942f244bca0f33e79cfecf7c9c5901fc5c32b6eb71a06a42dd35e4c399"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-01",
+      "title": "Hotel lobby",
+      "initialTimingSeconds": {
+        "start": 0,
+        "end": 3
+      },
+      "minimumMode": "flattened",
+      "status": "missing",
+      "background": "scenes/scene-01/background.png",
+      "illustrationBrief": "Warm, elegant hotel lobby with polished floor and composed brunette; portrait framing with face above captions.",
+      "requiredAssets": [
+        {
+          "path": "scenes/scene-01/background.png",
+          "kind": "flattened-illustration",
+          "status": "missing",
+          "requiredFor": "camera-motion-pilot",
+          "alpha": false
+        }
+      ],
+      "optionalLayers": [
+        {
+          "path": "scenes/scene-01/background-clean.png",
+          "kind": "clean-background",
+          "status": "missing",
+          "alpha": false,
+          "plane": "background"
+        },
+        {
+          "path": "scenes/scene-01/foreground.png",
+          "kind": "foreground",
+          "status": "missing",
+          "alpha": true,
+          "plane": "foreground"
+        },
+        {
+          "path": "scenes/scene-01/character.png",
+          "kind": "separate-character",
+          "status": "missing",
+          "alpha": true
+        }
+      ],
+      "layeredHandoffNeeds": [
+        "Clean lobby plate",
+        "Foreground doorframe/floor",
+        "Character entrance poses"
+      ],
+      "characterRigDirectory": "characters/main/scene-01/",
+      "performanceNote": "No independent character or prop animation is implied by a flattened illustration. Enable each feature only when its compatible layers or pose drawings are supplied.",
+      "optionalInsert": {
+        "path": "scenes/scene-01/heels.png",
+        "kind": "full-frame-insert",
+        "status": "missing",
+        "requiredFor": "exact-opening-shot",
+        "alpha": false,
+        "note": "Close-up still supports a cutaway and camera effects. Actual footfall requires authored heel/contact poses."
+      }
+    },
+    {
+      "id": "scene-02",
+      "title": "Dressing-room mirror",
+      "initialTimingSeconds": {
+        "start": 3,
+        "end": 6
+      },
+      "minimumMode": "flattened",
+      "status": "missing",
+      "background": "scenes/scene-02/background.png",
+      "illustrationBrief": "Beautiful dressing room and large mirror; matching reflection and upright, composed character.",
+      "requiredAssets": [
+        {
+          "path": "scenes/scene-02/background.png",
+          "kind": "flattened-illustration",
+          "status": "missing",
+          "requiredFor": "camera-motion-pilot",
+          "alpha": false
+        }
+      ],
+      "optionalLayers": [
+        {
+          "path": "scenes/scene-02/background-clean.png",
+          "kind": "clean-background",
+          "status": "missing",
+          "alpha": false,
+          "plane": "background"
+        },
+        {
+          "path": "scenes/scene-02/foreground.png",
+          "kind": "foreground",
+          "status": "missing",
+          "alpha": true,
+          "plane": "foreground"
+        },
+        {
+          "path": "scenes/scene-02/character.png",
+          "kind": "separate-character",
+          "status": "missing",
+          "alpha": true
+        }
+      ],
+      "layeredHandoffNeeds": [
+        "Clean dressing room",
+        "Character",
+        "Matching reflection",
+        "Head and eye replacements",
+        "Posture poses"
+      ],
+      "characterRigDirectory": "characters/main/scene-02/",
+      "performanceNote": "No independent character or prop animation is implied by a flattened illustration. Enable each feature only when its compatible layers or pose drawings are supplied."
+    },
+    {
+      "id": "scene-03",
+      "title": "Meeting-room entrance",
+      "initialTimingSeconds": {
+        "start": 6,
+        "end": 9
+      },
+      "minimumMode": "flattened",
+      "status": "missing",
+      "background": "scenes/scene-03/background.png",
+      "illustrationBrief": "Upscale meeting room entrance and sophisticated tailored clothing; confident composed expression.",
+      "requiredAssets": [
+        {
+          "path": "scenes/scene-03/background.png",
+          "kind": "flattened-illustration",
+          "status": "missing",
+          "requiredFor": "camera-motion-pilot",
+          "alpha": false
+        }
+      ],
+      "optionalLayers": [
+        {
+          "path": "scenes/scene-03/background-clean.png",
+          "kind": "clean-background",
+          "status": "missing",
+          "alpha": false,
+          "plane": "background"
+        },
+        {
+          "path": "scenes/scene-03/foreground.png",
+          "kind": "foreground",
+          "status": "missing",
+          "alpha": true,
+          "plane": "foreground"
+        },
+        {
+          "path": "scenes/scene-03/character.png",
+          "kind": "separate-character",
+          "status": "missing",
+          "alpha": true
+        }
+      ],
+      "layeredHandoffNeeds": [
+        "Clean meeting room",
+        "Foreground doorframe/table",
+        "Character walk and settle poses"
+      ],
+      "characterRigDirectory": "characters/main/scene-03/",
+      "performanceNote": "No independent character or prop animation is implied by a flattened illustration. Enable each feature only when its compatible layers or pose drawings are supplied."
+    },
+    {
+      "id": "scene-04",
+      "title": "Jewelry selection",
+      "initialTimingSeconds": {
+        "start": 9,
+        "end": 12
+      },
+      "minimumMode": "flattened",
+      "status": "missing",
+      "background": "scenes/scene-04/background.png",
+      "illustrationBrief": "Elegant illustrated jewelry and accessories on a dressing table, hand and selected item clear of captions.",
+      "requiredAssets": [
+        {
+          "path": "scenes/scene-04/background.png",
+          "kind": "flattened-illustration",
+          "status": "missing",
+          "requiredFor": "camera-motion-pilot",
+          "alpha": false
+        }
+      ],
+      "optionalLayers": [
+        {
+          "path": "scenes/scene-04/background-clean.png",
+          "kind": "clean-background",
+          "status": "missing",
+          "alpha": false,
+          "plane": "background"
+        },
+        {
+          "path": "scenes/scene-04/foreground.png",
+          "kind": "foreground",
+          "status": "missing",
+          "alpha": true,
+          "plane": "foreground"
+        },
+        {
+          "path": "scenes/scene-04/character.png",
+          "kind": "separate-character",
+          "status": "missing",
+          "alpha": true
+        },
+        {
+          "path": "props/scene-04/jewelry.png",
+          "kind": "illustrated-prop",
+          "status": "missing",
+          "alpha": true
+        }
+      ],
+      "layeredHandoffNeeds": [
+        "Clean dressing table",
+        "Jewelry prop",
+        "Resting/reaching/holding hand poses",
+        "Occlusion masks"
+      ],
+      "characterRigDirectory": "characters/main/scene-04/",
+      "performanceNote": "No independent character or prop animation is implied by a flattened illustration. Enable each feature only when its compatible layers or pose drawings are supplied."
+    },
+    {
+      "id": "scene-05",
+      "title": "Executive desk",
+      "initialTimingSeconds": {
+        "start": 12,
+        "end": 16
+      },
+      "minimumMode": "flattened",
+      "status": "missing",
+      "background": "scenes/scene-05/background.png",
+      "illustrationBrief": "Brunette seated at executive desk reviewing original plans/documents; face composed for a restrained push-in.",
+      "requiredAssets": [
+        {
+          "path": "scenes/scene-05/background.png",
+          "kind": "flattened-illustration",
+          "status": "missing",
+          "requiredFor": "camera-motion-pilot",
+          "alpha": false
+        }
+      ],
+      "optionalLayers": [
+        {
+          "path": "scenes/scene-05/background-clean.png",
+          "kind": "clean-background",
+          "status": "missing",
+          "alpha": false,
+          "plane": "background"
+        },
+        {
+          "path": "scenes/scene-05/foreground.png",
+          "kind": "foreground",
+          "status": "missing",
+          "alpha": true,
+          "plane": "foreground"
+        },
+        {
+          "path": "scenes/scene-05/character.png",
+          "kind": "separate-character",
+          "status": "missing",
+          "alpha": true
+        },
+        {
+          "path": "props/scene-05/document.png",
+          "kind": "illustrated-prop",
+          "status": "missing",
+          "alpha": true
+        }
+      ],
+      "layeredHandoffNeeds": [
+        "Clean office and desk",
+        "Character rig",
+        "Foreground documents",
+        "Paper prop",
+        "Hand poses"
+      ],
+      "characterRigDirectory": "characters/main/scene-05/",
+      "performanceNote": "No independent character or prop animation is implied by a flattened illustration. Enable each feature only when its compatible layers or pose drawings are supplied."
+    },
+    {
+      "id": "scene-06",
+      "title": "Penthouse skyline",
+      "initialTimingSeconds": {
+        "start": 16,
+        "end": 20
+      },
+      "minimumMode": "flattened",
+      "status": "missing",
+      "background": "scenes/scene-06/background.png",
+      "illustrationBrief": "Luxurious penthouse and beautiful city skyline; character at window, soft curtains and restrained evening light.",
+      "requiredAssets": [
+        {
+          "path": "scenes/scene-06/background.png",
+          "kind": "flattened-illustration",
+          "status": "missing",
+          "requiredFor": "camera-motion-pilot",
+          "alpha": false
+        }
+      ],
+      "optionalLayers": [
+        {
+          "path": "scenes/scene-06/background-clean.png",
+          "kind": "clean-background",
+          "status": "missing",
+          "alpha": false,
+          "plane": "background"
+        },
+        {
+          "path": "scenes/scene-06/foreground.png",
+          "kind": "foreground",
+          "status": "missing",
+          "alpha": true,
+          "plane": "foreground"
+        },
+        {
+          "path": "scenes/scene-06/character.png",
+          "kind": "separate-character",
+          "status": "missing",
+          "alpha": true
+        },
+        {
+          "path": "scenes/scene-06/curtains.png",
+          "kind": "curtain",
+          "status": "missing",
+          "alpha": true
+        }
+      ],
+      "layeredHandoffNeeds": [
+        "Clean penthouse",
+        "Skyline depth layer",
+        "Character rig",
+        "Separate curtains",
+        "Separate hair"
+      ],
+      "characterRigDirectory": "characters/main/scene-06/",
+      "performanceNote": "No independent character or prop animation is implied by a flattened illustration. Enable each feature only when its compatible layers or pose drawings are supplied."
+    },
+    {
+      "id": "scene-07",
+      "title": "Confident close-up",
+      "initialTimingSeconds": {
+        "start": 20,
+        "end": 24
+      },
+      "minimumMode": "flattened",
+      "status": "missing",
+      "background": "scenes/scene-07/background.png",
+      "illustrationBrief": "Emotionally satisfying confident close-up, subtle smile, pearls and recognizable hair swoop; caption space below face.",
+      "requiredAssets": [
+        {
+          "path": "scenes/scene-07/background.png",
+          "kind": "flattened-illustration",
+          "status": "missing",
+          "requiredFor": "camera-motion-pilot",
+          "alpha": false
+        }
+      ],
+      "optionalLayers": [
+        {
+          "path": "scenes/scene-07/background-clean.png",
+          "kind": "clean-background",
+          "status": "missing",
+          "alpha": false,
+          "plane": "background"
+        },
+        {
+          "path": "scenes/scene-07/foreground.png",
+          "kind": "foreground",
+          "status": "missing",
+          "alpha": true,
+          "plane": "foreground"
+        },
+        {
+          "path": "scenes/scene-07/character.png",
+          "kind": "separate-character",
+          "status": "missing",
+          "alpha": true
+        }
+      ],
+      "layeredHandoffNeeds": [
+        "Portrait background",
+        "Head/body/hair rig",
+        "Open/half/closed eyes",
+        "Neutral/smile expressions"
+      ],
+      "characterRigDirectory": "characters/main/scene-07/",
+      "performanceNote": "No independent character or prop animation is implied by a flattened illustration. Enable each feature only when its compatible layers or pose drawings are supplied."
+    }
+  ],
+  "rigSpriteContract": {
+    "rootPattern": "characters/main/scene-XX/",
+    "registration": "Transparent, full-frame, registered PNG/WebP exports; separate pose-specific sprites for each head angle.",
+    "suggestedParts": [
+      "body.png",
+      "head.png",
+      "hair-back.png",
+      "hair-front.png",
+      "clothing.png",
+      "hand-resting.png",
+      "hand-jewelry.png"
+    ],
+    "eyes": {
+      "open": "eyes-open.png",
+      "half": "eyes-half.png",
+      "closed": "eyes-closed.png",
+      "timing": "Explicit scene-relative blinkTimes and optional duration in seconds."
+    },
+    "expressions": [
+      "neutral",
+      "smile",
+      "smirk",
+      "thoughtful",
+      "confident",
+      "disappointed",
+      "surprised"
+    ],
+    "expressionFilePattern": "expression-{name}.png",
+    "mouthShapes": [
+      "rest",
+      "smile",
+      "a",
+      "e",
+      "o",
+      "u",
+      "mbp",
+      "fv"
+    ],
+    "mouthFilePattern": "mouth-{shape}.png",
+    "mouthPolicy": "Off unless explicit mouth cues and compatible sprites are supplied. Voiceover does not imply talking animation.",
+    "baseFacePolicy": "Do not bake replacement eye, brow or mouth features into the base layer. Supply painted fill and occluders as needed.",
+    "actualActionPolicy": "Walking, footfall, straightening posture and selecting/putting on jewelry require authored action poses or sequences, not invented deformation."
+  },
+  "productionChecklist": [
+    "Every configured raster file exists and decodes.",
+    "All seven scenes have approved principal illustrations.",
+    "Selected mode matches the available flattened or layered artwork.",
+    "Only actual independent layers receive parallax or character motion.",
+    "Identity, anatomy and traditional cel-animation aesthetic are reviewed across shots.",
+    "Camera extremes retain painted coverage without stretching.",
+    "Caption positions avoid faces, important action and platform UI.",
+    "Narration timing and final caption are reviewed before publishing."
+  ],
+  "documentation": [
+    "docs/ASSET_MANIFEST.md",
+    "docs/CHARACTER_SPEC.md"
+  ]
+}

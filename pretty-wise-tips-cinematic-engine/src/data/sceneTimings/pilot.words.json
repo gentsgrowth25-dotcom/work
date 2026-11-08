@@ -1,0 +1,446 @@
+{
+  "source": "Provided ElevenLabs MP3",
+  "method": "faster-whisper 1.2.1 / Systran faster-whisper-base.en, CPU int8, beam_size 5, word_timestamps true; ASR alignment, not human verified",
+  "status": "asr-aligned",
+  "audioDurationSeconds": 23.5624375,
+  "language": "en",
+  "words": [
+    {
+      "text": "I",
+      "start": 0.0,
+      "end": 0.2,
+      "probability": 0.9639662504196167
+    },
+    {
+      "text": "enter",
+      "start": 0.2,
+      "end": 0.46,
+      "probability": 0.9976156949996948
+    },
+    {
+      "text": "every",
+      "start": 0.46,
+      "end": 0.88,
+      "probability": 0.9849690198898315
+    },
+    {
+      "text": "room",
+      "start": 0.88,
+      "end": 1.38,
+      "probability": 0.9988009929656982
+    },
+    {
+      "text": "knowing",
+      "start": 1.38,
+      "end": 1.8,
+      "probability": 0.8937488794326782
+    },
+    {
+      "text": "I",
+      "start": 1.8,
+      "end": 2.28,
+      "probability": 0.9831515550613403
+    },
+    {
+      "text": "have",
+      "start": 2.28,
+      "end": 2.44,
+      "probability": 0.9980694651603699
+    },
+    {
+      "text": "something",
+      "start": 2.44,
+      "end": 2.76,
+      "probability": 0.9974697828292847
+    },
+    {
+      "text": "valuable",
+      "start": 2.76,
+      "end": 3.28,
+      "probability": 0.9980582594871521
+    },
+    {
+      "text": "to",
+      "start": 3.28,
+      "end": 3.62,
+      "probability": 0.9993404746055603
+    },
+    {
+      "text": "offer.",
+      "start": 3.62,
+      "end": 3.86,
+      "probability": 0.9997885823249817
+    },
+    {
+      "text": "I",
+      "start": 4.64,
+      "end": 4.66,
+      "probability": 0.9983733892440796
+    },
+    {
+      "text": "speak",
+      "start": 4.66,
+      "end": 4.88,
+      "probability": 0.9977005124092102
+    },
+    {
+      "text": "about",
+      "start": 4.88,
+      "end": 5.18,
+      "probability": 0.9993215799331665
+    },
+    {
+      "text": "my",
+      "start": 5.18,
+      "end": 5.36,
+      "probability": 0.9926761984825134
+    },
+    {
+      "text": "work",
+      "start": 5.36,
+      "end": 5.68,
+      "probability": 0.9997724890708923
+    },
+    {
+      "text": "without",
+      "start": 5.68,
+      "end": 6.1,
+      "probability": 0.9963280558586121
+    },
+    {
+      "text": "apologizing.",
+      "start": 6.1,
+      "end": 6.64,
+      "probability": 0.5959415435791016
+    },
+    {
+      "text": "I",
+      "start": 7.68,
+      "end": 7.72,
+      "probability": 0.9989715814590454
+    },
+    {
+      "text": "ask",
+      "start": 7.72,
+      "end": 7.94,
+      "probability": 0.9932123422622681
+    },
+    {
+      "text": "for",
+      "start": 7.94,
+      "end": 8.16,
+      "probability": 0.9992859959602356
+    },
+    {
+      "text": "opportunities",
+      "start": 8.16,
+      "end": 8.52,
+      "probability": 0.9962509274482727
+    },
+    {
+      "text": "and",
+      "start": 8.52,
+      "end": 9.32,
+      "probability": 0.7519521713256836
+    },
+    {
+      "text": "I",
+      "start": 9.32,
+      "end": 9.44,
+      "probability": 0.935575544834137
+    },
+    {
+      "text": "prepare",
+      "start": 9.44,
+      "end": 9.6,
+      "probability": 0.9980008006095886
+    },
+    {
+      "text": "for",
+      "start": 9.6,
+      "end": 10.04,
+      "probability": 0.9982996582984924
+    },
+    {
+      "text": "them.",
+      "start": 10.04,
+      "end": 10.26,
+      "probability": 0.9991835951805115
+    },
+    {
+      "text": "A",
+      "start": 10.8,
+      "end": 10.86,
+      "probability": 0.9834317564964294
+    },
+    {
+      "text": "rejection",
+      "start": 10.86,
+      "end": 11.12,
+      "probability": 0.998276948928833
+    },
+    {
+      "text": "does",
+      "start": 11.12,
+      "end": 11.62,
+      "probability": 0.9944655299186707
+    },
+    {
+      "text": "not",
+      "start": 11.62,
+      "end": 11.94,
+      "probability": 0.9929254055023193
+    },
+    {
+      "text": "change",
+      "start": 11.94,
+      "end": 12.28,
+      "probability": 0.9988899827003479
+    },
+    {
+      "text": "my",
+      "start": 12.28,
+      "end": 12.48,
+      "probability": 0.998310923576355
+    },
+    {
+      "text": "value.",
+      "start": 12.48,
+      "end": 12.82,
+      "probability": 0.9984473586082458
+    },
+    {
+      "text": "I",
+      "start": 13.52,
+      "end": 13.58,
+      "probability": 0.9987164735794067
+    },
+    {
+      "text": "don't",
+      "start": 13.58,
+      "end": 13.78,
+      "probability": 0.9950380921363831
+    },
+    {
+      "text": "need",
+      "start": 13.78,
+      "end": 13.98,
+      "probability": 0.9990949630737305
+    },
+    {
+      "text": "to",
+      "start": 13.98,
+      "end": 14.18,
+      "probability": 0.9991412162780762
+    },
+    {
+      "text": "chase",
+      "start": 14.18,
+      "end": 14.48,
+      "probability": 0.9873676300048828
+    },
+    {
+      "text": "every",
+      "start": 14.48,
+      "end": 14.86,
+      "probability": 0.9974712133407593
+    },
+    {
+      "text": "offer.",
+      "start": 14.86,
+      "end": 15.2,
+      "probability": 0.9980834722518921
+    },
+    {
+      "text": "I",
+      "start": 15.78,
+      "end": 15.88,
+      "probability": 0.9991815686225891
+    },
+    {
+      "text": "can",
+      "start": 15.88,
+      "end": 16.0,
+      "probability": 0.9993264675140381
+    },
+    {
+      "text": "choose",
+      "start": 16.0,
+      "end": 16.24,
+      "probability": 0.9930104613304138
+    },
+    {
+      "text": "the",
+      "start": 16.24,
+      "end": 16.44,
+      "probability": 0.9992027878761292
+    },
+    {
+      "text": "right",
+      "start": 16.44,
+      "end": 16.68,
+      "probability": 0.9990284442901611
+    },
+    {
+      "text": "ones.",
+      "start": 16.68,
+      "end": 16.96,
+      "probability": 0.9967143535614014
+    },
+    {
+      "text": "My",
+      "start": 17.82,
+      "end": 17.9,
+      "probability": 0.9979346990585327
+    },
+    {
+      "text": "ambition",
+      "start": 17.9,
+      "end": 18.16,
+      "probability": 0.9994157552719116
+    },
+    {
+      "text": "is",
+      "start": 18.16,
+      "end": 18.68,
+      "probability": 0.9976567029953003
+    },
+    {
+      "text": "not",
+      "start": 18.68,
+      "end": 19.0,
+      "probability": 0.9806936383247375
+    },
+    {
+      "text": "something",
+      "start": 19.0,
+      "end": 19.46,
+      "probability": 0.9985612034797668
+    },
+    {
+      "text": "to",
+      "start": 19.46,
+      "end": 19.64,
+      "probability": 0.9997820258140564
+    },
+    {
+      "text": "hide.",
+      "start": 19.64,
+      "end": 19.92,
+      "probability": 0.9996236562728882
+    },
+    {
+      "text": "I'm",
+      "start": 20.62,
+      "end": 20.78,
+      "probability": 0.9536649286746979
+    },
+    {
+      "text": "building",
+      "start": 20.78,
+      "end": 21.02,
+      "probability": 0.9990034699440002
+    },
+    {
+      "text": "the",
+      "start": 21.02,
+      "end": 21.24,
+      "probability": 0.9968408346176147
+    },
+    {
+      "text": "life",
+      "start": 21.24,
+      "end": 21.46,
+      "probability": 0.9985635876655579
+    },
+    {
+      "text": "I",
+      "start": 21.46,
+      "end": 21.76,
+      "probability": 0.9940643906593323
+    },
+    {
+      "text": "used",
+      "start": 21.76,
+      "end": 21.98,
+      "probability": 0.9047825336456299
+    },
+    {
+      "text": "to",
+      "start": 21.98,
+      "end": 22.2,
+      "probability": 0.9962616562843323
+    },
+    {
+      "text": "only",
+      "start": 22.2,
+      "end": 22.58,
+      "probability": 0.9969146251678467
+    },
+    {
+      "text": "imagine.",
+      "start": 22.58,
+      "end": 22.92,
+      "probability": 0.9989832043647766
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.86,
+      "text": " I enter every room knowing I have something valuable to offer.",
+      "avg_logprob": -0.13182269699043697,
+      "no_speech_prob": 0.019082285463809967
+    },
+    {
+      "start": 4.64,
+      "end": 6.64,
+      "text": " I speak about my work without apologizing.",
+      "avg_logprob": -0.13182269699043697,
+      "no_speech_prob": 0.019082285463809967
+    },
+    {
+      "start": 7.68,
+      "end": 10.26,
+      "text": " I ask for opportunities and I prepare for them.",
+      "avg_logprob": -0.13182269699043697,
+      "no_speech_prob": 0.019082285463809967
+    },
+    {
+      "start": 10.8,
+      "end": 12.82,
+      "text": " A rejection does not change my value.",
+      "avg_logprob": -0.13182269699043697,
+      "no_speech_prob": 0.019082285463809967
+    },
+    {
+      "start": 13.52,
+      "end": 15.2,
+      "text": " I don't need to chase every offer.",
+      "avg_logprob": -0.13182269699043697,
+      "no_speech_prob": 0.019082285463809967
+    },
+    {
+      "start": 15.78,
+      "end": 16.96,
+      "text": " I can choose the right ones.",
+      "avg_logprob": -0.13182269699043697,
+      "no_speech_prob": 0.019082285463809967
+    },
+    {
+      "start": 17.82,
+      "end": 19.92,
+      "text": " My ambition is not something to hide.",
+      "avg_logprob": -0.13182269699043697,
+      "no_speech_prob": 0.019082285463809967
+    },
+    {
+      "start": 20.62,
+      "end": 22.92,
+      "text": " I'm building the life I used to only imagine.",
+      "avg_logprob": -0.13182269699043697,
+      "no_speech_prob": 0.019082285463809967
+    }
+  ],
+  "elapsedSeconds": 2.4189138412475586
+}

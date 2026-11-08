@@ -84,3 +84,14 @@ The pasted brief calls this Episode 05; filenames are deliberately distinct from
 - [Caption and timing workflow](pretty-wise-tips/episodes/07-worth/README.md).
 
 The narrated version is 33 seconds so the full 32.29-second supplied recording stays at its natural pace. The separate 30-second silent preview compresses the visual clock and is not synchronized to that longer recording.
+
+
+## Cinematic animation engine — I'm Not Waiting to Be Chosen
+
+- [Complete reusable Remotion project ZIP](exports/pretty-wise-tips-cinematic-engine-v1.zip).
+- [24-second development preview with supplied narration](exports/pretty-wise-tips-cinematic-pilot-development-v1.mp4).
+- [Silent development preview](exports/pretty-wise-tips-cinematic-pilot-development-silent-v1.mp4).
+- [Closing-frame preview](exports/pretty-wise-tips-cinematic-pilot-closing-v1.png).
+- [Editable cinematic engine source](pretty-wise-tips-cinematic-engine/) and [verification report](exports/pretty-wise-tips-cinematic-pilot-quality-control-v1.md).
+
+Open a file and choose **Download raw file**. Both MP4s are 1080 × 1920, 30 FPS and 24 seconds. These are clearly labelled development storyboards: the airplane reference and finished scene illustrations were not supplied. This source implements the new traditional cel-art brief with raster assets; existing episodes remain in their original project. Caption timings follow the actual supplied recording and are automatically aligned, editable and pending a listening review.

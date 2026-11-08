@@ -1,0 +1,903 @@
+{
+  "id": "not-waiting-to-be-chosen",
+  "title": "I'm Not Waiting to Be Chosen",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 24,
+  "artworkStatus": "development",
+  "captionTiming": "asr-aligned",
+  "voiceover": {
+    "src": "audio/pilot-elevenlabs.mp3",
+    "duration": 23.562438,
+    "start": 0,
+    "volume": 1.15,
+    "fadeIn": 0,
+    "fadeOut": 0.15
+  },
+  "film": {
+    "enabled": true,
+    "grain": 0.035,
+    "softness": 0,
+    "muted": 0.08,
+    "colorBleed": 0,
+    "vignette": 0.13
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "title": "Hotel lobby",
+      "start": 0.0,
+      "duration": 4.566666666666666,
+      "mode": "flattened",
+      "camera": [
+        {
+          "time": 0,
+          "x": 0,
+          "y": 0,
+          "scale": 1.04
+        },
+        {
+          "time": 4.566666666666666,
+          "x": 10,
+          "y": -8,
+          "scale": 1.09,
+          "ease": "ease-in-out"
+        }
+      ],
+      "transition": {
+        "type": "cut",
+        "duration": 0
+      },
+      "captionPosition": {
+        "top": 1260,
+        "left": 90,
+        "width": 810
+      },
+      "particles": {
+        "count": 8,
+        "seed": 11,
+        "opacity": 0.12
+      },
+      "lighting": {
+        "brightness": 1,
+        "saturation": 1
+      },
+      "development": {
+        "src": "development/scene-01.png",
+        "description": "Heel insert, then a composed portrait.",
+        "palette": [
+          "#241e2c",
+          "#6c536c",
+          "#cbb69f"
+        ]
+      }
+    },
+    {
+      "id": "scene-02",
+      "title": "The dressing room",
+      "start": 4.566666666666666,
+      "duration": 3.033333333333333,
+      "mode": "flattened",
+      "camera": [
+        {
+          "time": 0,
+          "x": 0,
+          "y": 0,
+          "scale": 1.04
+        },
+        {
+          "time": 3.033333333333333,
+          "x": -10,
+          "y": -8,
+          "scale": 1.09,
+          "ease": "ease-in-out"
+        }
+      ],
+      "transition": {
+        "type": "dissolve",
+        "duration": 0.3
+      },
+      "captionPosition": {
+        "top": 1260,
+        "left": 90,
+        "width": 810
+      },
+      "particles": {
+        "count": 8,
+        "seed": 12,
+        "opacity": 0.12
+      },
+      "lighting": {
+        "brightness": 1,
+        "saturation": 1
+      },
+      "development": {
+        "src": "development/scene-02.png",
+        "description": "Mirror reflection; original character artwork required.",
+        "palette": [
+          "#262333",
+          "#5a526e",
+          "#c8bed8"
+        ]
+      }
+    },
+    {
+      "id": "scene-03",
+      "title": "A seat at the table",
+      "start": 7.6,
+      "duration": 3.1666666666666665,
+      "mode": "flattened",
+      "camera": [
+        {
+          "time": 0,
+          "x": 0,
+          "y": 0,
+          "scale": 1.04
+        },
+        {
+          "time": 3.1666666666666665,
+          "x": 10,
+          "y": -8,
+          "scale": 1.09,
+          "ease": "ease-in-out"
+        }
+      ],
+      "transition": {
+        "type": "cut",
+        "duration": 0
+      },
+      "captionPosition": {
+        "top": 1260,
+        "left": 90,
+        "width": 810
+      },
+      "particles": {
+        "count": 8,
+        "seed": 13,
+        "opacity": 0.12
+      },
+      "lighting": {
+        "brightness": 1,
+        "saturation": 1
+      },
+      "development": {
+        "src": "development/scene-03.png",
+        "description": "Confident meeting-room arrival.",
+        "palette": [
+          "#1f2b2e",
+          "#536b6d",
+          "#c9bda4"
+        ]
+      }
+    },
+    {
+      "id": "scene-04",
+      "title": "The considered detail",
+      "start": 10.766666666666667,
+      "duration": 2.7,
+      "mode": "flattened",
+      "camera": [
+        {
+          "time": 0,
+          "x": 0,
+          "y": 0,
+          "scale": 1.04
+        },
+        {
+          "time": 2.7,
+          "x": -10,
+          "y": -8,
+          "scale": 1.09,
+          "ease": "ease-in-out"
+        }
+      ],
+      "transition": {
+        "type": "cut",
+        "duration": 0
+      },
+      "captionPosition": {
+        "top": 1260,
+        "left": 90,
+        "width": 810
+      },
+      "particles": {
+        "count": 8,
+        "seed": 14,
+        "opacity": 0.12
+      },
+      "lighting": {
+        "brightness": 1,
+        "saturation": 1
+      },
+      "development": {
+        "src": "development/scene-04.png",
+        "description": "Jewelry still-life and optional authored hand poses.",
+        "palette": [
+          "#302229",
+          "#86606a",
+          "#dbc3b1"
+        ]
+      }
+    },
+    {
+      "id": "scene-05",
+      "title": "Prepared for more",
+      "start": 13.466666666666667,
+      "duration": 4.3,
+      "mode": "flattened",
+      "camera": [
+        {
+          "time": 0,
+          "x": 0,
+          "y": 0,
+          "scale": 1.04
+        },
+        {
+          "time": 4.3,
+          "x": 10,
+          "y": -8,
+          "scale": 1.09,
+          "ease": "ease-in-out"
+        }
+      ],
+      "transition": {
+        "type": "dissolve",
+        "duration": 0.3
+      },
+      "captionPosition": {
+        "top": 1260,
+        "left": 90,
+        "width": 810
+      },
+      "particles": {
+        "count": 8,
+        "seed": 15,
+        "opacity": 0.12
+      },
+      "lighting": {
+        "brightness": 1,
+        "saturation": 1
+      },
+      "development": {
+        "src": "development/scene-05.png",
+        "description": "Executive desk with a restrained push-in.",
+        "palette": [
+          "#282823",
+          "#6c6d5d",
+          "#d2c5ab"
+        ]
+      }
+    },
+    {
+      "id": "scene-06",
+      "title": "A wider horizon",
+      "start": 17.766666666666666,
+      "duration": 2.8,
+      "mode": "flattened",
+      "camera": [
+        {
+          "time": 0,
+          "x": 10,
+          "y": -8,
+          "scale": 1.1
+        },
+        {
+          "time": 2.8,
+          "x": -10,
+          "y": 0,
+          "scale": 1.04,
+          "ease": "ease-in-out"
+        }
+      ],
+      "transition": {
+        "type": "dissolve",
+        "duration": 0.3
+      },
+      "captionPosition": {
+        "top": 1260,
+        "left": 90,
+        "width": 810
+      },
+      "particles": {
+        "count": 8,
+        "seed": 16,
+        "opacity": 0.12
+      },
+      "lighting": {
+        "brightness": 1,
+        "saturation": 1
+      },
+      "development": {
+        "src": "development/scene-06.png",
+        "description": "Penthouse view; layered curtains optional.",
+        "palette": [
+          "#25283c",
+          "#6c6684",
+          "#c3b5ce"
+        ]
+      }
+    },
+    {
+      "id": "scene-07",
+      "title": "Becoming her",
+      "start": 20.566666666666666,
+      "duration": 3.433333333333333,
+      "mode": "flattened",
+      "camera": [
+        {
+          "time": 0,
+          "x": 0,
+          "y": 0,
+          "scale": 1.04
+        },
+        {
+          "time": 3.433333333333333,
+          "x": 10,
+          "y": -8,
+          "scale": 1.09,
+          "ease": "ease-in-out"
+        }
+      ],
+      "transition": {
+        "type": "dissolve",
+        "duration": 0.3
+      },
+      "captionPosition": {
+        "top": 1260,
+        "left": 90,
+        "width": 810
+      },
+      "particles": {
+        "count": 8,
+        "seed": 17,
+        "opacity": 0.12
+      },
+      "lighting": {
+        "brightness": 1,
+        "saturation": 1
+      },
+      "development": {
+        "src": "development/scene-07.png",
+        "description": "Confident close-up; smile sprite optional.",
+        "palette": [
+          "#2b2135",
+          "#715577",
+          "#d7bfd5"
+        ]
+      }
+    }
+  ],
+  "captions": [
+    {
+      "id": "caption-01",
+      "start": 0.0,
+      "end": 1.38,
+      "text": "I enter every room",
+      "words": [
+        {
+          "word": "I",
+          "start": 0.0,
+          "end": 0.2,
+          "confidence": 0.9639662504196167
+        },
+        {
+          "word": "enter",
+          "start": 0.2,
+          "end": 0.46,
+          "confidence": 0.9976156949996948
+        },
+        {
+          "word": "every",
+          "start": 0.46,
+          "end": 0.88,
+          "confidence": 0.9849690198898315
+        },
+        {
+          "word": "room",
+          "start": 0.88,
+          "end": 1.38,
+          "confidence": 0.9988009929656982
+        }
+      ],
+      "keyword": "room"
+    },
+    {
+      "id": "caption-02a",
+      "start": 1.38,
+      "end": 2.44,
+      "text": "knowing I have",
+      "words": [
+        {
+          "word": "knowing",
+          "start": 1.38,
+          "end": 1.8,
+          "confidence": 0.8937488794326782
+        },
+        {
+          "word": "I",
+          "start": 1.8,
+          "end": 2.28,
+          "confidence": 0.9831515550613403
+        },
+        {
+          "word": "have",
+          "start": 2.28,
+          "end": 2.44,
+          "confidence": 0.9980694651603699
+        }
+      ],
+      "keyword": null
+    },
+    {
+      "id": "caption-02b",
+      "start": 2.44,
+      "end": 4.02,
+      "text": "something valuable to offer.",
+      "words": [
+        {
+          "word": "something",
+          "start": 2.44,
+          "end": 2.76,
+          "confidence": 0.9974697828292847
+        },
+        {
+          "word": "valuable",
+          "start": 2.76,
+          "end": 3.28,
+          "confidence": 0.9980582594871521
+        },
+        {
+          "word": "to",
+          "start": 3.28,
+          "end": 3.62,
+          "confidence": 0.9993404746055603
+        },
+        {
+          "word": "offer.",
+          "start": 3.62,
+          "end": 3.86,
+          "confidence": 0.9997885823249817
+        }
+      ],
+      "keyword": "valuable"
+    },
+    {
+      "id": "caption-03",
+      "start": 4.64,
+      "end": 5.68,
+      "text": "I speak about my work",
+      "words": [
+        {
+          "word": "I",
+          "start": 4.64,
+          "end": 4.66,
+          "confidence": 0.9983733892440796
+        },
+        {
+          "word": "speak",
+          "start": 4.66,
+          "end": 4.88,
+          "confidence": 0.9977005124092102
+        },
+        {
+          "word": "about",
+          "start": 4.88,
+          "end": 5.18,
+          "confidence": 0.9993215799331665
+        },
+        {
+          "word": "my",
+          "start": 5.18,
+          "end": 5.36,
+          "confidence": 0.9926761984825134
+        },
+        {
+          "word": "work",
+          "start": 5.36,
+          "end": 5.68,
+          "confidence": 0.9997724890708923
+        }
+      ],
+      "keyword": "work"
+    },
+    {
+      "id": "caption-04",
+      "start": 5.68,
+      "end": 6.8,
+      "text": "without apologizing.",
+      "words": [
+        {
+          "word": "without",
+          "start": 5.68,
+          "end": 6.1,
+          "confidence": 0.9963280558586121
+        },
+        {
+          "word": "apologizing.",
+          "start": 6.1,
+          "end": 6.64,
+          "confidence": 0.5959415435791016
+        }
+      ],
+      "keyword": "apologizing"
+    },
+    {
+      "id": "caption-05",
+      "start": 7.68,
+      "end": 8.52,
+      "text": "I ask for opportunities",
+      "words": [
+        {
+          "word": "I",
+          "start": 7.68,
+          "end": 7.72,
+          "confidence": 0.9989715814590454
+        },
+        {
+          "word": "ask",
+          "start": 7.72,
+          "end": 7.94,
+          "confidence": 0.9932123422622681
+        },
+        {
+          "word": "for",
+          "start": 7.94,
+          "end": 8.16,
+          "confidence": 0.9992859959602356
+        },
+        {
+          "word": "opportunities",
+          "start": 8.16,
+          "end": 8.52,
+          "confidence": 0.9962509274482727
+        }
+      ],
+      "keyword": "opportunities"
+    },
+    {
+      "id": "caption-06",
+      "start": 8.52,
+      "end": 10.42,
+      "text": "and I prepare for them.",
+      "words": [
+        {
+          "word": "and",
+          "start": 8.52,
+          "end": 9.32,
+          "confidence": 0.7519521713256836
+        },
+        {
+          "word": "I",
+          "start": 9.32,
+          "end": 9.44,
+          "confidence": 0.935575544834137
+        },
+        {
+          "word": "prepare",
+          "start": 9.44,
+          "end": 9.6,
+          "confidence": 0.9980008006095886
+        },
+        {
+          "word": "for",
+          "start": 9.6,
+          "end": 10.04,
+          "confidence": 0.9982996582984924
+        },
+        {
+          "word": "them.",
+          "start": 10.04,
+          "end": 10.26,
+          "confidence": 0.9991835951805115
+        }
+      ],
+      "keyword": "prepare"
+    },
+    {
+      "id": "caption-07",
+      "start": 10.8,
+      "end": 11.94,
+      "text": "A rejection does not",
+      "words": [
+        {
+          "word": "A",
+          "start": 10.8,
+          "end": 10.86,
+          "confidence": 0.9834317564964294
+        },
+        {
+          "word": "rejection",
+          "start": 10.86,
+          "end": 11.12,
+          "confidence": 0.998276948928833
+        },
+        {
+          "word": "does",
+          "start": 11.12,
+          "end": 11.62,
+          "confidence": 0.9944655299186707
+        },
+        {
+          "word": "not",
+          "start": 11.62,
+          "end": 11.94,
+          "confidence": 0.9929254055023193
+        }
+      ],
+      "keyword": null
+    },
+    {
+      "id": "caption-08",
+      "start": 11.94,
+      "end": 12.98,
+      "text": "change my value.",
+      "words": [
+        {
+          "word": "change",
+          "start": 11.94,
+          "end": 12.28,
+          "confidence": 0.9988899827003479
+        },
+        {
+          "word": "my",
+          "start": 12.28,
+          "end": 12.48,
+          "confidence": 0.998310923576355
+        },
+        {
+          "word": "value.",
+          "start": 12.48,
+          "end": 12.82,
+          "confidence": 0.9984473586082458
+        }
+      ],
+      "keyword": "value"
+    },
+    {
+      "id": "caption-09",
+      "start": 13.52,
+      "end": 14.18,
+      "text": "I don't need to",
+      "words": [
+        {
+          "word": "I",
+          "start": 13.52,
+          "end": 13.58,
+          "confidence": 0.9987164735794067
+        },
+        {
+          "word": "don't",
+          "start": 13.58,
+          "end": 13.78,
+          "confidence": 0.9950380921363831
+        },
+        {
+          "word": "need",
+          "start": 13.78,
+          "end": 13.98,
+          "confidence": 0.9990949630737305
+        },
+        {
+          "word": "to",
+          "start": 13.98,
+          "end": 14.18,
+          "confidence": 0.9991412162780762
+        }
+      ],
+      "keyword": null
+    },
+    {
+      "id": "caption-10",
+      "start": 14.18,
+      "end": 15.36,
+      "text": "chase every offer.",
+      "words": [
+        {
+          "word": "chase",
+          "start": 14.18,
+          "end": 14.48,
+          "confidence": 0.9873676300048828
+        },
+        {
+          "word": "every",
+          "start": 14.48,
+          "end": 14.86,
+          "confidence": 0.9974712133407593
+        },
+        {
+          "word": "offer.",
+          "start": 14.86,
+          "end": 15.2,
+          "confidence": 0.9980834722518921
+        }
+      ],
+      "keyword": null
+    },
+    {
+      "id": "caption-11",
+      "start": 15.78,
+      "end": 17.12,
+      "text": "I can choose the right ones.",
+      "words": [
+        {
+          "word": "I",
+          "start": 15.78,
+          "end": 15.88,
+          "confidence": 0.9991815686225891
+        },
+        {
+          "word": "can",
+          "start": 15.88,
+          "end": 16.0,
+          "confidence": 0.9993264675140381
+        },
+        {
+          "word": "choose",
+          "start": 16.0,
+          "end": 16.24,
+          "confidence": 0.9930104613304138
+        },
+        {
+          "word": "the",
+          "start": 16.24,
+          "end": 16.44,
+          "confidence": 0.9992027878761292
+        },
+        {
+          "word": "right",
+          "start": 16.44,
+          "end": 16.68,
+          "confidence": 0.9990284442901611
+        },
+        {
+          "word": "ones.",
+          "start": 16.68,
+          "end": 16.96,
+          "confidence": 0.9967143535614014
+        }
+      ],
+      "keyword": "choose"
+    },
+    {
+      "id": "caption-12",
+      "start": 17.82,
+      "end": 19.0,
+      "text": "My ambition is not",
+      "words": [
+        {
+          "word": "My",
+          "start": 17.82,
+          "end": 17.9,
+          "confidence": 0.9979346990585327
+        },
+        {
+          "word": "ambition",
+          "start": 17.9,
+          "end": 18.16,
+          "confidence": 0.9994157552719116
+        },
+        {
+          "word": "is",
+          "start": 18.16,
+          "end": 18.68,
+          "confidence": 0.9976567029953003
+        },
+        {
+          "word": "not",
+          "start": 18.68,
+          "end": 19.0,
+          "confidence": 0.9806936383247375
+        }
+      ],
+      "keyword": "ambition"
+    },
+    {
+      "id": "caption-13",
+      "start": 19.0,
+      "end": 20.080000000000002,
+      "text": "something to hide.",
+      "words": [
+        {
+          "word": "something",
+          "start": 19.0,
+          "end": 19.46,
+          "confidence": 0.9985612034797668
+        },
+        {
+          "word": "to",
+          "start": 19.46,
+          "end": 19.64,
+          "confidence": 0.9997820258140564
+        },
+        {
+          "word": "hide.",
+          "start": 19.64,
+          "end": 19.92,
+          "confidence": 0.9996236562728882
+        }
+      ],
+      "keyword": null
+    },
+    {
+      "id": "caption-14",
+      "start": 20.62,
+      "end": 21.46,
+      "text": "I'm building the life",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 20.62,
+          "end": 20.78,
+          "confidence": 0.9536649286746979
+        },
+        {
+          "word": "building",
+          "start": 20.78,
+          "end": 21.02,
+          "confidence": 0.9990034699440002
+        },
+        {
+          "word": "the",
+          "start": 21.02,
+          "end": 21.24,
+          "confidence": 0.9968408346176147
+        },
+        {
+          "word": "life",
+          "start": 21.24,
+          "end": 21.46,
+          "confidence": 0.9985635876655579
+        }
+      ],
+      "keyword": null
+    },
+    {
+      "id": "caption-15",
+      "start": 21.46,
+      "end": 23.0,
+      "text": "I used to only imagine.",
+      "words": [
+        {
+          "word": "I",
+          "start": 21.46,
+          "end": 21.76,
+          "confidence": 0.9940643906593323
+        },
+        {
+          "word": "used",
+          "start": 21.76,
+          "end": 21.98,
+          "confidence": 0.9047825336456299
+        },
+        {
+          "word": "to",
+          "start": 21.98,
+          "end": 22.2,
+          "confidence": 0.9962616562843323
+        },
+        {
+          "word": "only",
+          "start": 22.2,
+          "end": 22.58,
+          "confidence": 0.9969146251678467
+        },
+        {
+          "word": "imagine.",
+          "start": 22.58,
+          "end": 22.92,
+          "confidence": 0.9989832043647766
+        }
+      ],
+      "keyword": "imagine"
+    },
+    {
+      "id": "closing",
+      "start": 23,
+      "end": 24,
+      "text": "I AM BECOMING HER.",
+      "keyword": "HER.",
+      "final": true
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "pilot-development-narrated.mp4": {
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "24.000000",
+          "nb_frames": "720",
+          "side_data_list": [
+            {}
+          ]
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "24.000000",
+          "nb_frames": "1127"
+        }
+      ],
+      "format": {
+        "duration": "24.000000"
+      }
+    },
+    "blackIntervals": [],
+    "sha256": "a44cf0a31c65bab846f6d04edeba6abbaa61c1e0c38068d6749146b1bb7a311c",
+    "samplePeakDbfs": -6.1
+  },
+  "pilot-development-silent.mp4": {
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "24.000000",
+          "nb_frames": "720",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ],
+      "format": {
+        "duration": "24.000000"
+      }
+    },
+    "blackIntervals": [],
+    "sha256": "4e06a9831f09e165a5d4ada1e28018afd6a2965e868b785ca36778f7cf3e8849"
+  }
+}

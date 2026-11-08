@@ -1,0 +1,35 @@
+{
+  "name": "pretty-wise-tips-cinematic-engine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A reusable cel-art animation engine. Included pilot artwork is explicitly development-only.",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "validate": "tsx scripts/validate.ts",
+    "build": "remotion bundle src/index.ts build",
+    "render": "tsx scripts/render.ts",
+    "render:silent": "tsx scripts/render.ts --silent",
+    "render:production": "tsx scripts/render.ts --production",
+    "still": "tsx scripts/render.ts --still",
+    "audio:inspect": "node scripts/import-audio.mjs",
+    "test:render": "tsx tests/render-smoke.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.541",
+    "@remotion/bundler": "4.0.541",
+    "@remotion/renderer": "4.0.541",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.541"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.30",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}
