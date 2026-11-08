@@ -1,4 +1,7 @@
-# Production pipeline correction audit
+# Historical storyboard correction audit
+
+This audit describes the earlier storyboard pipeline. The current production is native 4:5 with 14 actual authored shots and the supplied inline red-dress reference; see `PRODUCTION_SPEC_4X5.json`, `ASSET_MANIFEST.md` and `VISUAL_TEST_REVIEW.md`. Earlier missing-reference statements below record the state at that inspection, not the current input inventory.
+
 
 The previous MP4 was a development storyboard. It did not satisfy the requested illustrated animation.
 
@@ -14,7 +17,7 @@ The camera, timing, captions, audio, transition and layered-motion utilities rem
 
 ## Required separation
 
-The corrected contract names three distinct compositions: `CINEMATIC_PILOT_FINAL`, `VINTAGE_VISUAL_TEST` and `DEVELOPMENT_PREVIEW`. Final production is the default render target and must use actual mandatory scene images. The visual test uses the first actual illustration for five seconds before the full film. Development cards belong only to the explicit development composition; another placeholder export is not a corrected deliverable.
+The corrected contract names three distinct compositions: `CINEMATIC_PILOT_FINAL`, `VINTAGE_VISUAL_TEST` and `DEVELOPMENT-PREVIEW`. Final production is the default render target and must use actual mandatory scene images. The visual test uses the first actual illustration for five seconds before the full film. Development cards belong only to the explicit development composition; another placeholder export is not a corrected deliverable.
 
 `public/required-assets.json` lists the seven exact production PNGs. Missing required images must stop final rendering with errors identifying their paths. A recorded visual review, tied to the actual first-scene image and test-video SHA-256, is required before the full 24-second film. The final composition must contain no numbers, descriptions, filenames, debug overlays or fallback cards.
 

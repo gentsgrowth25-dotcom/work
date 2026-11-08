@@ -3,7 +3,8 @@ import {existsSync, readFileSync, statSync} from 'node:fs';
 import path from 'node:path';
 import {inflateSync} from 'node:zlib';
 import type {Episode} from '../src/types';
-import {developmentArtworkHashes, requiredPilotAssets, type RenderKind, type VisualTestReview} from '../src/data/required-assets';
+import {cinematicMaster, developmentArtworkHashes, originalVoiceover, requiredPilotAssets, type RenderKind, type VisualTestReview} from '../src/data/required-assets';
+import {assertProductionEpisodeContract} from '../src/data/episodes/production';
 import {validateEpisode, type ValidationResult} from '../src/utils/validate';
 
 export type PreflightOptions = {kind: RenderKind; publicDir: string; projectDir: string; reviewFile?: string; silent?: boolean};
@@ -53,14 +54,22 @@ export const inspectPng = (data: Buffer): {width: number; height: number} => {
 /** All required artwork is checked before bundling or launching Chromium. */
 export const preflightRender = (episode: Episode, options: PreflightOptions): PreflightResult => {
   const production = options.kind !== 'development';
-  const result: PreflightResult = validateEpisode(episode, {publicDir: options.publicDir, production, silent: options.silent});
+  const result: PreflightResult = validateEpisode(episode, {publicDir: options.publicDir, production, silent: production ? false : options.silent});
   if (!production) return result;
-  const required = options.kind === 'test' ? requiredPilotAssets.slice(0, 1) : requiredPilotAssets;
+  const required = options.kind === 'test' ? requiredPilotAssets.slice(0, 2) : requiredPilotAssets;
   // The pilot policy reports each mandatory missing scene once, with its precise role.
   result.errors = result.errors.filter((message) => !required.some((src) => message === `Missing asset: public/${src}`));
-  const expectedDuration = options.kind === 'test' ? 5 : 24;
-  if (episode.width !== 1080 || episode.height !== 1920 || episode.fps !== 30 || episode.duration !== expectedDuration) result.errors.push(`${options.kind} composition must be 1080 × 1920, 30 FPS and ${expectedDuration} seconds.`);
+  const expectedDuration = options.kind === 'test' ? 5 : cinematicMaster.duration;
+  if (episode.width !== 1080 || episode.height !== 1350 || episode.fps !== 30 || episode.duration !== expectedDuration) result.errors.push(`${options.kind} composition must be 1080 × 1350, 30 FPS and ${expectedDuration} seconds.`);
   if (episode.scenes.length !== required.length) result.errors.push(`${options.kind} composition requires exactly ${required.length} illustrated scene${required.length === 1 ? '' : 's'}.`);
+  try {assertProductionEpisodeContract(episode, options.kind === 'test' ? 'test' : 'final');}
+  catch (error) {result.errors.push(error instanceof Error ? error.message : String(error));}
+  if (options.kind === 'final' && options.silent) result.errors.push('The final master cannot be silent; the full original narration is required.');
+  const voiceFile = path.resolve(options.publicDir, originalVoiceover.src);
+  if (existsSync(voiceFile) && statSync(voiceFile).isFile() && hash(readFileSync(voiceFile)) !== originalVoiceover.sha256) result.errors.push('The authoritative voiceover SHA-256 differs from the supplied original MP3. Restore public/audio/pilot-elevenlabs.mp3.');
+  for (const caption of episode.captions) {
+    if (caption.text.trim().split(/\s+/).length > 6) result.errors.push(`Caption ${caption.id} exceeds the six-word 4:5 phrase limit.`);
+  }
   const hashes: Record<string, string> = {};
   const seenHashes = new Map<string, string>();
   required.forEach((src, index) => {
@@ -75,19 +84,21 @@ export const preflightRender = (episode: Episode, options: PreflightOptions): Pr
       const prior = seenHashes.get(digest);
       if (prior) result.errors.push(`Duplicate scene artwork: public/${src} is identical to public/${prior}; each shot requires its own illustration.`);
       else seenHashes.set(digest, src);
-      if (Math.abs(dimensions.width / dimensions.height - 9 / 16) > 0.005) result.warnings.push(`public/${src} is ${dimensions.width} × ${dimensions.height}; 9:16 is preferred. The renderer will crop with object-fit: cover without stretching.`);
-      if (dimensions.width < 1080 || dimensions.height < 1920) result.warnings.push(`public/${src} is below the preferred 1080 × 1920 artwork resolution; check sharpness at export size.`);
+      if (Math.abs(dimensions.width / dimensions.height - 4 / 5) > 0.005) result.errors.push(`public/${src} is ${dimensions.width} × ${dimensions.height}; native 4:5 artwork is required. Art-direct and normalize the source before export; the pipeline does not blindly crop another aspect ratio.`);
+      if (dimensions.width < 1080 || dimensions.height < 1350) result.warnings.push(`public/${src} is below the preferred 1080 × 1350 artwork resolution; check sharpness at export size.`);
     } catch (error) {result.errors.push(`Invalid required scene illustration public/${src}: ${error instanceof Error ? error.message : String(error)}`);}
   });
   if (options.kind === 'final') {
     const filename = options.reviewFile ? path.resolve(options.projectDir, options.reviewFile) : path.resolve(options.projectDir, 'config/visual-test-review.json');
-    if (!existsSync(filename)) result.errors.push('Five-second visual test has not been reviewed. Render VINTAGE_VISUAL_TEST, inspect the actual artwork and video, then create config/visual-test-review.json before the final render.');
+    if (!existsSync(filename)) result.errors.push('Five-second visual test has not been reviewed. Render VINTAGE_VISUAL_TEST_4X5, inspect the actual artwork and video, then create config/visual-test-review.json before the final render.');
     else {
       try {
         const review = JSON.parse(readFileSync(filename, 'utf8')) as VisualTestReview;
         if (review.status !== 'passed') throw new Error('review status must be passed');
-        if (!['written-brief', 'supplied-reference'].includes(review.basis) || !review.notes?.trim() || !Number.isFinite(Date.parse(review.reviewedAt))) throw new Error('review must record its visual basis, reviewedAt date and notes');
-        if (review.sceneSha256 !== hashes[requiredPilotAssets[0]]) throw new Error('first-scene artwork changed or has not been reviewed (scene SHA-256 mismatch)');
+        if (review.basis !== 'supplied-reference' || !review.notes?.trim() || !Number.isFinite(Date.parse(review.reviewedAt))) throw new Error('review must record supplied-reference as its visual basis, reviewedAt date and notes');
+        for (const src of requiredPilotAssets.slice(0, 2)) {
+          if (!hashes[src] || review.artworkSha256?.[src] !== hashes[src]) throw new Error(`first-scene artwork changed or has not been reviewed (${src} SHA-256 mismatch)`);
+        }
         if (!review.testVideoPath || path.isAbsolute(review.testVideoPath)) throw new Error('testVideoPath must be relative to the project directory');
         const testPath = path.resolve(options.projectDir, review.testVideoPath);
         const relative = path.relative(options.projectDir, testPath);

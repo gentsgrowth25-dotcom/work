@@ -1,0 +1,441 @@
+{
+  "status": "verified-identical-source-audio",
+  "audio": {
+    "path": "/workspace/attachments/9cc76185-4075-4d5d-85de-d2b357406664/ElevenLabs_2026-11-08T12_14_36_Georgia K - Warm Engaging Customer Care_pvc_s50_sim75_v4 (1).mp3",
+    "copiedPath": "/workspace/work/audio4x5/narration.mp3",
+    "sha256": "f5e618942f244bca0f33e79cfecf7c9c5901fc5c32b6eb71a06a42dd35e4c399",
+    "sizeBytes": 393936,
+    "durationSeconds": 23.562438,
+    "codec": "mp3",
+    "sampleRate": 44100,
+    "channels": 1,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "23.562438",
+        "size": "393936",
+        "bit_rate": "133750"
+      }
+    }
+  },
+  "sourceComparison": {
+    "allIdentical": true,
+    "files": [
+      {
+        "path": "/workspace/attachments/9cc76185-4075-4d5d-85de-d2b357406664/ElevenLabs_2026-11-08T12_14_36_Georgia K - Warm Engaging Customer Care_pvc_s50_sim75_v4 (1).mp3",
+        "sha256": "f5e618942f244bca0f33e79cfecf7c9c5901fc5c32b6eb71a06a42dd35e4c399",
+        "sizeBytes": 393936
+      },
+      {
+        "path": "/workspace/attachments/e8dc97db-4cc6-47cd-9a81-c88eeadfb6e6/ElevenLabs_2026-11-08T12_14_36_Georgia K - Warm Engaging Customer Care_pvc_s50_sim75_v4 (1).mp3",
+        "sha256": "f5e618942f244bca0f33e79cfecf7c9c5901fc5c32b6eb71a06a42dd35e4c399",
+        "sizeBytes": 393936
+      },
+      {
+        "path": "/workspace/work/pretty-wise-tips/public/audio/pilot-elevenlabs.mp3",
+        "sha256": "f5e618942f244bca0f33e79cfecf7c9c5901fc5c32b6eb71a06a42dd35e4c399",
+        "sizeBytes": 393936
+      },
+      {
+        "path": "/workspace/work/github-work/pretty-wise-tips-cinematic-engine/public/audio/pilot-elevenlabs.mp3",
+        "sha256": "f5e618942f244bca0f33e79cfecf7c9c5901fc5c32b6eb71a06a42dd35e4c399",
+        "sizeBytes": 393936
+      }
+    ]
+  },
+  "alignment": {
+    "reused": true,
+    "wordCount": 63,
+    "originalPath": "/workspace/work/audio/words.json",
+    "originalSha256": "e4783ce72a2f61283f15df87865fc643d8be4aa134a552f0dc3c52ed9f9a7818",
+    "projectPath": "/workspace/work/pretty-wise-tips/src/data/sceneTimings/pilot.words.json",
+    "projectSha256": "e4783ce72a2f61283f15df87865fc643d8be4aa134a552f0dc3c52ed9f9a7818",
+    "wordRecordsIdentical": true,
+    "method": "faster-whisper 1.2.1 / Systran faster-whisper-base.en, CPU int8, beam_size 5, word_timestamps true; ASR alignment, not human verified",
+    "status": "asr-aligned",
+    "lastSpokenWordEndSeconds": 22.92,
+    "caveat": "Automated ASR word alignment; not human verified. Identical source bytes justify reuse, not an assertion of frame-perfect timings."
+  },
+  "master": {
+    "width": 1080,
+    "height": 1350,
+    "fps": 30,
+    "durationFrames": 716,
+    "durationSeconds": 23.866666666666667,
+    "tailAfterAudioSeconds": 0.3042286666666669,
+    "tailAfterLastSpokenWordSeconds": 0.9466666666666654,
+    "groupBoundariesFrames": [
+      0,
+      137,
+      228,
+      323,
+      404,
+      533,
+      617,
+      716
+    ],
+    "recommended14ShotBoundariesFrames": [
+      0,
+      68,
+      137,
+      182,
+      228,
+      275,
+      323,
+      363,
+      404,
+      468,
+      533,
+      575,
+      617,
+      666,
+      716
+    ]
+  },
+  "locations": [
+    {
+      "scene": 1,
+      "location": "Mirror",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSecondsExclusive": 4.566666666666666,
+      "shots": [
+        {
+          "shot": 1,
+          "startFrame": 0,
+          "endFrameExclusive": 68
+        },
+        {
+          "shot": 2,
+          "startFrame": 68,
+          "endFrameExclusive": 137
+        }
+      ],
+      "actualNarration": "I enter every room knowing I have something valuable to offer."
+    },
+    {
+      "scene": 2,
+      "location": "Kitchen",
+      "startFrame": 137,
+      "endFrameExclusive": 228,
+      "startSeconds": 4.566666666666666,
+      "endSecondsExclusive": 7.6,
+      "shots": [
+        {
+          "shot": 3,
+          "startFrame": 137,
+          "endFrameExclusive": 182
+        },
+        {
+          "shot": 4,
+          "startFrame": 182,
+          "endFrameExclusive": 228
+        }
+      ],
+      "actualNarration": "I speak about my work without apologizing."
+    },
+    {
+      "scene": 3,
+      "location": "City street",
+      "startFrame": 228,
+      "endFrameExclusive": 323,
+      "startSeconds": 7.6,
+      "endSecondsExclusive": 10.766666666666667,
+      "shots": [
+        {
+          "shot": 5,
+          "startFrame": 228,
+          "endFrameExclusive": 275
+        },
+        {
+          "shot": 6,
+          "startFrame": 275,
+          "endFrameExclusive": 323
+        }
+      ],
+      "actualNarration": "I ask for opportunities and I prepare for them."
+    },
+    {
+      "scene": 4,
+      "location": "Jewelry boutique",
+      "startFrame": 323,
+      "endFrameExclusive": 404,
+      "startSeconds": 10.766666666666667,
+      "endSecondsExclusive": 13.466666666666667,
+      "shots": [
+        {
+          "shot": 7,
+          "startFrame": 323,
+          "endFrameExclusive": 363
+        },
+        {
+          "shot": 8,
+          "startFrame": 363,
+          "endFrameExclusive": 404
+        }
+      ],
+      "actualNarration": "A rejection does not change my value."
+    },
+    {
+      "scene": 5,
+      "location": "Office",
+      "startFrame": 404,
+      "endFrameExclusive": 533,
+      "startSeconds": 13.466666666666667,
+      "endSecondsExclusive": 17.766666666666666,
+      "shots": [
+        {
+          "shot": 9,
+          "startFrame": 404,
+          "endFrameExclusive": 468
+        },
+        {
+          "shot": 10,
+          "startFrame": 468,
+          "endFrameExclusive": 533
+        }
+      ],
+      "actualNarration": "I don't need to chase every offer. I can choose the right ones."
+    },
+    {
+      "scene": 6,
+      "location": "Balcony",
+      "startFrame": 533,
+      "endFrameExclusive": 617,
+      "startSeconds": 17.766666666666666,
+      "endSecondsExclusive": 20.566666666666666,
+      "shots": [
+        {
+          "shot": 11,
+          "startFrame": 533,
+          "endFrameExclusive": 575
+        },
+        {
+          "shot": 12,
+          "startFrame": 575,
+          "endFrameExclusive": 617
+        }
+      ],
+      "actualNarration": "My ambition is not something to hide."
+    },
+    {
+      "scene": 7,
+      "location": "Portrait",
+      "startFrame": 617,
+      "endFrameExclusive": 716,
+      "startSeconds": 20.566666666666666,
+      "endSecondsExclusive": 23.866666666666667,
+      "shots": [
+        {
+          "shot": 13,
+          "startFrame": 617,
+          "endFrameExclusive": 666
+        },
+        {
+          "shot": 14,
+          "startFrame": 666,
+          "endFrameExclusive": 716
+        }
+      ],
+      "actualNarration": "I'm building the life I used to only imagine."
+    }
+  ],
+  "captions": {
+    "count": 17,
+    "maxWords": 6,
+    "allMax6WordsPassed": true,
+    "spokenWordCount": 63,
+    "spokenWordsMatchASR": true,
+    "entries": [
+      {
+        "id": "caption-01",
+        "text": "I enter every room",
+        "wordCount": 4,
+        "max6WordsPassed": true,
+        "startSeconds": 0.0,
+        "existingEndSeconds": 1.38,
+        "newEndSeconds": 1.38,
+        "spoken": true
+      },
+      {
+        "id": "caption-02a",
+        "text": "knowing I have",
+        "wordCount": 3,
+        "max6WordsPassed": true,
+        "startSeconds": 1.38,
+        "existingEndSeconds": 2.44,
+        "newEndSeconds": 2.44,
+        "spoken": true
+      },
+      {
+        "id": "caption-02b",
+        "text": "something valuable to offer.",
+        "wordCount": 4,
+        "max6WordsPassed": true,
+        "startSeconds": 2.44,
+        "existingEndSeconds": 4.02,
+        "newEndSeconds": 4.02,
+        "spoken": true
+      },
+      {
+        "id": "caption-03",
+        "text": "I speak about my work",
+        "wordCount": 5,
+        "max6WordsPassed": true,
+        "startSeconds": 4.64,
+        "existingEndSeconds": 5.68,
+        "newEndSeconds": 5.68,
+        "spoken": true
+      },
+      {
+        "id": "caption-04",
+        "text": "without apologizing.",
+        "wordCount": 2,
+        "max6WordsPassed": true,
+        "startSeconds": 5.68,
+        "existingEndSeconds": 6.8,
+        "newEndSeconds": 6.8,
+        "spoken": true
+      },
+      {
+        "id": "caption-05",
+        "text": "I ask for opportunities",
+        "wordCount": 4,
+        "max6WordsPassed": true,
+        "startSeconds": 7.68,
+        "existingEndSeconds": 8.52,
+        "newEndSeconds": 8.52,
+        "spoken": true
+      },
+      {
+        "id": "caption-06",
+        "text": "and I prepare for them.",
+        "wordCount": 5,
+        "max6WordsPassed": true,
+        "startSeconds": 8.52,
+        "existingEndSeconds": 10.42,
+        "newEndSeconds": 10.42,
+        "spoken": true
+      },
+      {
+        "id": "caption-07",
+        "text": "A rejection does not",
+        "wordCount": 4,
+        "max6WordsPassed": true,
+        "startSeconds": 10.8,
+        "existingEndSeconds": 11.94,
+        "newEndSeconds": 11.94,
+        "spoken": true
+      },
+      {
+        "id": "caption-08",
+        "text": "change my value.",
+        "wordCount": 3,
+        "max6WordsPassed": true,
+        "startSeconds": 11.94,
+        "existingEndSeconds": 12.98,
+        "newEndSeconds": 12.98,
+        "spoken": true
+      },
+      {
+        "id": "caption-09",
+        "text": "I don't need to",
+        "wordCount": 4,
+        "max6WordsPassed": true,
+        "startSeconds": 13.52,
+        "existingEndSeconds": 14.18,
+        "newEndSeconds": 14.18,
+        "spoken": true
+      },
+      {
+        "id": "caption-10",
+        "text": "chase every offer.",
+        "wordCount": 3,
+        "max6WordsPassed": true,
+        "startSeconds": 14.18,
+        "existingEndSeconds": 15.36,
+        "newEndSeconds": 15.36,
+        "spoken": true
+      },
+      {
+        "id": "caption-11",
+        "text": "I can choose the right ones.",
+        "wordCount": 6,
+        "max6WordsPassed": true,
+        "startSeconds": 15.78,
+        "existingEndSeconds": 17.12,
+        "newEndSeconds": 17.12,
+        "spoken": true
+      },
+      {
+        "id": "caption-12",
+        "text": "My ambition is not",
+        "wordCount": 4,
+        "max6WordsPassed": true,
+        "startSeconds": 17.82,
+        "existingEndSeconds": 19.0,
+        "newEndSeconds": 19.0,
+        "spoken": true
+      },
+      {
+        "id": "caption-13",
+        "text": "something to hide.",
+        "wordCount": 3,
+        "max6WordsPassed": true,
+        "startSeconds": 19.0,
+        "existingEndSeconds": 20.080000000000002,
+        "newEndSeconds": 20.080000000000002,
+        "spoken": true
+      },
+      {
+        "id": "caption-14",
+        "text": "I'm building the life",
+        "wordCount": 4,
+        "max6WordsPassed": true,
+        "startSeconds": 20.62,
+        "existingEndSeconds": 21.46,
+        "newEndSeconds": 21.46,
+        "spoken": true
+      },
+      {
+        "id": "caption-15",
+        "text": "I used to only imagine.",
+        "wordCount": 5,
+        "max6WordsPassed": true,
+        "startSeconds": 21.46,
+        "existingEndSeconds": 23.0,
+        "newEndSeconds": 23.0,
+        "spoken": true
+      },
+      {
+        "id": "closing",
+        "text": "I AM BECOMING HER.",
+        "wordCount": 4,
+        "max6WordsPassed": true,
+        "startSeconds": 23,
+        "existingEndSeconds": 24,
+        "newEndSeconds": 23.866666666666667,
+        "spoken": false
+      }
+    ]
+  },
+  "closing": {
+    "text": "I AM BECOMING HER.",
+    "spoken": false,
+    "startFrame": 690,
+    "endFrameExclusive": 716,
+    "startSeconds": 23,
+    "endSecondsExclusive": 23.866666666666667,
+    "durationFrames": 26
+  },
+  "narrationAuthority": "The supplied MP3 is authoritative. Sample narration in the new user JSON differs from this recording and must not replace its transcription."
+}

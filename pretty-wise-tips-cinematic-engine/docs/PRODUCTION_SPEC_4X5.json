@@ -1,0 +1,454 @@
+{
+  "project_name": "Pretty Wise Tips — Cinematic Affirmations Pilot 01",
+  "instructions_to_codex": [
+    "Read this JSON as a complete production specification. Work inside the EXISTING Remotion repository; preserve working components and replace development-placeholder composition with a true art-based composition.",
+    "The user has ALREADY supplied a MAIN CHARACTER REFERENCE IMAGE and an ELEVENLABS VOICE AUDIO FILE to this Codex task. Inspect the current project and attachments; identify their actual paths. Do not invent filenames or ask the user to reupload accessible files.",
+    "A motion or reference-animation video may also be attached. If present, study timing, shot rhythm and limited-animation techniques; do not copy identifiable storyboards, characters or exact frames from it.",
+    "Create a finished original 4:5 portrait video with fully illustrated 1990s Western cel-TV style scenes, not text cards, crude SVG people or development placeholders. The character and locations must be rendered as real cohesive artwork.",
+    "If a required illustration is not available and no authorized art-generation capability is connected, STOP before the purported final render, provide the missing artwork prompts and an asset manifest, and make the code ready to ingest those images. Never claim a cinematic character animation exists when only a flattened still and camera movements are available."
+  ],
+  "output_specification": {
+    "primary_aspect_ratio": "4:5",
+    "width_px": 1080,
+    "height_px": 1350,
+    "fps": 30,
+    "orientation": "portrait",
+    "file_container": "mp4",
+    "video_codec": "H.264",
+    "audio_codec": "AAC",
+    "filename": "pretty-wise-tips-cinematic-pilot-4x5-final.mp4",
+    "reference_assets_generated_in": "4:5 (1080x1350 minimum, preferably 2160x2700 for detailed master artwork)",
+    "thumbnail_and_cover": "4:5 1080x1350",
+    "crop_policy": "Never stretch, squeeze, or blindly crop character faces. Art direct all scenes natively for a 4:5 frame. Use a separately configured 9:16 derivative only if the user later requests it.",
+    "duration": "Use the verified duration and word timings of the supplied ElevenLabs audio. Target approximately 24 seconds if compatible; do not speed up, truncate or replace the supplied voice to force an arbitrary duration.",
+    "full_screen_reel_note": "4:5 is the user-requested master. Instagram Reel full-screen normally favors 9:16 and may show margins or different cropping; keep all essential content inside the native 4:5 frame."
+  },
+  "input_asset_handling": {
+    "required_inputs": [
+      {
+        "role": "canonical_main_character_image",
+        "provided_by_user": true,
+        "discover_path": true,
+        "use_for": [
+          "exact main character identity",
+          "silhouette",
+          "face",
+          "hair",
+          "pearls",
+          "red outfit",
+          "line art and shading language"
+        ]
+      },
+      {
+        "role": "elevenlabs_voice_recording",
+        "provided_by_user": true,
+        "discover_path": true,
+        "use_for": [
+          "actual video duration",
+          "exact voiced script",
+          "word/phrase timing",
+          "final audio mix"
+        ]
+      }
+    ],
+    "optional_inputs": [
+      {
+        "role": "animation_motion_reference",
+        "discover_if_present": true,
+        "use_for": [
+          "cadence",
+          "limited character movements",
+          "cuts and camera grammar"
+        ]
+      },
+      {
+        "role": "alternate_luxury_kitchen_style_image",
+        "discover_if_present": true,
+        "use_for": [
+          "environment detail only, not character replacement"
+        ]
+      }
+    ],
+    "preflight": [
+      "List actual source files and record real resolved paths and dimensions.",
+      "Read voiceover duration with ffprobe (or equivalent); extract waveform and timestamps.",
+      "Transcribe/align supplied voice if transcription capability exists. Otherwise keep editable phrase timing and use provided script as a provisional guide, explicitly labeled.",
+      "Inspect main character reference visually, not only by filename.",
+      "Reject any render using text-only placeholder images, missing illustrations or unapproved substitute characters."
+    ]
+  },
+  "character_bible": {
+    "identity": "One original recurring glamorous adult brunette character, based on the user-provided red-dress 1990s cel illustration; preserve her identity and facial geometry consistently.",
+    "face": "Elegant mature almond-shaped eyes, defined arched brows, simplified angular nose, softly shaped red lips, tiny beauty mark if it is visible in supplied original, expressive eyelids and refined cheek structure.",
+    "hair": "Large sculpted dark chestnut / burgundy-brown vintage wave and curled forelock, long thick polished waves with broad flat highlight shapes; same hair volume and silhouette in all shots.",
+    "skin": "Warm deep honey-caramel brown with flat base tone and one cel shadow tone; no photoreal skin texture.",
+    "outfit_lock": "Elegant fitted deep crimson red midi dress with long sleeves and draped waist, pearl stud earrings and short pearl necklace, understated pearl bracelet, matching red pumps. Do not spontaneously change outfit between scenes.",
+    "personality": "Adult, serene, financially self-assured, poised, warm, thoughtful, elegant; never childish, vulgar, hypersexualized or cartoonishly arrogant.",
+    "poses": [
+      "precise elegant walk",
+      "hand lightly touching collarbone",
+      "hand smoothing dress",
+      "gently lifting a porcelain teacup",
+      "looking at her reflection",
+      "controlled head turn",
+      "signing a document",
+      "standing at balcony rail"
+    ],
+    "consistency_requirements": [
+      "Same eyes, nose, lips and face structure in all scenes",
+      "Same hairstyle and lipstick",
+      "Same red dress except harmless exposure to lighting",
+      "Same pearl necklace and earrings",
+      "No extra fingers, disappearing hands, face changes or hairstyle substitutions"
+    ],
+    "reference_priority": "Uploaded character image overrides textual approximations if there is a conflict."
+  },
+  "style_bible": {
+    "style_name": "Authentic 1990s Western television cel animation",
+    "drawing": "Traditional hand-drawn 2D appearance; clean confident black/dark umber outlines, broad flat fills, appealing angular silhouettes and simple elegant face geometry.",
+    "shading": "Only one or two hard-edged cel-shadow shapes per major surface; avoid airbrushing, realistic shine, specular gradients and 3D volume rendering.",
+    "backgrounds": "Period-style hand-painted architectural backgrounds, simplified but rich and believable: detailed perspective, restrained surface marks, harmonious color shapes; not stock photos.",
+    "colors": "Warm burgundy, olive, muted ochre, brass, dusty sky blue, cream and warm stone in environments. Clothing remains crimson. Brand mark may use very subtle lavender but do not repaint the vintage scenes into modern lavender infographics.",
+    "broadcast_finish": "Gentle low-amplitude analog grain, very mild softened edge and optional faint color bleed, subdued vintage broadcast tonality; no artificial VHS scratch overload or glitch.",
+    "negative_prompt": [
+      "Modern glossy Disney/Pixar-like CG",
+      "3D rendering",
+      "AI hyperreal fashion photography",
+      "kawaii anime eyes",
+      "vector explainer stick figures",
+      "smooth gradient plastic shading",
+      "big white slides",
+      "placeholder text",
+      "unrelated graphic icons as primary imagery",
+      "overly saturated neon palette",
+      "copyrighted exact character reproduction"
+    ],
+    "animation_language": "Limited 2D cel animation: primarily held drawings with deliberate acting poses, blinks, small head/arm movements, tasteful background movement and cinematic cuts; export smoothly at 30fps though character pose swaps may intentionally be on twos."
+  },
+  "audio_and_text": {
+    "audio_is_authoritative": true,
+    "reference_transcript_only_if_matches_audio": [
+      "I don't wait for someone to tell me I'm worthy.",
+      "I know what I bring into every room.",
+      "I can admire beautiful things without forgetting my own value.",
+      "I prepare for opportunities instead of begging for attention.",
+      "I am allowed to want more.",
+      "And every day, I become the woman I once imagined."
+    ],
+    "alignment_rules": [
+      "DO NOT replace provided audio with synthetic voice.",
+      "Extract real voice duration and phrase onsets; set scene in/out points from those anchors rather than blindly assuming the audio is 24 seconds.",
+      "If narration differs from the provisional transcript, use exact supplied audio, not the provisional text.",
+      "If speech alignment is not available, provide a timing adjustment file and mark provisional captions; verify manually against playback before final export."
+    ],
+    "music": "No music unless the user supplied licensed music; keep any optional music clearly below narration.",
+    "captions": {
+      "enabled": true,
+      "placement": "horizontal center, around 68–78% of frame height where faces and hands are not covered; adjust per shot",
+      "max_lines": 2,
+      "max_words_per_phrase": 6,
+      "text_color": "off-white in dark scenes / deep charcoal in bright scenes",
+      "font": "classic clean editorial sans serif, semibold",
+      "highlight": "minimal subtle warm gold or lavender on a single emphasized word",
+      "appearance": "gentle 4–6-frame fade or restrained upward pop, no flashy kinetic typography",
+      "sync": "time exact words to supplied voice when possible",
+      "safe_area": {
+        "top_px": 95,
+        "bottom_px": 190,
+        "left_px": 80,
+        "right_px": 80
+      },
+      "avoid": "never cover facial expressions, hands, documents or key luxury details"
+    }
+  },
+  "scene_timing_strategy": {
+    "timing_mode": "audio_phrase_anchored",
+    "number_of_scenes": 7,
+    "description": "Use quoted phrase anchors below; read the actual provided voice track, calculate in/out, insert cutaways within long clauses. Maintain the order and emotional arc. A 0.2–0.35 sec short tail hold is permitted after narration."
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "scene_name": "The Choice — Dressing Room Mirror",
+      "anchor_audio_text": "I don't wait for someone to tell me I'm worthy.",
+      "recommended_time_fraction": [
+        0.0,
+        0.15
+      ],
+      "location": "A lavish 1990s cel-painted European-style townhouse dressing room, warm late afternoon.",
+      "environment_detail": "Ivory paneled walls with walnut trim; tall arched gilded standing mirror; burgundy velvet chaise on the left; walnut dressing table with an oval brass tray holding perfume and a pearl hairpin; understated plaster crown molding; long heavy curtains over tall windows; peach sunlight crossing parquet flooring; elegant cream roses in a vase; everything painted as restrained 2D background shapes.",
+      "character_position": "Full body in front of mirror, positioned just right of center. Same red dress and pearls as canonical image. First shot starts on one poised hand straightening a necklace, then reveals her face in mirror.",
+      "shot_plan": [
+        {
+          "shot": "01A",
+          "framing": "extreme close-up",
+          "action": "Pearl clasp glints as she straightens her necklace; one carefully articulated hand moves; immediate strong image on first frame",
+          "camera": "subtle rightward 3% pan and push-in"
+        },
+        {
+          "shot": "01B",
+          "framing": "medium mirror portrait",
+          "action": "Her reflection meets her gaze; one slow blink, shoulders straighten and lips form quiet confident smile",
+          "camera": "gentle push-in, mirror composition correct and consistent"
+        }
+      ],
+      "movement": "If layered eyes/hands/reflection assets exist: blink in 3 cel drawings, subtle wrist move, one deliberate breath. Otherwise render as original artwork camera pans only; never warp mirror face.",
+      "caption_highlight": "I KNOW MY WORTH",
+      "lighting": "golden late afternoon angled through window",
+      "artwork_prompt": "Original elegant brunette in crimson vintage dress and pearls at gold full-length mirror in sumptuous ivory dressing room, warm amber sunshine, 1990s Western cel-animated television screenshot, flat colors, clean black outlines, 1 shadow tone, 4:5 portrait composition; no words."
+    },
+    {
+      "id": "02",
+      "scene_name": "Morning Ritual — Luxury Kitchen",
+      "anchor_audio_text": "I know what I bring into every room.",
+      "recommended_time_fraction": [
+        0.15,
+        0.29
+      ],
+      "location": "Elegant vintage luxury kitchen in her townhouse.",
+      "environment_detail": "Muted olive-sage inset wooden cabinets; cream diamond-pattern backsplash; white marble countertop with gentle hand-painted veining; polished brass handles and taps; glass-front cabinet showing patterned porcelain tea sets; copper pans suspended from rack; tall arched window to rose garden; porcelain fruit bowl with red apples; white lilies on left; polished brass pastry stand holding croissants; neatly arranged jars; bright warm window light and soft shadows.",
+      "character_position": "Woman mid-frame at kitchen island, hand resting by elegant floral teacup; her upper body prominent, red dress clean silhouette.",
+      "shot_plan": [
+        {
+          "shot": "02A",
+          "framing": "medium three-quarter",
+          "action": "She confidently turns from kitchen window toward camera and lifts cup, not a puppet-like stretch",
+          "camera": "slow pan from flowers to face"
+        },
+        {
+          "shot": "02B",
+          "framing": "hands and cup detail",
+          "action": "Steam moves in looping drawn wisps as teacup lifts slightly",
+          "camera": "controlled 1.05x push-in"
+        }
+      ],
+      "movement": "Steam separately animated, soft curtain movement at window, blink and limited forearm movement only when independent assets exist. Avoid modern glossy reflective appliances.",
+      "caption_highlight": "WHAT I BRING",
+      "lighting": "soft warm sun shafts on cabinet molding",
+      "artwork_prompt": "Same original brunette red dress pearl necklace in charming olive-green vintage high-end kitchen, diamond cream backsplash, porcelain cups, brass fixtures, marble island, gilded pastry stand, lilies, hand-painted rich background, flat cel shading 1990s TV screenshot 4:5, no text."
+    },
+    {
+      "id": "03",
+      "scene_name": "City Arrival — Elegant Town Street",
+      "anchor_audio_text": "I can admire beautiful things",
+      "recommended_time_fraction": [
+        0.29,
+        0.42
+      ],
+      "location": "Upscale old-city shopping boulevard, sunny afternoon.",
+      "environment_detail": "Distinctive buildings: four-story cream stone corner hotel with carved stone window lintels and green awnings; narrow brick boutique with bow windows and iron balcony; tree-lined pedestrian promenade; flower vendor selling white roses, rose bicycles near curb; ornate wrought-iron lamps; 1990s dark maroon executive sedan parked curbside; warm red awning; wet stone paving catching only restrained flat sunlight; deep blue sky and distant trees.",
+      "character_position": "Main heroine enters from left, chest-up then full-body, confident purposeful walk in crimson dress, same pearls and hair, elegant heels.",
+      "shot_plan": [
+        {
+          "shot": "03A",
+          "framing": "low-angle medium wide",
+          "action": "One red heel steps onto cobblestone; cut to girl walking past refined boutiques",
+          "camera": "gentle follow-pan 6% horizontal"
+        },
+        {
+          "shot": "03B",
+          "framing": "medium close-up",
+          "action": "She glances at boutique window without losing confidence",
+          "camera": "push-in toward facial expression"
+        }
+      ],
+      "movement": "Actual walking requires 4–8 distinct pose sprites or independently articulated rig with correct anatomy; if unavailable, use close-up of shoes/face and camera pan on still images, not fake walking cycle.",
+      "caption_highlight": "BEAUTIFUL THINGS",
+      "lighting": "midday clear diffuse with soft cel-shadow boundaries",
+      "artwork_prompt": "Same elegant original brunette crimson dress and pearls walking along sophisticated European town boulevard, richly designed cream stone buildings, boutique windows, green awnings, iron balconies, flower cart, classic sedan; vintage hand-painted Western 1990s cel television cartoon still, 4:5 portrait, no lettering."
+    },
+    {
+      "id": "04",
+      "scene_name": "Her Value — Jewel Boutique",
+      "anchor_audio_text": "without forgetting my own value.",
+      "recommended_time_fraction": [
+        0.42,
+        0.55
+      ],
+      "location": "Intimate luxury jewelry boutique, daytime.",
+      "environment_detail": "Warm walnut display cabinetry, ruby velvet trays, antique brass-framed glass cabinets, velvet tufted stool, small warm spot lamps with restrained two-tone lights, pearls and simple sparkling earrings, arched ivory wall niche, floral wallpaper hints, heavy glass entrance door with etched motif.",
+      "character_position": "Confident poised brunette in crimson standing at display; pearl earrings already worn, attention on her face not just expensive objects.",
+      "shot_plan": [
+        {
+          "shot": "04A",
+          "framing": "detail close-up",
+          "action": "Her hand opens velvet jewelry box with original drawn cutout asset, inside elegant pearl brooch",
+          "camera": "slight overhead 1.04x push"
+        },
+        {
+          "shot": "04B",
+          "framing": "facial close-up",
+          "action": "She admires jewelry, then gently looks at herself in reflection with soft confident expression",
+          "camera": "motivated cut then static-limited face movement"
+        }
+      ],
+      "movement": "Box lid rotates only if separate layer; fingertips remain anatomically consistent. No constant glitter effects; 2–3 restrained hand-drawn sparkle frames at most.",
+      "caption_highlight": "MY OWN VALUE",
+      "lighting": "controlled amber boutique illumination",
+      "artwork_prompt": "Traditional cel-animated glamorous brunette in elegant red outfit in fine jewel boutique with ornate walnut counters ruby velvet and pearls, richly painted 1990s television background, simplified elegant linework and flat shadows, no words 4:5 portrait."
+    },
+    {
+      "id": "05",
+      "scene_name": "Ambition — Executive Office",
+      "anchor_audio_text": "I prepare for opportunities instead of begging for attention.",
+      "recommended_time_fraction": [
+        0.55,
+        0.76
+      ],
+      "location": "High-floor private executive office with vintage architectural detail.",
+      "environment_detail": "Tall steel-framed panoramic windows show layered old-city skyline: terracotta roofs, limestone façades, distant modern towers and hazy blue hills; dark mahogany executive desk with brass corners; leather chair; cream contract folders; burgundy fountain pen; wall bookshelves with legal books; muted olive floor lamp; vase of cream calla lilies; geometric beige carpet; warm afternoon sunlight paints hard cel-shadow shapes.",
+      "character_position": "Heroine seated at desk, hands and shoulders realistically placed, red dress and pearls intact. Later standing near large window holding folder.",
+      "shot_plan": [
+        {
+          "shot": "05A",
+          "framing": "over-shoulder close-up",
+          "action": "She opens a neat project plan with visual tabs, writes signature with fountain pen, confident and prepared",
+          "camera": "gentle diagonal track"
+        },
+        {
+          "shot": "05B",
+          "framing": "medium portrait",
+          "action": "She closes folder and stands, chin up, looking toward the city skyline; purposeful not arrogant",
+          "camera": "subtle upward tilt / push-in"
+        }
+      ],
+      "movement": "Separate pen/hand and folder pages preferred. Use pose-sprite changes for signing and standing. If only flattened still, art-direct two distinct illustrated shots instead of manipulating arms.",
+      "caption_highlight": "I PREPARE",
+      "lighting": "sunlight entering windows with strong flat shadow blocks",
+      "artwork_prompt": "Same original brunette in crimson vintage dress and pearls in refined high-rise executive office, tall windows overlooking detailed classical skyline, mahogany desk, documents, fountain pen, bookshelves, tasteful brass fixtures, traditional 1990s Western animation cel still, 4:5 no text."
+    },
+    {
+      "id": "06",
+      "scene_name": "Wanting More — Penthouse Balcony",
+      "anchor_audio_text": "I am allowed to want more.",
+      "recommended_time_fraction": [
+        0.76,
+        0.87
+      ],
+      "location": "Her elegant penthouse balcony at twilight.",
+      "environment_detail": "Cream limestone balustrade, wrought-iron lanterns, stone planters full of white roses, two antique wicker lounge chairs, glass door with velvet drapes, winding urban river and distant high-rises outlined at golden hour, muted amber and violet sky painted in broad matte color shapes; city windows create restrained rhythmic dots rather than photoreal bokeh.",
+      "character_position": "Woman holds balcony rail in side-to-three-quarter view; curls and red dress clearly identifiable.",
+      "shot_plan": [
+        {
+          "shot": "06A",
+          "framing": "wide reveal",
+          "action": "Camera reveals grand skyline with heroine in right third and foreground roses",
+          "camera": "slow pull-back and slight left pan"
+        },
+        {
+          "shot": "06B",
+          "framing": "medium profile",
+          "action": "She lifts chin gently toward horizon; one clean contemplative blink",
+          "camera": "small gentle push-in"
+        }
+      ],
+      "movement": "Foreground flowers and curtain fabric shift gently if provided as layers; hair single pose swap, no viscous wobble.",
+      "caption_highlight": "WANT MORE",
+      "lighting": "soft rose-gold sunset fading to muted twilight",
+      "artwork_prompt": "Original brunette red fitted dress and pearls on grand penthouse balcony overlooking classic city skyline at golden hour, creamy stone balustrade, white roses, warm painted dusk sky, traditional 1990s Western cel animation TV look 4:5 no text."
+    },
+    {
+      "id": "07",
+      "scene_name": "Becoming Her — Final Hero Portrait",
+      "anchor_audio_text": "And every day, I become the woman I once imagined.",
+      "recommended_time_fraction": [
+        0.87,
+        1.0
+      ],
+      "location": "Same terrace / penthouse balcony, cinematic evening close-up establishing a coherent return home.",
+      "environment_detail": "Cream stone balustrade and white roses retain continuity; elegant window frames and distant dusk skyline soften behind the heroine; small warm lit windows, dusty cobalt twilight, restrained painted clouds, warm orange rim-light separated as flat hand-painted cel-shape on hair.",
+      "character_position": "Large medium close-up, face around upper third, red dress neckline and pearl necklace visible, hair and eyes match uploaded reference image exactly.",
+      "shot_plan": [
+        {
+          "shot": "07A",
+          "framing": "face close-up",
+          "action": "She turns gaze toward viewer, one single natural blink, small confident half-smile",
+          "camera": "very slow 1.04x push-in"
+        },
+        {
+          "shot": "07B",
+          "framing": "final hero hold",
+          "action": "She looks toward horizon, steady graceful posture; final affirmation lands",
+          "camera": "hold composed 4:5 portrait for last 0.4 sec"
+        }
+      ],
+      "movement": "Requires separately illustrated face/eyes for real blink; with static artwork, choose a single best hero still and restrained camera drift.",
+      "caption_highlight": "I AM BECOMING HER",
+      "lighting": "luxury warm-to-cool dusk colors, single-tone cel shadows",
+      "artwork_prompt": "Glamorous original dark brunette classic 1990s Western cel animation woman with dramatic waved hair, pearl jewelry and elegant crimson dress, serene confident close-up on luxury terrace at dusk with roses and painted skyline, hand-drawn flat coloring and minimal shadows, 4:5 no lettering."
+    }
+  ],
+  "animation_specification": {
+    "primary_strategy": "Use high-quality separately illustrated assets for each shot. Code operates on actual pixels/layers and not fake vector caricatures.",
+    "motion_rules": {
+      "flat_image_mode": [
+        "Slow camera push/pan no more than about 3–7% change per shot",
+        "Cut between actual distinct illustrations for emotion or pose changes",
+        "Optional very subtle grain overlays",
+        "Never invent lip-sync, walk cycles, independent blinks or hand motions from one flattened still"
+      ],
+      "layered_assets_mode": [
+        "Head pivot: small believable +/-2 degree rotations around neck",
+        "Blink: open, half-closed, closed sprites, 3–5 frames with natural rhythm",
+        "Hand gestures: separated elbow/forearm/hand cutout with correct pivots, no stretched wrists",
+        "Hair: restrained alternate drawn shapes, not liquid distortion",
+        "Cup/document/box independent layer transforms",
+        "Parallax: foreground 3%, midground 1.5%, background 0.5% movement relative to camera, only if true layered image assets"
+      ],
+      "scene_changes": "Aim 1–2 subshots per line; mainly clean hard cuts with occasional 6–10 frame dissolve; avoid constant swooshes and modern transitions.",
+      "film_texture": "Subtle consistent fine analog grain/TV softness as a final finishing pass; preview without grain to check artwork integrity."
+    },
+    "artwork_manifest_rule": "One artwork file per shot at minimum; layered independent assets preferred for blinking, arm actions, walking and props. Provide explicit file manifest generated from scene IDs and real input paths.",
+    "final_presentation": "No scene descriptions, numbers, missing-art labels, logos blocking the portrait, raw filenames, debug guides, or obvious rectangles where artwork should be."
+  },
+  "implementation_requirements": {
+    "framework": "Remotion + React + TypeScript in existing repository",
+    "components": [
+      "FilmComposition4x5",
+      "ArtShot",
+      "LayeredCelCharacter",
+      "CameraPanZoom",
+      "HandPaintedParallax",
+      "CaptionPhrase",
+      "SceneCut",
+      "AnalogFinish",
+      "AssetValidator",
+      "AudioAlignment"
+    ],
+    "config": "Keep scenes, phrase anchors, shots and asset paths editable in JSON or TypeScript config; data-driven episode generator.",
+    "runtime_asset_validation": "Before final render, verify every required shot illustration exists and has suitable 4:5 crop resolution. Missing image or voiceover = clear hard failure, no fallback placeholder in FINAL composition.",
+    "render_commands": "Implement a reliable local preview and MP4 render script, inspect logs and verify final dimensions and duration with ffprobe.",
+    "sequence": [
+      "Inspect inputs",
+      "Report actual asset and audio paths",
+      "Measure voice and align phrases",
+      "Generate image asset prompt manifest for missing shots",
+      "Create/obtain complete artwork (only if actual image-generation tools exist)",
+      "Construct 4:5 art-based scenes",
+      "Make 4–5 second test clip",
+      "Verify look and motion",
+      "Render entire master with supplied voice",
+      "Inspect sampled frames and confirm no placeholders"
+    ],
+    "deliverables": [
+      "A real 4:5 cinematic MP4 only if required artwork/audio assets actually exist",
+      "A working Remotion source project",
+      "Character/scene asset manifest",
+      "An audio timing alignment file",
+      "A 5-second illustrated test clip",
+      "A short honest report listing which movements are truly animated and which are camera moves"
+    ]
+  },
+  "blocking_quality_gates": [
+    "Do not export a video containing any placeholder panels or text claiming an illustration is required.",
+    "Do not turn the single supplied character still into seven identical backgrounds via zoom effects; produce distinct artwork for distinct locations.",
+    "Do not claim the supplied character image makes actual body or facial animation possible without layers/alternate drawings.",
+    "Show cohesive 1990s Western cel illustration style on all original scenes; filters alone are insufficient.",
+    "Keep all output and asset master compositions native 4:5 1080x1350.",
+    "Do not generate a replacement voice. Use the uploaded ElevenLabs recording verbatim.",
+    "Match captions and cuts to the real recording, avoid off-sync text.",
+    "Reject frame warping, extra fingers, inconsistent hair and face, unwanted clothing changes.",
+    "Use recognizable coherent town buildings, kitchen architecture, boutique displays, office furnishings, and terrace setting as detailed above.",
+    "Verify no copied copyrighted character designs; make the heroine original while using general 1990s cel animation traits."
+  ]
+}

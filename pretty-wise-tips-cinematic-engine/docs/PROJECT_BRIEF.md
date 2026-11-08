@@ -1,3 +1,5 @@
+> Historical initial brief. The current native 4:5 production specification is `PRODUCTION_SPEC_4X5.json`; it supersedes the original 9:16 format, scene order and outfit changes. Actual supplied audio overrides all nonmatching sample quotations.
+
 # MASTER PROJECT — PRETTY WISE TIPS CINEMATIC ANIMATION ENGINE
 
 You are building a professional, reusable 2D cinematic animation system for an Instagram brand called PRETTY WISE TIPS.

@@ -1,0 +1,163 @@
+{
+  "canonicalReference": {
+    "source": "Latest user-supplied inline crimson-dress 4:5 character image",
+    "filesystemAttachmentPath": null,
+    "derivedLocalStyleAnchor": "characters/lead-style-anchor-4x5.png",
+    "note": "The local style anchor is generated artwork based on the supplied identity, not a renamed original upload."
+  },
+  "promptManifest": "art-prompts-4x5.json",
+  "nativeFormat": "4:5",
+  "shots": [
+    {
+      "path": "scenes/4x5/01A_pearls_detail.png",
+      "sha256": "3d036a84c503cccb6ecb7172a0b4d373dbcb56c1270ec153da7281603651ff4b",
+      "width": 1122,
+      "height": 1402,
+      "generationTool": "image_gen",
+      "generationOutputPath": "/workspace/generated_images/exec-a9a3298a-45cb-4b41-8f0f-bbade6f70e4b.png",
+      "status": "rendered-and-visually-reviewed",
+      "characterMotion": "held authored drawing; camera and cuts only"
+    },
+    {
+      "path": "scenes/4x5/01B_dressing_room.png",
+      "sha256": "1b2dc12da8e05dab19fa5d3ae160698d232f7e583291625a64258b51cf4ab3e9",
+      "width": 1122,
+      "height": 1402,
+      "generationTool": "image_gen",
+      "generationOutputPath": "/workspace/generated_images/exec-81a17eeb-2482-4853-83d9-6f256475eee8.png",
+      "status": "rendered-and-visually-reviewed",
+      "characterMotion": "held authored drawing; camera and cuts only"
+    },
+    {
+      "path": "scenes/4x5/02A_kitchen.png",
+      "sha256": "e05359c013964f1d7184b8f05a8a45450f9a641227f5d3cfb2c33439d17cb9d1",
+      "width": 1122,
+      "height": 1402,
+      "generationTool": "image_gen",
+      "generationOutputPath": "/workspace/generated_images/exec-23413769-68bf-4033-a4b7-3591838e96c9.png",
+      "status": "rendered-and-visually-reviewed",
+      "characterMotion": "held authored drawing; camera and cuts only"
+    },
+    {
+      "path": "scenes/4x5/02B_teacup_detail.png",
+      "sha256": "f5e163c5aa60a4579bebf6e4c8bcce0a78aec3aaac4b711313b42c33b1c5ff37",
+      "width": 1122,
+      "height": 1402,
+      "generationTool": "image_gen",
+      "generationOutputPath": "/workspace/generated_images/exec-0815696f-4fb9-4606-b00a-a3c50c9fc257.png",
+      "status": "rendered-and-visually-reviewed",
+      "characterMotion": "held authored drawing; camera and cuts only"
+    },
+    {
+      "path": "scenes/4x5/03A_city_street.png",
+      "sha256": "955c06150aa7b584ede4b6825375b8062a9b621af94adaafb99f054c0e8d169b",
+      "width": 1122,
+      "height": 1402,
+      "generationTool": "image_gen",
+      "generationOutputPath": "/workspace/generated_images/exec-3f8d51b9-533d-472e-ab98-1b3b31114415.png",
+      "status": "rendered-and-visually-reviewed",
+      "characterMotion": "held authored drawing; camera and cuts only"
+    },
+    {
+      "path": "scenes/4x5/03B_boutique_glance.png",
+      "sha256": "02dfe1445ec1519cfcb9de73d24e9bf55bf0f454d378c23a883e798e03bb6838",
+      "width": 1122,
+      "height": 1402,
+      "generationTool": "image_gen",
+      "generationOutputPath": "/workspace/generated_images/exec-455aa0d9-5110-4191-9c8d-33b18b670196.png",
+      "status": "rendered-and-visually-reviewed",
+      "characterMotion": "held authored drawing; camera and cuts only"
+    },
+    {
+      "path": "scenes/4x5/04A_jewelry_detail.png",
+      "sha256": "07a35e119a0880f9803b7d85f0f606c827e81077bcf0729215369a68d75ef4d7",
+      "width": 1122,
+      "height": 1402,
+      "generationTool": "image_gen",
+      "generationOutputPath": "/workspace/generated_images/exec-87ecd259-233d-448d-a76a-90ca42e11956.png",
+      "status": "rendered-and-visually-reviewed",
+      "characterMotion": "held authored drawing; camera and cuts only"
+    },
+    {
+      "path": "scenes/4x5/04B_jewel_boutique.png",
+      "sha256": "c69ec7b8b37cf109380c4d948682555156e58dfda1ae97e4e67e5539f65e2bf8",
+      "width": 1122,
+      "height": 1402,
+      "generationTool": "image_gen",
+      "generationOutputPath": "/workspace/generated_images/exec-ac20c42b-b401-4ce2-afaa-18841f387315.png",
+      "status": "rendered-and-visually-reviewed",
+      "characterMotion": "held authored drawing; camera and cuts only"
+    },
+    {
+      "path": "scenes/4x5/05A_signing_detail.png",
+      "sha256": "8aa540c9f75760418933639727d95fa3eb0707826c4619532fba72b2445f89a4",
+      "width": 1122,
+      "height": 1402,
+      "generationTool": "image_gen",
+      "generationOutputPath": "/workspace/generated_images/exec-7777b86b-bb38-4e89-8710-91ed7ba9992f.png",
+      "status": "rendered-and-visually-reviewed",
+      "characterMotion": "held authored drawing; camera and cuts only"
+    },
+    {
+      "path": "scenes/4x5/05B_executive_office.png",
+      "sha256": "54af979dbe906d2b1cd43f3bdc23493630f4fb3c9c46856804416990218cb376",
+      "width": 1122,
+      "height": 1402,
+      "generationTool": "image_gen",
+      "generationOutputPath": "/workspace/generated_images/exec-0b6efa16-34b7-4669-9a7c-fc7577744aea.png",
+      "status": "rendered-and-visually-reviewed",
+      "characterMotion": "held authored drawing; camera and cuts only"
+    },
+    {
+      "path": "scenes/4x5/06A_balcony_wide.png",
+      "sha256": "50495978fbe6b07f60dfa8fd8ddf2a171e7c5b2e46bffb638be134f5c6be2570",
+      "width": 1122,
+      "height": 1402,
+      "generationTool": "image_gen",
+      "generationOutputPath": "/workspace/generated_images/exec-cee5bc33-0914-48b1-9057-94be2e4ad1b3.png",
+      "status": "rendered-and-visually-reviewed",
+      "characterMotion": "held authored drawing; camera and cuts only"
+    },
+    {
+      "path": "scenes/4x5/06B_balcony_profile.png",
+      "sha256": "184624aa12dd6f07d38692424a793625f12088c8533e2752ec9ef1f5fd311039",
+      "width": 1122,
+      "height": 1402,
+      "generationTool": "image_gen",
+      "generationOutputPath": "/workspace/generated_images/exec-b0297ec9-f2a2-4fa9-9f34-96d7807b8558.png",
+      "status": "rendered-and-visually-reviewed",
+      "characterMotion": "held authored drawing; camera and cuts only"
+    },
+    {
+      "path": "scenes/4x5/07A_hero_portrait.png",
+      "sha256": "3a277e72773c367ef868e8bef976bd87a3bd99c56fec0e042a0e27dc3ccfdba0",
+      "width": 1122,
+      "height": 1402,
+      "generationTool": "image_gen",
+      "generationOutputPath": "/workspace/generated_images/exec-139fcc28-918d-43bc-888c-2fd4c549b7df.png",
+      "status": "rendered-and-visually-reviewed",
+      "characterMotion": "held authored drawing; camera and cuts only"
+    },
+    {
+      "path": "scenes/4x5/07B_final_portrait.png",
+      "sha256": "67feb36a9a458a317e49baf2f06bb92f3d52d5b25cc39a4315b31111f8db44d4",
+      "width": 1122,
+      "height": 1402,
+      "generationTool": "image_gen",
+      "generationOutputPath": "/workspace/generated_images/exec-0334fbc8-4147-4c48-baea-72fccd7d5832.png",
+      "status": "rendered-and-visually-reviewed",
+      "characterMotion": "held authored drawing; camera and cuts only"
+    }
+  ],
+  "independentIllustratedOverlay": {
+    "path": "props/4x5/tea-steam.png",
+    "sha256": "abeca4a02b8d3f8be12bb89dfa1923ff28bb28028e44fe827be21e10b53f2ab1",
+    "generationOutputPath": "/workspace/generated_images/exec-f47621ea-300a-4c77-ad66-5063df526eee.png",
+    "sourceScene": "scenes/4x5/02B_teacup_detail.png",
+    "animatedProperties": [
+      "vertical translation",
+      "opacity"
+    ],
+    "characterDeformation": false
+  }
+}

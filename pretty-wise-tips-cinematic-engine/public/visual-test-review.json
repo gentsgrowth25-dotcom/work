@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "artworkSha256": {
+    "scenes/4x5/01A_pearls_detail.png": "3d036a84c503cccb6ecb7172a0b4d373dbcb56c1270ec153da7281603651ff4b",
+    "scenes/4x5/01B_dressing_room.png": "1b2dc12da8e05dab19fa5d3ae160698d232f7e583291625a64258b51cf4ab3e9"
+  },
+  "testVideoPath": "review/pretty-wise-tips-vintage-test-4x5.mp4",
+  "testVideoSha256": "30e2b059b5f420f77e2abfa0c6f181e71da3c34712206c21fc3d5ead2c448521",
+  "basis": "supplied-reference",
+  "reviewedAt": "2026-11-08T17:46:40.408624+00:00",
+  "notes": "Inspected rendered frames 20, 60 and 115 against the supplied latest 4:5 crimson-dress character reference. Both native 1122x1402 illustrations preserve the mature caramel complexion, sculpted burgundy forelock, pearl jewelry and crimson dress; complete painted dressing room and mirror. Captions are readable, do not cover either hand or face, no cards/labels/debug graphics, camera motion restrained. Flattened artwork only: no independent character movement claimed. Video verified 1080x1350,30fps,150frames; complete first recorded sentence used at original speed."
+}

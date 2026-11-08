@@ -1,0 +1,27 @@
+{
+  "video": {
+    "codec": "h264",
+    "width": 1080,
+    "height": 1350,
+    "fps": "30/1",
+    "frames": 716,
+    "durationSeconds": 23.866667
+  },
+  "audio": {
+    "codec": "aac",
+    "channels": 2,
+    "sampleRate": 48000,
+    "sourceDurationSeconds": 23.562438,
+    "sourceSha256": "f5e618942f244bca0f33e79cfecf7c9c5901fc5c32b6eb71a06a42dd35e4c399",
+    "decodedComparisonSampleRate": 16000,
+    "alignmentLagSamples": 0,
+    "alignmentLagSeconds": 0.0,
+    "waveformCorrelation": 0.9999611492524249,
+    "monoDownmixRelativeGain": 0.998337125293342,
+    "samplePeakDbfs": -7.4
+  },
+  "containerDurationSeconds": 23.872,
+  "blackIntervals": [],
+  "fullDecode": "passed",
+  "finalSha256": "7b9c1b150d52d5705d2a4514e25f079c1ae340533d321e783a48f40d8f3ea759"
+}

@@ -68,7 +68,9 @@ export const validateEpisode = (episode: Episode, options: ValidationOptions): V
   const position = (p: CaptionPosition | undefined, label: string) => {
     if (!p) return;
     if (![p.left, p.top, p.width].every(finite) || p.width <= 0) {error(`${label}: caption coordinates must be finite with positive width.`); return;}
-    if (p.left < 60 || p.left + p.width > episode.width - 140 || p.top < 260 || p.top > episode.height - 320) error(`${label}: caption position exceeds Instagram-safe bounds (60px left, 140px right, 260px top, 320px bottom).`);
+    const captionScale = episode.width / 1080;
+    const maxCaptionHeight = 64 * captionScale * 1.2 * 2 + 12 * captionScale;
+    if (p.left < 80 * captionScale || p.left + p.width > episode.width - 80 * captionScale || p.top < 95 * captionScale || p.top + maxCaptionHeight > episode.height - 190 * captionScale) error(`${label}: caption position exceeds Instagram-safe bounds (80px left/right, 95px top, 190px bottom at 1080px width).`);
   };
   const layer = (item: Layer, label: string, duration: number) => {
     if (!item.id?.trim()) error(`${label}: layer id is required.`);

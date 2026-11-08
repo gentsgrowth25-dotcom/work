@@ -19,6 +19,8 @@ export type CharacterRig = {
 export type CaptionPosition = {top: number; left: number; width: number};
 export type Scene = {
   id: string; title: string; start: number; duration: number; mode: 'flattened' | 'layered';
+  /** Multiple separately illustrated shots may belong to one narrative scene. */
+  groupId?: string;
   image?: string; layers?: Layer[]; character?: CharacterRig;
   /** Optional opening cutaway; shown for its duration, without pretending to animate the figure. */
   insert?: {src: string; duration: number};

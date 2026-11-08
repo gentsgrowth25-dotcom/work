@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "A reusable cel-art animation engine. Included pilot artwork is explicitly development-only.",
+  "description": "Reusable native 4:5 cel-art cinematic engine with illustrated pilot, original narration and a reviewed rendering pipeline.",
   "scripts": {
     "studio": "remotion studio src/index.ts",
     "typecheck": "tsc --noEmit",
@@ -18,7 +18,8 @@
     "render:development": "tsx scripts/render.ts --composition development",
     "still": "tsx scripts/render.ts --still",
     "audio:inspect": "node scripts/import-audio.mjs",
-    "test:render": "tsx tests/render-smoke.ts"
+    "test:render": "tsx tests/render-smoke.ts",
+    "test:studio": "tsx tests/studio-preview.ts"
   },
   "dependencies": {
     "@remotion/cli": "4.0.541",

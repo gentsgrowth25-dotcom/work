@@ -1,3 +1,5 @@
+> Historical 9:16 correction request. The current user specification is `PRODUCTION_SPEC_4X5.json`: native 4:5, 14 shots and an already supplied canonical red-dress reference. Preserve the strict no-placeholder policy while following the current format and input inventory.
+
 # CRITICAL CORRECTION — PRETTY WISE TIPS CINEMATIC ENGINE
 
 The video you generated is NOT the requested final animation.

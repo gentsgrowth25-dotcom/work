@@ -23,7 +23,7 @@ type TimelineProps = CompositionProps & {sceneRenderer?: React.ComponentType<{sc
 /** Shared timing only; development artwork selection lives in DevelopmentPreview.tsx. */
 export const EpisodeTimeline: React.FC<TimelineProps> = ({episode, silent = false, sceneRenderer: SceneRenderer = CinematicScene, developmentBanner = false}) => {
   // Font declarations travel with the project and do not rely on network fonts.
-  const styles = `@font-face{font-family:'Pretty Serif';src:url('${staticFile('fonts/pretty-serif-bold.ttf')}') format('truetype');font-weight:700;font-display:block;}@font-face{font-family:'Pretty Sans';src:url('${staticFile('fonts/pretty-sans.ttf')}') format('truetype');font-display:block;}`;
+  const styles = `@font-face{font-family:'Pretty Serif';src:url('${staticFile('fonts/pretty-serif-bold.ttf')}') format('truetype');font-weight:700;font-display:block;}@font-face{font-family:'Pretty Sans';src:url('${staticFile('fonts/pretty-sans.ttf')}') format('truetype');font-display:block;}@font-face{font-family:'Pretty Sans Semibold';src:url('${staticFile('fonts/pretty-sans-semibold.ttf')}') format('truetype');font-weight:600;font-display:block;}`;
   return <AbsoluteFill style={{backgroundColor: '#000', overflow: 'hidden'}}>
     <style>{styles}</style>
     {episode.scenes.map((scene, index) => {

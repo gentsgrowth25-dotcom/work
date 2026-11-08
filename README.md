@@ -1,4 +1,20 @@
-# Pretty Wise Tips — Attention Is Not Consistency
+# Pretty Wise Tips
+
+## Cinematic affirmations — completed 4:5 pilot
+
+- [Finished 4:5 MP4 with the complete supplied narration](exports/pretty-wise-tips-cinematic-pilot-4x5-final.mp4).
+- [Five-second illustrated visual test](exports/pretty-wise-tips-vintage-test-4x5.mp4).
+- [4:5 cover](exports/pretty-wise-tips-cinematic-pilot-4x5-cover.png) and [film frame preview](exports/pretty-wise-tips-cinematic-pilot-4x5-preview.jpg).
+- [Complete editable source ZIP](exports/pretty-wise-tips-cinematic-engine-4x5-source-v3.zip), including all fourteen native illustrations and the reviewed test.
+- [Editable project](pretty-wise-tips-cinematic-engine/), [motion report](pretty-wise-tips-cinematic-engine/docs/MOTION_REPORT_4X5.md) and [export verification](exports/pretty-wise-tips-cinematic-pilot-4x5-verification.json).
+
+Open a file and choose **Download raw file**. The master contains H.264 video at **1080 × 1350, 30 FPS, 716 frames (23.866667 seconds)** and AAC audio. The full original 23.562438-second recording is preserved at its natural speed; the tiny additional container padding is from AAC encoding. Seven scenes use fourteen completed reference-conditioned illustrations; no development cards or labels appear. Camera, captions, cuts/dissolves and a separate tea-steam layer move. Character drawings are held poses rather than claimed independent blinks or walk cycles.
+
+The supplied corrected crimson-dress character reference is the identity/style authority for this cinematic project. Earlier storyboard exports below are historical and are not this finished master.
+
+---
+
+## Earlier episode archive
 
 ## Download the animated video
 
@@ -84,14 +100,3 @@ The pasted brief calls this Episode 05; filenames are deliberately distinct from
 - [Caption and timing workflow](pretty-wise-tips/episodes/07-worth/README.md).
 
 The narrated version is 33 seconds so the full 32.29-second supplied recording stays at its natural pace. The separate 30-second silent preview compresses the visual clock and is not synchronized to that longer recording.
-
-
-## Cinematic animation engine — corrected production pipeline (v2)
-
-- [Corrected reusable engine ZIP](exports/pretty-wise-tips-cinematic-engine-v2.zip).
-- [Exact seven-scene missing-asset manifest](exports/pretty-wise-tips-cinematic-required-assets-v2.json).
-- [Editable source](pretty-wise-tips-cinematic-engine/) and [pipeline verification](exports/pretty-wise-tips-cinematic-pipeline-verification-v2.md).
-
-Open a file and choose **Download raw file**. The default render is now production and cannot substitute development cards. `CINEMATIC_PILOT_FINAL`, `VINTAGE_VISUAL_TEST` and `DEVELOPMENT_PREVIEW` are separate compositions. The five-second illustrated first-scene test must be reviewed before the full 24-second export.
-
-The airplane-wing reference and seven completed illustrations are still missing. No new MP4 was exported for this correction. The earlier version-1 MP4s are historical development storyboards, not the requested cinematic film. Artwork generation from the written description is awaiting the creator's reference choice.

@@ -1,6 +1,6 @@
 import {bundle} from '@remotion/bundler';
 import {renderMedia, renderStill, selectComposition} from '@remotion/renderer';
-import {existsSync, mkdirSync} from 'node:fs';
+import {existsSync, mkdirSync, writeFileSync} from 'node:fs';
 import {dirname, resolve} from 'node:path';
 import {parseArgs} from 'node:util';
 import {developmentPilot, productionPilot, vintageVisualTest} from '../src/data/episodes/production';
@@ -18,6 +18,8 @@ try {
   const report = preflightRender(episode, {kind, publicDir: resolve('public'), projectDir: process.cwd(), reviewFile: values.review, silent: values.silent});
   report.warnings.forEach((message) => console.warn(`WARNING: ${message}`));
   if (report.errors.length) throw new Error(report.errors.join('\n'));
+  // Studio's selected final composition can use the same receipt after authoritative Node preflight.
+  if (kind === 'final' && report.review) writeFileSync(resolve('public/visual-test-review.json'), `${JSON.stringify(report.review, null, 2)}\n`);
   const inputProps = {episode, silent: !!values.silent, development: kind === 'development', artworkReview: report.review};
   const serveUrl = await bundle({entryPoint: resolve('src/index.ts'), publicDir: resolve('public')});
   const browserExecutable = process.env.REMOTION_BROWSER_EXECUTABLE ?? (existsSync('/usr/bin/chromium') ? '/usr/bin/chromium' : undefined);

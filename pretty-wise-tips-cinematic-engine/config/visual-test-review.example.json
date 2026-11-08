@@ -1,9 +1,12 @@
 {
   "status": "pending",
-  "sceneSha256": "",
-  "testVideoPath": "renders/pretty-wise-tips-vintage-test.mp4",
+  "artworkSha256": {
+    "scenes/4x5/01A_pearls_detail.png": "",
+    "scenes/4x5/01B_dressing_room.png": ""
+  },
+  "testVideoPath": "review/pretty-wise-tips-vintage-test-4x5.mp4",
   "testVideoSha256": "",
-  "basis": "written-brief",
+  "basis": "supplied-reference",
   "reviewedAt": "",
   "notes": ""
 }

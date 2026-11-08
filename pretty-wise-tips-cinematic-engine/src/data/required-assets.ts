@@ -1,13 +1,26 @@
 /** Exact primary scene-art slots for the corrected cinematic pilot. Paths are relative to public/. */
 export const requiredPilotAssets = [
-  'scenes/01_hotel_lobby.png',
-  'scenes/02_dressing_room.png',
-  'scenes/03_meeting_room.png',
-  'scenes/04_jewelry_detail.png',
-  'scenes/05_executive_desk.png',
-  'scenes/06_penthouse.png',
-  'scenes/07_final_portrait.png',
+  'scenes/4x5/01A_pearls_detail.png',
+  'scenes/4x5/01B_dressing_room.png',
+  'scenes/4x5/02A_kitchen.png',
+  'scenes/4x5/02B_teacup_detail.png',
+  'scenes/4x5/03A_city_street.png',
+  'scenes/4x5/03B_boutique_glance.png',
+  'scenes/4x5/04A_jewelry_detail.png',
+  'scenes/4x5/04B_jewel_boutique.png',
+  'scenes/4x5/05A_signing_detail.png',
+  'scenes/4x5/05B_executive_office.png',
+  'scenes/4x5/06A_balcony_wide.png',
+  'scenes/4x5/06B_balcony_profile.png',
+  'scenes/4x5/07A_hero_portrait.png',
+  'scenes/4x5/07B_final_portrait.png',
 ] as const;
+
+export const cinematicMaster = {width: 1080, height: 1350, fps: 30, frames: 716, duration: 716 / 30} as const;
+export const originalVoiceover = {
+  src: 'audio/pilot-elevenlabs.mp3', duration: 23.562438,
+  sha256: 'f5e618942f244bca0f33e79cfecf7c9c5901fc5c32b6eb71a06a42dd35e4c399',
+} as const;
 
 /** These are the old numbered development cards, never production illustration. */
 export const developmentArtworkHashes = [
@@ -23,10 +36,10 @@ export const developmentArtworkHashes = [
 export type RenderKind = 'final' | 'test' | 'development';
 export type VisualTestReview = {
   status: 'passed';
-  sceneSha256: string;
+  artworkSha256: Record<string, string>;
   testVideoPath: string;
   testVideoSha256: string;
-  basis: 'written-brief' | 'supplied-reference';
+  basis: 'supplied-reference';
   reviewedAt: string;
   notes: string;
 };

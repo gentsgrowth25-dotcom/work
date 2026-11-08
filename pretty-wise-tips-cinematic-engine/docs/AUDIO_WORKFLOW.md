@@ -1,10 +1,28 @@
-# ElevenLabs narration and caption workflow
+# Authoritative ElevenLabs audio and editable captions
 
-Create and approve the illustrations first, then import the finished ElevenLabs recording. The engine uses the supplied recording; it does not synthesize a narrator or infer talking animation from voiceover.
+The supplied voice is used verbatim in content and playback speed. The engine does not generate a replacement narrator, infer lip sync or add unsupplied music.
 
-## Supplied pilot recording
+## Verified source
 
-`public/audio/pilot-elevenlabs.mp3` is the supplied MP3: **23.562438 seconds**, mono, **44.1 kHz**. The 24-second episode preserves its original speed. The recording differs from the reference script in the project brief; captions use this actual transcript:
+The current uploaded MP3 resolves to:
+
+```text
+/workspace/attachments/9cc76185-4075-4d5d-85de-d2b357406664/ElevenLabs_2026-11-08T12_14_36_Georgia K - Warm Engaging Customer Care_pvc_s50_sim75_v4 (1).mp3
+```
+
+It matches `public/audio/pilot-elevenlabs.mp3` exactly:
+
+```text
+SHA-256: f5e618942f244bca0f33e79cfecf7c9c5901fc5c32b6eb71a06a42dd35e4c399
+Duration: 23.562438 seconds
+Mono, 44.1 kHz
+```
+
+Because the bytes match, the existing 63 actual ASR word timestamps apply to the new upload. The native 4:5 master is **716 frames at 30 FPS / 23.866667 seconds**, allowing a 0.304-second tail without accelerating or truncating the recording. Output gain/fades are editable track settings; they do not change the source file.
+
+## Actual spoken text
+
+The sample quotations in the production JSON do **not** match the recording. Captions must use:
 
 > I enter every room knowing I have something valuable to offer.
 >
@@ -22,43 +40,34 @@ Create and approve the illustrations first, then import the finished ElevenLabs 
 >
 > I'm building the life I used to only imagine.
 
-The final **“I AM BECOMING HER.”** is visual text from 23–24 seconds. It is not spoken in the recording.
+“I AM BECOMING HER.” is an unspoken finishing caption. Do not synthesize it or substitute the JSON's sample text for the actual voice.
 
-The pilot contains 16 short narration phrases plus the closing caption. Their word timestamps were automatically aligned to the actual recording with faster-whisper, not estimated from the reference script. `captionTiming` is `asr-aligned`, because no human listening pass has been claimed. ASR timings can be several frames off, especially around pauses; model confidence is not a timing-error measurement. Review “apologizing.” and the “and” before “I prepare” particularly closely. See [AUDIO_ANALYSIS.md](AUDIO_ANALYSIS.md) for measurements and provenance, and [`../src/data/sceneTimings/pilot.words.json`](../src/data/sceneTimings/pilot.words.json) for source word data.
+The 63 word boundaries are ASR-aligned against this exact audio, not estimated from the sample script. They remain editable and have not been claimed as human-reviewed. Model probability is not a timing-error measurement. Review the lower-confidence “apologizing.” and the “and” before “I prepare” particularly closely. See `AUDIO_ANALYSIS.md` and `src/data/sceneTimings/pilot.words.json` for provenance.
 
-## Inspect and copy a new narration
+## Five-second test audio
 
-Use a local MP3, WAV or another format supported by FFmpeg/ffprobe:
+`VINTAGE-VISUAL-TEST-4X5` uses the first two actual 4:5 drawings, a **4.4-second clip of this source recording**, and a picture hold to five seconds. The opening sentence ends around 3.86 seconds; the next starts around 4.64 seconds, so the clip preserves the complete first sentence without including the next one. The full final composition uses the complete source narration.
+
+```bash
+npm run render -- --composition test
+```
+
+Inspect both the artwork and caption/audio relationship in `renders/pretty-wise-tips-vintage-test-4x5.mp4` before recording visual approval. Do not render a card-based substitute for this review.
+
+## Importing narration for a future episode
 
 ```bash
 npm run audio:inspect -- '/path/to/ElevenLabs narration.mp3'
 npm run audio:inspect -- '/path/to/ElevenLabs narration.mp3' --copy
 ```
 
-The first command reports the measured file duration and proposes an `AudioTrack` object. `--copy` also copies the file into `public/audio/`, using a filename with spaces and other special characters replaced by hyphens. Existing different destination files are preserved: choose a new source filename rather than overwriting a previous narration accidentally.
+The script uses ffprobe to report duration and propose a `voiceover` object; `--copy` also copies into `public/audio/` with a sanitized filename. It does not edit episode JSON, transcribe or align audio, reuse prior word timings, change speed or overwrite an existing different destination.
 
-The script prints proposed metadata. It **does not edit episode JSON, transcribe audio, align captions, replace existing timestamps or change audio speed**. Apply the printed `voiceover` object to your episode file, and use its printed `src`, for example:
+Apply the proposed path/duration to the new episode. `AudioTrack` uses `src`, `duration`, optional episode `start`, gain `volume`, `fadeIn` and `fadeOut` in seconds. Ensure `start + duration` fits the episode and leave a short intentional tail instead of truncating speech. General engine audio tracks are optional; **this production's final/test gate requires the supplied voiceover**. The test may be inspected silently while its source file is still verified. A silent final render is rejected; this film requires its original narration. No music is supplied for this pilot.
 
-```json
-"voiceover": {
-  "src": "audio/ElevenLabs-narration.mp3",
-  "duration": 23.562438,
-  "start": 0,
-  "volume": 1,
-  "fadeIn": 0,
-  "fadeOut": 0.15
-}
-```
+## Word data and manual correction
 
-All times are seconds. `start` is the recording's placement on the episode timeline. `volume` is a gain multiplier, not a decibel value. Fade durations apply within that audio track; use zero when a fade would obscure the opening or closing word. The episode must be long enough for `start + duration`; extend the final scene and episode duration rather than unintentionally truncating narration. The metadata proposal includes a duration rounded up to a whole 30 FPS frame. It is a suggestion, not an automatic timeline edit.
-
-The supplied pilot uses gain 1.15 with a 0.15-second ending fade. Review final output levels after any gain or music change. The source recording has not been normalized or speed-adjusted.
-
-## Import word timestamps
-
-Obtain alignment for the **exact finished audio file**, using an external speech aligner or manual listening. The project includes the pilot's completed ASR data; ASR model installation is not required to build or render the project. For a different recording, do not reuse the pilot's word timings, even if the text is similar.
-
-The canonical render data lives in each caption's `words` array in episode JSON:
+The render uses caption arrays in the production episode configuration. Each cue has absolute episode `start`/`end`, `text` and optional `words`:
 
 ```json
 {
@@ -67,53 +76,17 @@ The canonical render data lives in each caption's `words` array in episode JSON:
   "end": 1.38,
   "text": "I enter every room",
   "words": [
-    {"word": "I", "start": 0, "end": 0.2, "confidence": 0.964},
-    {"word": "enter", "start": 0.2, "end": 0.46, "confidence": 0.998},
-    {"word": "every", "start": 0.46, "end": 0.88, "confidence": 0.985},
-    {"word": "room", "start": 0.88, "end": 1.38, "confidence": 0.999}
+    {"word": "I", "start": 0, "end": 0.2},
+    {"word": "enter", "start": 0.2, "end": 0.46},
+    {"word": "every", "start": 0.46, "end": 0.88},
+    {"word": "room", "start": 0.88, "end": 1.38}
   ],
   "keyword": "room"
 }
 ```
 
-An external aligner's field names may differ. Map its token text to `word`, its boundaries to `start`/`end`, and optional confidence to a 0–1 `confidence`. The included source ASR file uses `text` and `probability`; episode captions use `word` and `confidence`. Keep the source data for provenance, but changing it alone does not update the caption arrays used by the renderer.
+An external aligner may use `text`/`probability`; map those to render fields `word`/optional `confidence`. Keep token order aligned with caption text, preserve punctuation and chronological boundaries, and keep each word inside its phrase. Source word-data edits alone do not update separate caption arrays automatically.
 
-Caption boundaries and word boundaries are **absolute episode seconds**, while camera, expression, blink and mouth cues are scene-relative. If a recording begins at `voiceover.start: 0.5`, add 0.5 seconds to file-relative word and caption times. Avoid applying that offset twice.
+If audio is placed at episode offset 0.5 seconds, add that offset once to file-relative word/phrase times. Camera/character cues are local to their shot; captions remain global so they stay synchronized through cuts. Keep six words/two lines maximum and place the semibold editorial sans captions clear of faces, hands and key objects.
 
-Keep the `words` array in the same token order as the caption text; the highlight follows token index. Preserve punctuation with its word. Set each word's end after its start, keep words chronological and inside the caption range, and keep caption ranges non-overlapping. Split phrases before they exceed two rendered lines. Shorten or rephrase the caption grouping rather than hiding text outside the caption box.
-
-## Review and make corrections
-
-1. Set `captionTiming: "provisional"` when timings are estimates, or `"asr-aligned"` after importing alignment against the actual recording.
-2. Play the actual-artwork visual test with sound in Studio or render `VINTAGE_VISUAL_TEST`. Do not export another placeholder video for caption review. Correct phrase starts/ends and individual word boundaries in episode JSON. At 30 FPS, one frame is approximately 0.0333 seconds.
-3. Watch at normal speed after making corrections. A phrase should appear comfortably with its speech and replace cleanly; one highlighted keyword and word-level emphasis should remain restrained.
-4. Check the configured caption position against the real illustration. Caption `position` overrides the scene position; use dark text on light scenes or cream text on dark scenes.
-5. Change `captionTiming` to `"reviewed"` only after the listening pass. Changing a status flag is not itself a review.
-
-```bash
-npm run validate -- --episode src/data/episodes/my-episode.json
-npm run render -- --composition test --episode src/data/episodes/my-episode.json
-```
-
-The current pilot remains marked as ASR-aligned. Production validation rejects provisional timings; ASR-aligned data is accepted with a listening-review warning.
-
-## Optional audio and music
-
-The corrected five-second `VINTAGE_VISUAL_TEST` uses only the first actual spoken sentence: a 4.4-second recording clip followed by a picture hold to five seconds. It does not play the next sentence in that test. The full final composition retains the original supplied recording at its original speed.
-
-Where a real-artwork render is intentionally silent, `--silent` excludes both narration and music and can render without the configured audio files. It does not bypass the artwork or visual-test gate. Narration and music are optional episode fields. Removing `voiceover` produces a silent episode when no music is configured. There is no requirement to add music.
-
-For licensed music, add a separate `music` track with the same schema:
-
-```json
-"music": {
-  "src": "audio/licensed-music.mp3",
-  "duration": 24,
-  "start": 0,
-  "volume": 0.1,
-  "fadeIn": 0.6,
-  "fadeOut": 1.2
-}
-```
-
-This is an example, not a supplied music asset. Set its measured duration and timeline placement to fit your episode. Start with a low gain, then listen to the whole mix so every narration word stays clear. Use only audio you have rights to use.
+Use `captionTiming: "provisional"` for estimates, `"asr-aligned"` for imported actual alignment, and `"reviewed"` only after a real listening pass. Correct cue starts/ends and individual words against playback at 30 FPS (one frame ≈0.0333 seconds). Current alignment stays marked as ASR until such review is performed; a status change alone is not a review.

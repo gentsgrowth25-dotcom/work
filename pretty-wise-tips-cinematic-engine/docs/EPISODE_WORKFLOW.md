@@ -1,113 +1,75 @@
-# Image-first episode workflow
+# Native 4:5 episode workflow
 
-Episode JSON configures the reusable engine. The source contract is [`../src/types.ts`](../src/types.ts); pilot data lives in `src/data/episodes/pilot.json`. Production now follows an image-first visual gate, not a storyboard export.
+The current film has been rendered and visually reviewed with all 14 principal illustrations. The first two-shot test and passed review are bundled with the source. The workflow below also describes how to repeat production after edits.
 
-## Production sequence
+The current production specification is `docs/PRODUCTION_SPEC_4X5.json`. Its sample quoted script is provisional reference text; the actual MP3 controls captions and cuts. Reusable components remain driven by episode/shot data, not manually rebuilt for each image.
 
-1. Create or supply the first completed illustration at `public/scenes/01_hotel_lobby.png`. It must show a real vintage-style adult female character in a fully painted cinematic lobby. Check the artwork itself, not only its filename.
-2. Render `VINTAGE_VISUAL_TEST` with `npm run render -- --composition test`. The output is `renders/pretty-wise-tips-vintage-test.mp4`: five seconds, 150 frames, 1080 × 1920 at 30 FPS. The first actual narration sentence is used in a 4.4-second audio clip, with a picture hold to five seconds.
-3. Review the actual image and rendered test for mature character design, consistent cel-style drawing, face/hair construction, environment, framing, subtle camera movement and readable captions. If matching independent layers exist, verify genuine restrained movement; flat artwork supports camera motion only.
-4. Record the completed review in `config/visual-test-review.json` using the validator's required schema and the current first-scene artwork and video SHA-256. Do not invent an approval or reuse one after changing the reviewed files.
-5. Supply all seven mandatory completed PNGs named in [ASSET_MANIFEST.md](ASSET_MANIFEST.md). Review character identity and series art direction across them.
-6. Validate the final episode and render with `npm run render -- --composition final`. The output is `renders/pretty-wise-tips-cinematic-pilot-final.mp4`, 24 seconds at 1080 × 1920 and 30 FPS.
+## Current master and scene order
 
-`npm run render` defaults to final production. It must fail when required artwork or a current visual-test review is missing. The final path never falls back to cards, descriptions, numbers or blank-color artwork. `DEVELOPMENT_PREVIEW` is separately named for internal inspection; no additional placeholder video is part of this correction.
+The master is **1080 × 1350, 4:5, 30 FPS, 716 frames / 23.866667 seconds**. The 23.562438-second supplied recording plays at its original speed and content, with about 0.304 seconds of tail. Do not stretch or blindly crop older 9:16 artwork to create this master.
 
-The airplane-wing reference is unavailable. Reference fidelity cannot be verified until it is supplied. When proceeding from the written brief is authorized, the review must state that basis; it must not assert a match to an unseen image.
+Seven location groups contain two authored drawings each:
 
-## Required image slots
-
-```text
-scenes/01_hotel_lobby.png
-scenes/02_dressing_room.png
-scenes/03_meeting_room.png
-scenes/04_jewelry_detail.png
-scenes/05_executive_desk.png
-scenes/06_penthouse.png
-scenes/07_final_portrait.png
-```
-
-Paths in episode JSON are relative to `public/`. Use fully illustrated portrait shots at 1080 × 1920 minimum, with no embedded caption or watermark. Keep one original recurring character with the same face, eye construction, hair swoop/silhouette, skin palette, pearls and mature elegant proportions. Traditional line drawing, flat color and cel shadows must come from the art itself.
-
-## Timeline and captions
-
-The pilot preserves the supplied 23.562438-second recording at its original speed. Seven scene boundaries at 30 FPS are **0, 137, 228, 323, 404, 533, 617, 720**:
-
-| Scene | End-exclusive frame range | Seconds |
+| Group | Drawings | Actual spoken anchor |
 | --- | --- | --- |
-| Hotel lobby | 0–137 | 0.000–4.567 |
-| Dressing-room mirror | 137–228 | 4.567–7.600 |
-| Meeting room | 228–323 | 7.600–10.767 |
-| Jewelry detail | 323–404 | 10.767–13.467 |
-| Executive desk | 404–533 | 13.467–17.767 |
-| Penthouse | 533–617 | 17.767–20.567 |
-| Final portrait | 617–720 | 20.567–24.000 |
+| 01 · Dressing-room mirror | Pearl/hand detail → mirror portrait | “I enter every room knowing I have something valuable to offer.” |
+| 02 · Vintage kitchen | Three-quarter kitchen portrait → teacup detail | “I speak about my work without apologizing.” |
+| 03 · City street | Arrival pose → boutique-window glance | “I ask for opportunities and I prepare for them.” |
+| 04 · Jewel boutique | Jewelry-box detail → boutique portrait | “A rejection does not change my value.” |
+| 05 · Executive office | Signing detail → office portrait | “I don't need to chase every offer. I can choose the right ones.” |
+| 06 · Balcony | Skyline reveal → contemplative profile | “My ambition is not something to hide.” |
+| 07 · Hero portrait | Confident close-up → final hero hold | “I'm building the life I used to only imagine.” |
 
-`Scene.start` and `duration` are episode seconds. Keep scenes contiguous and put boundaries on whole frames. Camera keyframes, character cues and blink times use scene-relative seconds. Caption and word boundaries use absolute episode seconds, so they stay aligned across cuts.
+The exact 14 paths and detailed prompts are in `public/required-assets.json` and `public/art-prompts-4x5.json`. Use actual generated/supplied files, not text cards or copied crops of the character reference. Keep the canonical caramel-brown heroine, chestnut/burgundy forelock and long waves, beauty mark, crimson long-sleeve dress and pearls unchanged across every location.
 
-The full pilot has 16 short narration phrases and the unspoken closing affirmation at 23–24 seconds. The five-second test uses only the opening phrases. Captions remain editable; ASR alignment has not been claimed as a human listening review. See [AUDIO_WORKFLOW.md](AUDIO_WORKFLOW.md).
+## First two drawings, then the five-second test
 
-Place captions below faces and clear of important objects. Caption-level `position` overrides `Scene.captionPosition`; coordinates use composition pixels. Choose `color: "cream"` on dark scenes or `"dark"` on light scenes. Keep two-line phrases short enough to fit; inspect actual text in the rendered image.
+Create/obtain `01A_pearls_detail.png` and `01B_dressing_room.png` under `public/scenes/4x5/`, then inspect them against the supplied inline canonical image. Run:
 
-## Flattened artwork mode
-
-Set each scene's `mode` to `flattened` and `image` to its exact mandatory slot. For example, the first scene uses:
-
-```json
-{
-  "mode": "flattened",
-  "image": "scenes/01_hotel_lobby.png",
-  "camera": [
-    {"time": 0, "x": 0, "y": 0, "scale": 1.04},
-    {"time": 4.5666666667, "x": 8, "y": -6, "scale": 1.09, "ease": "ease-in-out"}
-  ]
-}
+```bash
+npm run render -- --composition test
 ```
 
-This is a fragment of an existing scene object, not a complete episode. A flattened image supports aspect-ratio-safe framing, zoom, pan, reframing, transitions, global lighting, subtle grain, captions and independent overlays that are separately supplied. It does not independently blink, speak, walk, gesture, turn its head or move its hair. Do not warp a face to simulate acting.
+`VINTAGE-VISUAL-TEST-4X5` exports `renders/pretty-wise-tips-vintage-test-4x5.mp4`: five seconds, 150 frames, native 4:5. It cuts between the two real drawings, with restrained camera motion and semibold editorial sans captions. The first spoken sentence is complete within the 4.4-second audio clip; the picture holds to five seconds, before the next sentence would begin.
 
-Camera keyframes accept `time`, `x`, `y`, `scale`, `rotation`, `opacity` and `ease`. Translation uses composition pixels, rotation uses degrees, and scale is a multiplier. Available easing is `linear`, `ease-in-out` and `ease-out`; the destination keyframe selects easing for its segment. Unspecified values inherit their previous value, and the track holds outside its first/last keyframe. Use restrained moves and sufficient painted bleed; do not stretch the artwork to fill the frame.
+Review the actual image/video for character identity, coherent mirror, anatomy, hand/pearl detail, background design, framing, two-line captions and absence of labels/placeholders. Only after that review should `config/visual-test-review.json` record `status: "passed"`, both first-shot PNG SHA-256 hashes and the test-video SHA-256, with `basis: "supplied-reference"`. See [VISUAL_TEST_REVIEW.md](VISUAL_TEST_REVIEW.md) for the exact receipt shape. The receipt is evidence of a real review; it must not be invented or copied after the reviewed files change.
 
-Scene transitions support cuts or short dissolves with duration in seconds. The particle system is for auxiliary light particles. Jewelry, banknotes, documents and other primary objects require actual illustrated assets rather than geometric placeholders.
+## Complete the artwork and render the film
 
-## Optional layered mode
+After the first test has been inspected, complete the remaining 12 actual drawings. Review a contact sheet for face/hair/costume consistency and the genuine cel-art style. Keep hands, eyes and meaningful details out of the caption area.
 
-No compatible independent character layers are currently supplied. Once available, retain the required principal scene illustrations and configure clean registered layers appropriate to the shot. A rig does not arise from a flattened PNG merely because the scene mode changes.
-
-Every independent part and replacement sprite must use the same full-frame canvas, origin and scale. The scene image draws first; background-plane layers follow, then the character, then layers with `plane: "foreground"`. Each plane retains array order. Use sufficient painted overlap and clean fill behind removed parts. All sprites must match the exact head angle.
-
-A character rig fragment may look like this **after those assets exist**:
-
-```json
-{
-  "parts": [
-    {"id": "body", "src": "characters/main/scene-07/body.png", "role": "body", "fit": "contain"},
-    {"id": "head", "src": "characters/main/scene-07/head.png", "role": "head", "fit": "contain"},
-    {"id": "hair", "src": "characters/main/scene-07/hair-front.png", "role": "hair", "fit": "contain", "pivot": [540, 570], "motion": {"type": "sway", "amplitude": 0.2, "period": 4.6}}
-  ],
-  "headPivot": [540, 900],
-  "headKeyframes": [{"time": 0, "rotation": 0}, {"time": 3, "rotation": -0.5, "ease": "ease-in-out"}],
-  "eyes": {
-    "open": "characters/main/scene-07/eyes-open.png",
-    "half": "characters/main/scene-07/eyes-half.png",
-    "closed": "characters/main/scene-07/eyes-closed.png",
-    "blinkTimes": [1.15],
-    "duration": 0.18
-  },
-  "expressions": {
-    "neutral": "characters/main/scene-07/expression-neutral.png",
-    "smile": "characters/main/scene-07/expression-smile.png"
-  },
-  "expressionCues": [{"time": 0, "expression": "neutral"}, {"time": 2.3, "expression": "smile"}]
-}
+```bash
+npm run validate
+npm run render -- --composition final
 ```
 
-This is an asset contract example, not a supplied rig or a performed animation. `head`/`hair` parts share the head track. Body/shoulder/hand/clothing parts can have restrained explicit keyframes or supported breathing/sway motion. Transparent replacement eyes and expressions must not double up features already baked into the base face. Optional `mouths` maps shape names to raster files; `mouthCues` explicitly selects those names over time. Voiceover does not automatically enable mouth movement.
+The default renderer also targets `CINEMATIC-PILOT-4X5-FINAL`. Output: `renders/pretty-wise-tips-cinematic-pilot-4x5-final.mp4`. Final preflight requires all 14 principal PNGs, the supplied voiceover and the current first-test review. It must stop on missing inputs; there is no production fallback to a card or plain color. `DEVELOPMENT-PREVIEW` is isolated for inspection and is not the delivery.
 
-A convincing head turn, walking entrance, footfall, posture change or putting on jewelry requires appropriately drawn poses/action frames. A small head tilt is not a large head turn. See [CHARACTER_SPEC.md](CHARACTER_SPEC.md) for the illustrated reference and export handoff.
+## Editable timing and camera data
 
-## Reuse and final review
+Episode data controls title, duration, shot images, starts/durations, camera tracks, captions, audio and finish. The TypeScript shape lives in `src/types.ts`; the current 14-shot edit lives in `src/data/episodes/production.ts`. Use that production configuration rather than older historical storyboard data. The CLI's `--episode` argument selects an alternative episode JSON without rewriting the components. The current pilot's production gate still enforces its 14 required shot slots and reviewed first-test inputs.
 
-Copy episode JSON for a future film and change the title, timing, artwork, camera tracks, captions and audio. The `--episode` argument selects a different data file without changing the engine components. The current pilot's final gate enforces its seven exact image slots and reviewed first-scene test; preserve that contract for this pilot rather than bypassing it while drafting a future episode.
+Scene/shot `start` and `duration` use episode seconds; keep cuts on whole frames and the timeline contiguous. Camera keyframes, blink/expression/mouth cues use shot-local seconds. Caption/word times use absolute episode seconds, preserving speech alignment across image cuts. One frame at 30 FPS is about 0.0333 seconds.
 
-Run type checks, unit/render checks and the build after configuration changes. Inspect the actual test before recording review, then watch the whole final export with sound after rendering. File presence and format validation cannot approve identity, anatomy or aesthetic fidelity. Changing status metadata cannot turn a card into an illustration.
+Camera keyframes accept `time`, `x`, `y`, `scale`, `rotation`, `opacity`, and easing (`linear`, `ease-in-out`, `ease-out`). Translation/pivots use composition pixels; rotation uses degrees. A destination keyframe sets easing for its incoming segment. Keep image moves around 3–7% and art-direct adequate painted bleed. Use clean cuts and occasional 6–10-frame dissolves; the art should dominate.
+
+Native images preserve aspect ratio. Do not squeeze the face or use a large crop to hide an incorrectly proportioned scene. Captions use a clean editorial semibold sans, off-white/charcoal according to background, one restrained gold/lavender emphasis and a 4–6-frame entry. Keep phrases to six words/two lines maximum, around 68–78% height where appropriate. Native safe margins: 95 px top, 190 px bottom, 80 px left/right. Override placement when hands, jewelry or documents need that space.
+
+## What is actually animated
+
+The current principal artwork is flattened; 02B also includes a separately registered illustrated steam overlay that rises/fades. Supported performance is restrained camera movement and cuts between separately authored drawings. A still of a hand at a necklace is a held drawing; it is not an independently moving hand. A street pose is not a walk cycle. A signing pose does not show an animated pen stroke. Do not warp heads, wrists, hair or bodies to imply those actions.
+
+When suitable independent raster layers are added, configure them explicitly: clean background/midground/foreground, registered character parts, open/half/closed eyes, compatible expressions and illustrated props. Background-plane layers draw before the character and `plane: "foreground"` layers after it. Genuine parallax requires those separate layers. Keep all layers in a shot on the same canvas/registration and provide hidden painted fill. Voiceover does not infer mouth cues. See [CHARACTER_SPEC.md](CHARACTER_SPEC.md).
+
+## Verification and future episodes
+
+```bash
+npm run typecheck
+npm test
+npm run test:render
+npm run build
+```
+
+Checks verify implementation and file/configuration behavior. Inspect sampled frames, all cut boundaries and the full rendered MP4 with sound; use ffprobe to confirm 1080 × 1350, 30 FPS and 716 frames. Current measured results and a short truthful movement report belong in `QUALITY_CONTROL.md` only after those checks and media reviews are complete.
+
+For future episodes, preserve the component engine and create a new data/asset pack with its own authoritative narration, actual illustrations, timing and visual review. Keep one approved character model; do not treat a prompt list or pending file status as finished artwork.

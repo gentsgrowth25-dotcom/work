@@ -16,7 +16,7 @@ const Probe: React.FC<CompositionProps> = (props) => {
         const measurements = Array.from(document.querySelectorAll<HTMLElement>('[data-caption]')).map((caption) => {
           const text = caption.querySelector<HTMLElement>('[data-caption-text]') ?? caption.firstElementChild as HTMLElement;
           const lines = new Set(Array.from(text.querySelectorAll('span')).map((span) => Math.round(span.getBoundingClientRect().top)));
-          return {id: caption.dataset.caption, scrollHeight: text.scrollHeight, clientHeight: text.clientHeight, lineCount: lines.size, fontLoaded: document.fonts.check("700 64px 'Pretty Serif'")};
+          return {id: caption.dataset.caption, scrollHeight: text.scrollHeight, clientHeight: text.clientHeight, lineCount: lines.size, fontLoaded: document.fonts.check("600 56px 'Pretty Sans Semibold'")};
         });
         console.log('PWT_CAPTION_PROBE:' + JSON.stringify({frame, measurements}));
       }
