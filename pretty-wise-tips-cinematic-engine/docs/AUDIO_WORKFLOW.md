@@ -85,26 +85,23 @@ Keep the `words` array in the same token order as the caption text; the highligh
 ## Review and make corrections
 
 1. Set `captionTiming: "provisional"` when timings are estimates, or `"asr-aligned"` after importing alignment against the actual recording.
-2. Play the episode with sound in Studio or render a development MP4. Correct phrase starts/ends and individual word boundaries in episode JSON. At 30 FPS, one frame is approximately 0.0333 seconds.
+2. Play the actual-artwork visual test with sound in Studio or render `VINTAGE_VISUAL_TEST`. Do not export another placeholder video for caption review. Correct phrase starts/ends and individual word boundaries in episode JSON. At 30 FPS, one frame is approximately 0.0333 seconds.
 3. Watch at normal speed after making corrections. A phrase should appear comfortably with its speech and replace cleanly; one highlighted keyword and word-level emphasis should remain restrained.
 4. Check the configured caption position against the real illustration. Caption `position` overrides the scene position; use dark text on light scenes or cream text on dark scenes.
 5. Change `captionTiming` to `"reviewed"` only after the listening pass. Changing a status flag is not itself a review.
 
 ```bash
 npm run validate -- --episode src/data/episodes/my-episode.json
-npm run render -- --episode src/data/episodes/my-episode.json --out renders/my-episode-caption-review.mp4
+npm run render -- --composition test --episode src/data/episodes/my-episode.json
 ```
 
 The current pilot remains marked as ASR-aligned. Production validation rejects provisional timings; ASR-aligned data is accepted with a listening-review warning.
 
-## Silent previews and optional music
+## Optional audio and music
 
-```bash
-npm run render:silent
-npm run render -- --episode src/data/episodes/my-episode.json --silent --out renders/my-episode-silent.mp4
-```
+The corrected five-second `VINTAGE_VISUAL_TEST` uses only the first actual spoken sentence: a 4.4-second recording clip followed by a picture hold to five seconds. It does not play the next sentence in that test. The full final composition retains the original supplied recording at its original speed.
 
-Silent mode excludes both narration and music and can render without the configured audio files. Narration and music are optional episode fields. Removing `voiceover` produces a silent episode when no music is configured. There is no requirement to add music.
+Where a real-artwork render is intentionally silent, `--silent` excludes both narration and music and can render without the configured audio files. It does not bypass the artwork or visual-test gate. Narration and music are optional episode fields. Removing `voiceover` produces a silent episode when no music is configured. There is no requirement to add music.
 
 For licensed music, add a separate `music` track with the same schema:
 

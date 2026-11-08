@@ -86,12 +86,12 @@ The pasted brief calls this Episode 05; filenames are deliberately distinct from
 The narrated version is 33 seconds so the full 32.29-second supplied recording stays at its natural pace. The separate 30-second silent preview compresses the visual clock and is not synchronized to that longer recording.
 
 
-## Cinematic animation engine — I'm Not Waiting to Be Chosen
+## Cinematic animation engine — corrected production pipeline (v2)
 
-- [Complete reusable Remotion project ZIP](exports/pretty-wise-tips-cinematic-engine-v1.zip).
-- [24-second development preview with supplied narration](exports/pretty-wise-tips-cinematic-pilot-development-v1.mp4).
-- [Silent development preview](exports/pretty-wise-tips-cinematic-pilot-development-silent-v1.mp4).
-- [Closing-frame preview](exports/pretty-wise-tips-cinematic-pilot-closing-v1.png).
-- [Editable cinematic engine source](pretty-wise-tips-cinematic-engine/) and [verification report](exports/pretty-wise-tips-cinematic-pilot-quality-control-v1.md).
+- [Corrected reusable engine ZIP](exports/pretty-wise-tips-cinematic-engine-v2.zip).
+- [Exact seven-scene missing-asset manifest](exports/pretty-wise-tips-cinematic-required-assets-v2.json).
+- [Editable source](pretty-wise-tips-cinematic-engine/) and [pipeline verification](exports/pretty-wise-tips-cinematic-pipeline-verification-v2.md).
 
-Open a file and choose **Download raw file**. Both MP4s are 1080 × 1920, 30 FPS and 24 seconds. These are clearly labelled development storyboards: the airplane reference and finished scene illustrations were not supplied. This source implements the new traditional cel-art brief with raster assets; existing episodes remain in their original project. Caption timings follow the actual supplied recording and are automatically aligned, editable and pending a listening review.
+Open a file and choose **Download raw file**. The default render is now production and cannot substitute development cards. `CINEMATIC_PILOT_FINAL`, `VINTAGE_VISUAL_TEST` and `DEVELOPMENT_PREVIEW` are separate compositions. The five-second illustrated first-scene test must be reviewed before the full 24-second export.
+
+The airplane-wing reference and seven completed illustrations are still missing. No new MP4 was exported for this correction. The earlier version-1 MP4s are historical development storyboards, not the requested cinematic film. Artwork generation from the written description is awaiting the creator's reference choice.

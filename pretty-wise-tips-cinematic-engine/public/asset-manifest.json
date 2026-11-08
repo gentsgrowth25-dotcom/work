@@ -1,23 +1,27 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "brand": "Pretty Wise Tips",
   "episodeId": "not-waiting-to-be-chosen",
   "title": "I'm Not Waiting to Be Chosen",
   "assetRoot": "public/",
-  "availability": "Audio supplied; reference and all production artwork missing. Development plates are explicitly marked and are not finished scene illustrations.",
+  "requiredAssetsManifest": "required-assets.json",
+  "availability": "Supplied narration exists. All seven mandatory scene illustrations, the airplane-wing reference, master character sheet and compatible independent character layers are currently missing. No new placeholder video is an acceptable substitute.",
+  "productionReady": false,
+  "visualTestReady": false,
   "dimensions": {
     "width": 1080,
     "height": 1920,
     "fps": 30,
+    "durationSeconds": 24,
     "aspectRatio": "9:16",
     "preferredArtworkScale": 2,
     "colorSpace": "sRGB",
-    "formats": [
+    "mandatorySceneFormat": "png",
+    "layerFormats": [
       "png",
       "webp"
     ],
-    "independentLayersRequireAlpha": true,
-    "layerRegistration": "All full-canvas layer exports in one shot share identical dimensions, origin and scale. Motion pivots and transforms use composition pixels in episode data."
+    "layerRegistration": "Transparent full-canvas independent exports in one shot share identical dimensions, origin and scale. Pivots and translations use composition pixels."
   },
   "referenceAssets": [
     {
@@ -61,410 +65,257 @@
       "sha256": "f5e618942f244bca0f33e79cfecf7c9c5901fc5c32b6eb71a06a42dd35e4c399"
     }
   ],
+  "requiredSceneAssets": [
+    {
+      "id": "scene-01",
+      "path": "scenes/01_hotel_lobby.png",
+      "required": true,
+      "status": "missing",
+      "kind": "completed-cinematic-illustration",
+      "width": 1080,
+      "height": 1920,
+      "aspectRatio": "9:16",
+      "alpha": false,
+      "title": "Hotel lobby",
+      "illustrationBrief": "An original glamorous adult brunette arriving in an elegant hotel lobby with polished stone, restrained brass and warm lighting. Clearly show her calm face, chestnut curls and sculpted front swoop; compose portrait artwork with a believable environment and caption space below the face.",
+      "noEmbeddedText": true,
+      "noWatermark": true
+    },
+    {
+      "id": "scene-02",
+      "path": "scenes/02_dressing_room.png",
+      "required": true,
+      "status": "missing",
+      "kind": "completed-cinematic-illustration",
+      "width": 1080,
+      "height": 1920,
+      "aspectRatio": "9:16",
+      "alpha": false,
+      "title": "Dressing-room mirror",
+      "illustrationBrief": "The same original brunette at a large dressing-room mirror, upright and composed. Her reflection, costume and lighting must agree; use refined vintage dressing-room details and preserve her approved face and hair silhouette.",
+      "noEmbeddedText": true,
+      "noWatermark": true
+    },
+    {
+      "id": "scene-03",
+      "path": "scenes/03_meeting_room.png",
+      "required": true,
+      "status": "missing",
+      "kind": "completed-cinematic-illustration",
+      "width": 1080,
+      "height": 1920,
+      "aspectRatio": "9:16",
+      "alpha": false,
+      "title": "Meeting-room entrance",
+      "illustrationBrief": "The same original brunette entering an upscale meeting room in elegant tailored clothing. Her posture and expression convey quiet confidence. Painted room details, character outline and cel shadows must share the series art style.",
+      "noEmbeddedText": true,
+      "noWatermark": true
+    },
+    {
+      "id": "scene-04",
+      "path": "scenes/04_jewelry_detail.png",
+      "required": true,
+      "status": "missing",
+      "kind": "completed-cinematic-illustration",
+      "width": 1080,
+      "height": 1920,
+      "aspectRatio": "9:16",
+      "alpha": false,
+      "title": "Jewelry detail",
+      "illustrationBrief": "Close-up of beautifully drawn pearl/gold jewelry and refined accessories on a dressing table, with a graceful hand if appropriate. Objects and anatomy must be complete illustrations with coherent perspective and lighting. Keep the selected accessory clear of caption space.",
+      "noEmbeddedText": true,
+      "noWatermark": true
+    },
+    {
+      "id": "scene-05",
+      "path": "scenes/05_executive_desk.png",
+      "required": true,
+      "status": "missing",
+      "kind": "completed-cinematic-illustration",
+      "width": 1080,
+      "height": 1920,
+      "aspectRatio": "9:16",
+      "alpha": false,
+      "title": "Executive desk",
+      "illustrationBrief": "The same original brunette seated at an executive desk reviewing original plans and documents, with a determined but composed expression. Compose for a restrained push toward her face; no accidental generated document text.",
+      "noEmbeddedText": true,
+      "noWatermark": true
+    },
+    {
+      "id": "scene-06",
+      "path": "scenes/06_penthouse.png",
+      "required": true,
+      "status": "missing",
+      "kind": "completed-cinematic-illustration",
+      "width": 1080,
+      "height": 1920,
+      "aspectRatio": "9:16",
+      "alpha": false,
+      "title": "Penthouse skyline",
+      "illustrationBrief": "The same original brunette at a tall window in a luxurious penthouse overlooking an elegant city skyline. Include soft curtains and restrained dusk light; single flattened curtain/hair pixels cannot be claimed to move independently.",
+      "noEmbeddedText": true,
+      "noWatermark": true
+    },
+    {
+      "id": "scene-07",
+      "path": "scenes/07_final_portrait.png",
+      "required": true,
+      "status": "missing",
+      "kind": "completed-cinematic-illustration",
+      "width": 1080,
+      "height": 1920,
+      "aspectRatio": "9:16",
+      "alpha": false,
+      "title": "Final confident portrait",
+      "illustrationBrief": "A satisfying confident close-up of the same original brunette with a subtle smile, expressive almond eyes, soft red lipstick, pearl earrings and the approved chestnut front swoop. Leave a clean lower-middle area for the final caption.",
+      "noEmbeddedText": true,
+      "noWatermark": true
+    }
+  ],
   "scenes": [
     {
       "id": "scene-01",
       "title": "Hotel lobby",
-      "initialTimingSeconds": {
-        "start": 0,
-        "end": 3
-      },
-      "minimumMode": "flattened",
+      "path": "scenes/01_hotel_lobby.png",
+      "image": "scenes/01_hotel_lobby.png",
       "status": "missing",
-      "background": "scenes/scene-01/background.png",
-      "illustrationBrief": "Warm, elegant hotel lobby with polished floor and composed brunette; portrait framing with face above captions.",
-      "requiredAssets": [
-        {
-          "path": "scenes/scene-01/background.png",
-          "kind": "flattened-illustration",
-          "status": "missing",
-          "requiredFor": "camera-motion-pilot",
-          "alpha": false
-        }
-      ],
-      "optionalLayers": [
-        {
-          "path": "scenes/scene-01/background-clean.png",
-          "kind": "clean-background",
-          "status": "missing",
-          "alpha": false,
-          "plane": "background"
-        },
-        {
-          "path": "scenes/scene-01/foreground.png",
-          "kind": "foreground",
-          "status": "missing",
-          "alpha": true,
-          "plane": "foreground"
-        },
-        {
-          "path": "scenes/scene-01/character.png",
-          "kind": "separate-character",
-          "status": "missing",
-          "alpha": true
-        }
-      ],
-      "layeredHandoffNeeds": [
-        "Clean lobby plate",
-        "Foreground doorframe/floor",
-        "Character entrance poses"
-      ],
-      "characterRigDirectory": "characters/main/scene-01/",
-      "performanceNote": "No independent character or prop animation is implied by a flattened illustration. Enable each feature only when its compatible layers or pose drawings are supplied.",
-      "optionalInsert": {
-        "path": "scenes/scene-01/heels.png",
-        "kind": "full-frame-insert",
-        "status": "missing",
-        "requiredFor": "exact-opening-shot",
-        "alpha": false,
-        "note": "Close-up still supports a cutaway and camera effects. Actual footfall requires authored heel/contact poses."
-      }
+      "mode": "flattened",
+      "timing": {
+        "startFrame": 0,
+        "endFrameExclusive": 137,
+        "startSeconds": 0.0,
+        "endSeconds": 4.566666666666666
+      },
+      "illustrationBrief": "An original glamorous adult brunette arriving in an elegant hotel lobby with polished stone, restrained brass and warm lighting. Clearly show her calm face, chestnut curls and sculpted front swoop; compose portrait artwork with a believable environment and caption space below the face.",
+      "independentCharacterLayers": "missing",
+      "independentProps": "missing",
+      "performanceLimit": "Flattened artwork supports camera motion and separately supplied overlays. It does not independently blink, speak, walk, turn its head, gesture or move its hair."
     },
     {
       "id": "scene-02",
       "title": "Dressing-room mirror",
-      "initialTimingSeconds": {
-        "start": 3,
-        "end": 6
-      },
-      "minimumMode": "flattened",
+      "path": "scenes/02_dressing_room.png",
+      "image": "scenes/02_dressing_room.png",
       "status": "missing",
-      "background": "scenes/scene-02/background.png",
-      "illustrationBrief": "Beautiful dressing room and large mirror; matching reflection and upright, composed character.",
-      "requiredAssets": [
-        {
-          "path": "scenes/scene-02/background.png",
-          "kind": "flattened-illustration",
-          "status": "missing",
-          "requiredFor": "camera-motion-pilot",
-          "alpha": false
-        }
-      ],
-      "optionalLayers": [
-        {
-          "path": "scenes/scene-02/background-clean.png",
-          "kind": "clean-background",
-          "status": "missing",
-          "alpha": false,
-          "plane": "background"
-        },
-        {
-          "path": "scenes/scene-02/foreground.png",
-          "kind": "foreground",
-          "status": "missing",
-          "alpha": true,
-          "plane": "foreground"
-        },
-        {
-          "path": "scenes/scene-02/character.png",
-          "kind": "separate-character",
-          "status": "missing",
-          "alpha": true
-        }
-      ],
-      "layeredHandoffNeeds": [
-        "Clean dressing room",
-        "Character",
-        "Matching reflection",
-        "Head and eye replacements",
-        "Posture poses"
-      ],
-      "characterRigDirectory": "characters/main/scene-02/",
-      "performanceNote": "No independent character or prop animation is implied by a flattened illustration. Enable each feature only when its compatible layers or pose drawings are supplied."
+      "mode": "flattened",
+      "timing": {
+        "startFrame": 137,
+        "endFrameExclusive": 228,
+        "startSeconds": 4.566666666666666,
+        "endSeconds": 7.6
+      },
+      "illustrationBrief": "The same original brunette at a large dressing-room mirror, upright and composed. Her reflection, costume and lighting must agree; use refined vintage dressing-room details and preserve her approved face and hair silhouette.",
+      "independentCharacterLayers": "missing",
+      "independentProps": "missing",
+      "performanceLimit": "Flattened artwork supports camera motion and separately supplied overlays. It does not independently blink, speak, walk, turn its head, gesture or move its hair."
     },
     {
       "id": "scene-03",
       "title": "Meeting-room entrance",
-      "initialTimingSeconds": {
-        "start": 6,
-        "end": 9
-      },
-      "minimumMode": "flattened",
+      "path": "scenes/03_meeting_room.png",
+      "image": "scenes/03_meeting_room.png",
       "status": "missing",
-      "background": "scenes/scene-03/background.png",
-      "illustrationBrief": "Upscale meeting room entrance and sophisticated tailored clothing; confident composed expression.",
-      "requiredAssets": [
-        {
-          "path": "scenes/scene-03/background.png",
-          "kind": "flattened-illustration",
-          "status": "missing",
-          "requiredFor": "camera-motion-pilot",
-          "alpha": false
-        }
-      ],
-      "optionalLayers": [
-        {
-          "path": "scenes/scene-03/background-clean.png",
-          "kind": "clean-background",
-          "status": "missing",
-          "alpha": false,
-          "plane": "background"
-        },
-        {
-          "path": "scenes/scene-03/foreground.png",
-          "kind": "foreground",
-          "status": "missing",
-          "alpha": true,
-          "plane": "foreground"
-        },
-        {
-          "path": "scenes/scene-03/character.png",
-          "kind": "separate-character",
-          "status": "missing",
-          "alpha": true
-        }
-      ],
-      "layeredHandoffNeeds": [
-        "Clean meeting room",
-        "Foreground doorframe/table",
-        "Character walk and settle poses"
-      ],
-      "characterRigDirectory": "characters/main/scene-03/",
-      "performanceNote": "No independent character or prop animation is implied by a flattened illustration. Enable each feature only when its compatible layers or pose drawings are supplied."
+      "mode": "flattened",
+      "timing": {
+        "startFrame": 228,
+        "endFrameExclusive": 323,
+        "startSeconds": 7.6,
+        "endSeconds": 10.766666666666667
+      },
+      "illustrationBrief": "The same original brunette entering an upscale meeting room in elegant tailored clothing. Her posture and expression convey quiet confidence. Painted room details, character outline and cel shadows must share the series art style.",
+      "independentCharacterLayers": "missing",
+      "independentProps": "missing",
+      "performanceLimit": "Flattened artwork supports camera motion and separately supplied overlays. It does not independently blink, speak, walk, turn its head, gesture or move its hair."
     },
     {
       "id": "scene-04",
-      "title": "Jewelry selection",
-      "initialTimingSeconds": {
-        "start": 9,
-        "end": 12
-      },
-      "minimumMode": "flattened",
+      "title": "Jewelry detail",
+      "path": "scenes/04_jewelry_detail.png",
+      "image": "scenes/04_jewelry_detail.png",
       "status": "missing",
-      "background": "scenes/scene-04/background.png",
-      "illustrationBrief": "Elegant illustrated jewelry and accessories on a dressing table, hand and selected item clear of captions.",
-      "requiredAssets": [
-        {
-          "path": "scenes/scene-04/background.png",
-          "kind": "flattened-illustration",
-          "status": "missing",
-          "requiredFor": "camera-motion-pilot",
-          "alpha": false
-        }
-      ],
-      "optionalLayers": [
-        {
-          "path": "scenes/scene-04/background-clean.png",
-          "kind": "clean-background",
-          "status": "missing",
-          "alpha": false,
-          "plane": "background"
-        },
-        {
-          "path": "scenes/scene-04/foreground.png",
-          "kind": "foreground",
-          "status": "missing",
-          "alpha": true,
-          "plane": "foreground"
-        },
-        {
-          "path": "scenes/scene-04/character.png",
-          "kind": "separate-character",
-          "status": "missing",
-          "alpha": true
-        },
-        {
-          "path": "props/scene-04/jewelry.png",
-          "kind": "illustrated-prop",
-          "status": "missing",
-          "alpha": true
-        }
-      ],
-      "layeredHandoffNeeds": [
-        "Clean dressing table",
-        "Jewelry prop",
-        "Resting/reaching/holding hand poses",
-        "Occlusion masks"
-      ],
-      "characterRigDirectory": "characters/main/scene-04/",
-      "performanceNote": "No independent character or prop animation is implied by a flattened illustration. Enable each feature only when its compatible layers or pose drawings are supplied."
+      "mode": "flattened",
+      "timing": {
+        "startFrame": 323,
+        "endFrameExclusive": 404,
+        "startSeconds": 10.766666666666667,
+        "endSeconds": 13.466666666666667
+      },
+      "illustrationBrief": "Close-up of beautifully drawn pearl/gold jewelry and refined accessories on a dressing table, with a graceful hand if appropriate. Objects and anatomy must be complete illustrations with coherent perspective and lighting. Keep the selected accessory clear of caption space.",
+      "independentCharacterLayers": "missing",
+      "independentProps": "missing",
+      "performanceLimit": "Flattened artwork supports camera motion and separately supplied overlays. It does not independently blink, speak, walk, turn its head, gesture or move its hair."
     },
     {
       "id": "scene-05",
       "title": "Executive desk",
-      "initialTimingSeconds": {
-        "start": 12,
-        "end": 16
-      },
-      "minimumMode": "flattened",
+      "path": "scenes/05_executive_desk.png",
+      "image": "scenes/05_executive_desk.png",
       "status": "missing",
-      "background": "scenes/scene-05/background.png",
-      "illustrationBrief": "Brunette seated at executive desk reviewing original plans/documents; face composed for a restrained push-in.",
-      "requiredAssets": [
-        {
-          "path": "scenes/scene-05/background.png",
-          "kind": "flattened-illustration",
-          "status": "missing",
-          "requiredFor": "camera-motion-pilot",
-          "alpha": false
-        }
-      ],
-      "optionalLayers": [
-        {
-          "path": "scenes/scene-05/background-clean.png",
-          "kind": "clean-background",
-          "status": "missing",
-          "alpha": false,
-          "plane": "background"
-        },
-        {
-          "path": "scenes/scene-05/foreground.png",
-          "kind": "foreground",
-          "status": "missing",
-          "alpha": true,
-          "plane": "foreground"
-        },
-        {
-          "path": "scenes/scene-05/character.png",
-          "kind": "separate-character",
-          "status": "missing",
-          "alpha": true
-        },
-        {
-          "path": "props/scene-05/document.png",
-          "kind": "illustrated-prop",
-          "status": "missing",
-          "alpha": true
-        }
-      ],
-      "layeredHandoffNeeds": [
-        "Clean office and desk",
-        "Character rig",
-        "Foreground documents",
-        "Paper prop",
-        "Hand poses"
-      ],
-      "characterRigDirectory": "characters/main/scene-05/",
-      "performanceNote": "No independent character or prop animation is implied by a flattened illustration. Enable each feature only when its compatible layers or pose drawings are supplied."
+      "mode": "flattened",
+      "timing": {
+        "startFrame": 404,
+        "endFrameExclusive": 533,
+        "startSeconds": 13.466666666666667,
+        "endSeconds": 17.766666666666666
+      },
+      "illustrationBrief": "The same original brunette seated at an executive desk reviewing original plans and documents, with a determined but composed expression. Compose for a restrained push toward her face; no accidental generated document text.",
+      "independentCharacterLayers": "missing",
+      "independentProps": "missing",
+      "performanceLimit": "Flattened artwork supports camera motion and separately supplied overlays. It does not independently blink, speak, walk, turn its head, gesture or move its hair."
     },
     {
       "id": "scene-06",
       "title": "Penthouse skyline",
-      "initialTimingSeconds": {
-        "start": 16,
-        "end": 20
-      },
-      "minimumMode": "flattened",
+      "path": "scenes/06_penthouse.png",
+      "image": "scenes/06_penthouse.png",
       "status": "missing",
-      "background": "scenes/scene-06/background.png",
-      "illustrationBrief": "Luxurious penthouse and beautiful city skyline; character at window, soft curtains and restrained evening light.",
-      "requiredAssets": [
-        {
-          "path": "scenes/scene-06/background.png",
-          "kind": "flattened-illustration",
-          "status": "missing",
-          "requiredFor": "camera-motion-pilot",
-          "alpha": false
-        }
-      ],
-      "optionalLayers": [
-        {
-          "path": "scenes/scene-06/background-clean.png",
-          "kind": "clean-background",
-          "status": "missing",
-          "alpha": false,
-          "plane": "background"
-        },
-        {
-          "path": "scenes/scene-06/foreground.png",
-          "kind": "foreground",
-          "status": "missing",
-          "alpha": true,
-          "plane": "foreground"
-        },
-        {
-          "path": "scenes/scene-06/character.png",
-          "kind": "separate-character",
-          "status": "missing",
-          "alpha": true
-        },
-        {
-          "path": "scenes/scene-06/curtains.png",
-          "kind": "curtain",
-          "status": "missing",
-          "alpha": true
-        }
-      ],
-      "layeredHandoffNeeds": [
-        "Clean penthouse",
-        "Skyline depth layer",
-        "Character rig",
-        "Separate curtains",
-        "Separate hair"
-      ],
-      "characterRigDirectory": "characters/main/scene-06/",
-      "performanceNote": "No independent character or prop animation is implied by a flattened illustration. Enable each feature only when its compatible layers or pose drawings are supplied."
+      "mode": "flattened",
+      "timing": {
+        "startFrame": 533,
+        "endFrameExclusive": 617,
+        "startSeconds": 17.766666666666666,
+        "endSeconds": 20.566666666666666
+      },
+      "illustrationBrief": "The same original brunette at a tall window in a luxurious penthouse overlooking an elegant city skyline. Include soft curtains and restrained dusk light; single flattened curtain/hair pixels cannot be claimed to move independently.",
+      "independentCharacterLayers": "missing",
+      "independentProps": "missing",
+      "performanceLimit": "Flattened artwork supports camera motion and separately supplied overlays. It does not independently blink, speak, walk, turn its head, gesture or move its hair."
     },
     {
       "id": "scene-07",
-      "title": "Confident close-up",
-      "initialTimingSeconds": {
-        "start": 20,
-        "end": 24
-      },
-      "minimumMode": "flattened",
+      "title": "Final confident portrait",
+      "path": "scenes/07_final_portrait.png",
+      "image": "scenes/07_final_portrait.png",
       "status": "missing",
-      "background": "scenes/scene-07/background.png",
-      "illustrationBrief": "Emotionally satisfying confident close-up, subtle smile, pearls and recognizable hair swoop; caption space below face.",
-      "requiredAssets": [
-        {
-          "path": "scenes/scene-07/background.png",
-          "kind": "flattened-illustration",
-          "status": "missing",
-          "requiredFor": "camera-motion-pilot",
-          "alpha": false
-        }
-      ],
-      "optionalLayers": [
-        {
-          "path": "scenes/scene-07/background-clean.png",
-          "kind": "clean-background",
-          "status": "missing",
-          "alpha": false,
-          "plane": "background"
-        },
-        {
-          "path": "scenes/scene-07/foreground.png",
-          "kind": "foreground",
-          "status": "missing",
-          "alpha": true,
-          "plane": "foreground"
-        },
-        {
-          "path": "scenes/scene-07/character.png",
-          "kind": "separate-character",
-          "status": "missing",
-          "alpha": true
-        }
-      ],
-      "layeredHandoffNeeds": [
-        "Portrait background",
-        "Head/body/hair rig",
-        "Open/half/closed eyes",
-        "Neutral/smile expressions"
-      ],
-      "characterRigDirectory": "characters/main/scene-07/",
-      "performanceNote": "No independent character or prop animation is implied by a flattened illustration. Enable each feature only when its compatible layers or pose drawings are supplied."
+      "mode": "flattened",
+      "timing": {
+        "startFrame": 617,
+        "endFrameExclusive": 720,
+        "startSeconds": 20.566666666666666,
+        "endSeconds": 24.0
+      },
+      "illustrationBrief": "A satisfying confident close-up of the same original brunette with a subtle smile, expressive almond eyes, soft red lipstick, pearl earrings and the approved chestnut front swoop. Leave a clean lower-middle area for the final caption.",
+      "independentCharacterLayers": "missing",
+      "independentProps": "missing",
+      "performanceLimit": "Flattened artwork supports camera motion and separately supplied overlays. It does not independently blink, speak, walk, turn its head, gesture or move its hair."
     }
   ],
-  "rigSpriteContract": {
-    "rootPattern": "characters/main/scene-XX/",
-    "registration": "Transparent, full-frame, registered PNG/WebP exports; separate pose-specific sprites for each head angle.",
-    "suggestedParts": [
-      "body.png",
-      "head.png",
-      "hair-back.png",
-      "hair-front.png",
-      "clothing.png",
-      "hand-resting.png",
-      "hand-jewelry.png"
+  "independentLayerRequirements": {
+    "status": "missing",
+    "sourceOfTruth": "Only configure layer paths that actually exist. None of the mandatory flattened illustrations implies a usable rig.",
+    "characterParts": [
+      "body",
+      "head",
+      "hair",
+      "shoulders",
+      "hands",
+      "clothing"
     ],
-    "eyes": {
-      "open": "eyes-open.png",
-      "half": "eyes-half.png",
-      "closed": "eyes-closed.png",
-      "timing": "Explicit scene-relative blinkTimes and optional duration in seconds."
-    },
+    "eyes": [
+      "open",
+      "half",
+      "closed"
+    ],
     "expressions": [
       "neutral",
       "smile",
@@ -474,8 +325,7 @@
       "disappointed",
       "surprised"
     ],
-    "expressionFilePattern": "expression-{name}.png",
-    "mouthShapes": [
+    "optionalMouths": [
       "rest",
       "smile",
       "a",
@@ -485,23 +335,25 @@
       "mbp",
       "fv"
     ],
-    "mouthFilePattern": "mouth-{shape}.png",
-    "mouthPolicy": "Off unless explicit mouth cues and compatible sprites are supplied. Voiceover does not imply talking animation.",
-    "baseFacePolicy": "Do not bake replacement eye, brow or mouth features into the base layer. Supply painted fill and occluders as needed.",
-    "actualActionPolicy": "Walking, footfall, straightening posture and selecting/putting on jewelry require authored action poses or sequences, not invented deformation."
+    "registration": "All replacements are transparent, registered full-canvas rasters matched to the exact head angle.",
+    "mouthPolicy": "Voiceover-only by default; mouth animation requires explicit matching sprites and cues.",
+    "actionPolicy": "Footfall, walking, posture changes and putting on jewelry require authored action drawings, not deformation of a flat picture."
   },
-  "productionChecklist": [
-    "Every configured raster file exists and decodes.",
-    "All seven scenes have approved principal illustrations.",
-    "Selected mode matches the available flattened or layered artwork.",
-    "Only actual independent layers receive parallax or character motion.",
-    "Identity, anatomy and traditional cel-animation aesthetic are reviewed across shots.",
-    "Camera extremes retain painted coverage without stretching.",
-    "Caption positions avoid faces, important action and platform UI.",
-    "Narration timing and final caption are reviewed before publishing."
-  ],
+  "pipeline": {
+    "finalComposition": "CINEMATIC_PILOT_FINAL",
+    "visualTestComposition": "VINTAGE_VISUAL_TEST",
+    "developmentComposition": "DEVELOPMENT_PREVIEW",
+    "defaultRender": "final",
+    "visualTestOutput": "renders/pretty-wise-tips-vintage-test.mp4",
+    "finalOutput": "renders/pretty-wise-tips-cinematic-pilot-final.mp4",
+    "reviewReceipt": "config/visual-test-review.json",
+    "noProductionFallback": true,
+    "developmentExports": "Historical development videos are not corrected cinematic deliverables. Do not export another placeholder video for this correction."
+  },
   "documentation": [
     "docs/ASSET_MANIFEST.md",
-    "docs/CHARACTER_SPEC.md"
+    "docs/CHARACTER_SPEC.md",
+    "docs/EPISODE_WORKFLOW.md",
+    "docs/AUDIO_WORKFLOW.md"
   ]
 }

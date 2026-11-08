@@ -3,27 +3,32 @@ import {renderMedia, renderStill, selectComposition} from '@remotion/renderer';
 import {existsSync, mkdirSync} from 'node:fs';
 import {dirname, resolve} from 'node:path';
 import {parseArgs} from 'node:util';
+import {developmentPilot, productionPilot, vintageVisualTest} from '../src/data/episodes/production';
 import {loadEpisode} from './load-episode';
-import {validateEpisode} from '../src/utils/validate';
+import {preflightRender} from './preflight';
+import {compositionIdFor, outputFilenameFor, resolveRenderKind} from './render-request';
 
 const {values} = parseArgs({options: {
-  episode: {type: 'string'}, out: {type: 'string'}, production: {type: 'boolean'},
-  silent: {type: 'boolean'}, still: {type: 'boolean'}, frame: {type: 'string'},
+  composition: {type: 'string'}, episode: {type: 'string'}, out: {type: 'string'}, production: {type: 'boolean'},
+  silent: {type: 'boolean'}, still: {type: 'boolean'}, frame: {type: 'string'}, review: {type: 'string'},
 }});
 try {
-  const episode = loadEpisode(values.episode);
-  const report = validateEpisode(episode, {publicDir: resolve('public'), production: values.production, silent: values.silent});
+  const kind = resolveRenderKind(values);
+  const episode = values.episode ? loadEpisode(values.episode) : {final: productionPilot, test: vintageVisualTest, development: developmentPilot}[kind];
+  const report = preflightRender(episode, {kind, publicDir: resolve('public'), projectDir: process.cwd(), reviewFile: values.review, silent: values.silent});
   report.warnings.forEach((message) => console.warn(`WARNING: ${message}`));
   if (report.errors.length) throw new Error(report.errors.join('\n'));
-  const inputProps = {episode, silent: !!values.silent, development: !values.production};
+  const inputProps = {episode, silent: !!values.silent, development: kind === 'development', artworkReview: report.review};
   const serveUrl = await bundle({entryPoint: resolve('src/index.ts'), publicDir: resolve('public')});
   const browserExecutable = process.env.REMOTION_BROWSER_EXECUTABLE ?? (existsSync('/usr/bin/chromium') ? '/usr/bin/chromium' : undefined);
   const common = {serveUrl, inputProps, browserExecutable};
-  const composition = await selectComposition({...common, id: 'PrettyWisePilot'});
-  const outputLocation = resolve(values.out ?? (values.still ? 'renders/pilot-development.png' : values.silent ? 'renders/pilot-development-silent.mp4' : values.production ? 'renders/pilot.mp4' : 'renders/pilot-development.mp4'));
+  const composition = await selectComposition({...common, id: compositionIdFor(kind)});
+  const stem = outputFilenameFor(kind).replace(/\.mp4$/, '');
+  const defaultFilename = values.still ? `${stem}.png` : `${stem}${values.silent ? '-silent' : ''}.mp4`;
+  const outputLocation = resolve(values.out ?? `renders/${defaultFilename}`);
   mkdirSync(dirname(outputLocation), {recursive: true});
   if (values.still) {
-    const frame = Number(values.frame ?? 700);
+    const frame = Number(values.frame ?? (kind === 'test' ? 90 : 700));
     if (!Number.isInteger(frame) || frame < 0 || frame >= composition.durationInFrames) throw new Error('Still frame is outside the composition.');
     await renderStill({...common, composition, output: outputLocation, frame, imageFormat: 'png'});
   } else {

@@ -2,6 +2,7 @@
 import React, {useLayoutEffect} from 'react';
 import {Composition, continueRender, delayRender, registerRoot, useCurrentFrame} from 'remotion';
 import {PilotEpisode} from '../src/compositions/PilotEpisode';
+import {DevelopmentPreview} from '../src/compositions/DevelopmentPreview';
 import {pilot} from '../src/data/episodes/pilot';
 import type {CompositionProps} from '../src/types';
 
@@ -23,7 +24,7 @@ const Probe: React.FC<CompositionProps> = (props) => {
     });
     return () => {cancelled = true; continueRender(handle);};
   }, [frame]);
-  return <PilotEpisode {...props}/>;
+  return props.development ? <DevelopmentPreview {...props}/> : <PilotEpisode {...props}/>;
 };
 
 registerRoot(() => <Composition id="RenderSmoke" component={Probe} width={1080} height={1920} fps={30} durationInFrames={720}

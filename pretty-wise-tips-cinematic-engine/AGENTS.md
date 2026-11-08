@@ -1,9 +1,11 @@
-# Cinematic engine instructions
+# Pretty Wise Tips cinematic production rules
 
-This directory implements the current cinematic cel-animation brief in `docs/PROJECT_BRIEF.md`. It is separate from the historical infographic episodes in `../pretty-wise-tips/`. The user explicitly requested this new visual direction: use principal PNG/WebP illustrations, with SVG only for auxiliary graphics. Do not substitute the older SVG puppet art for missing illustrations.
+Read docs/CRITICAL_CORRECTION.md and docs/PROJECT_BRIEF.md. This project follows the user's current traditional 1990s cel-animation direction; the repository's older vector-infographic episodes are historical, separate work.
 
-Production artwork and the airplane reference are missing. Preserve the marked development status until approved scene art is supplied. Flattened scenes support camera effects; independent character performance requires compatible layers and registered replacement sprites. Do not claim absent artwork or unrendered motion exists.
+Never export a production video containing development cards, numbers, scene-description text, debug labels or placeholder colors. The only placeholder-aware composition is DEVELOPMENT_PREVIEW; no new placeholder movie is requested. The final and five-second test compositions must force image-only rendering.
 
-Use the bundled package lockfile. Run `npm ci`, `npm run typecheck`, `npm test`, `npm run validate` and `npm run build`. Browser pixel/layout checks use `npm run test:render`. See README.md and docs/ for rendering and narration import.
+Default rendering targets CINEMATIC_PILOT_FINAL. Before it can run, all seven exact public/scenes PNG paths must contain real completed illustrations and the current first scene must have a reviewed five-second visual test. VINTAGE_VISUAL_TEST needs only the first real scene. Preserve missing-asset errors and historical placeholder-hash rejection.
 
-Continue the repository's authorized GitHub export workflow with versioned filenames; preserve older exports and exclude dependencies, caches and credentials.
+The airplane-wing reference is currently absent. Do not claim reference fidelity or finished character animation from missing artwork. Generation from the written description needs the user's current reference choice. Flattened images receive camera effects; independent performance requires registered layers.
+
+Use pinned dependencies. Verify TypeScript, unit/pipeline checks, bundle and relevant browser tests. Export this project's source and finished media through the authorized gentsgrowth25-dotcom/work GitHub repository with versioned filenames; preserve historical exports and exclude dependencies/caches/credentials.

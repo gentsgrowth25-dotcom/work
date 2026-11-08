@@ -1,6 +1,6 @@
 # Pretty Wise Tips — character asset specification
 
-Status: **design specification only**. The airplane-wing reference mentioned in the brief was not attached. No character reference sheet or production character artwork has been supplied or generated. Approve the original recurring design after the reference is available; do not describe development plates as finished illustrations.
+Status: **design specification only**. The mandatory principal scene PNGs are listed in `public/required-assets.json`; all seven and all compatible independent layers are currently missing. The airplane-wing reference mentioned in the brief was not attached. No character reference sheet or production character artwork has been supplied or generated. Fidelity to the unavailable reference cannot be claimed. If proceeding from the written brief is authorized, record that original-interpretation basis. Approve the original recurring design after actual artwork is available; do not describe development plates as finished illustrations.
 
 ## Original recurring character
 
@@ -10,7 +10,7 @@ The missing reference is an aesthetic guide, not a tracing source. Create an ori
 
 ## Art direction
 
-Use original raster illustration in a traditional 1990s Western television cel-animation aesthetic: moderately bold clean dark contours, strong silhouette, broad flat colors, one restrained shadow tone, limited highlights, painted-looking backgrounds, and slightly muted natural color. Draw in this style from the outset. Optional grain and softness belong in the engine; do not bake heavy VHS effects into artwork. Exclude 3D renders, modern anime, hyperreal skin, glossy gradients, plastic faces, infographic styling and SVG puppet anatomy.
+Use original raster illustration in a traditional 1990s Western television cel-animation aesthetic: moderately bold clean dark contours, strong silhouette, broad flat colors, one or two restrained cel-shadow tones, limited highlights, painted-looking backgrounds, and slightly muted natural color. Draw in this style from the outset. Optional grain and softness belong in the engine; do not bake heavy VHS effects into artwork. Exclude 3D renders, modern anime, hyperreal skin, glossy gradients, plastic faces, infographic styling and SVG puppet anatomy.
 
 ## Master reference package
 

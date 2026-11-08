@@ -1,67 +1,57 @@
-# Pretty Wise Tips — pilot asset handoff
+# Mandatory cinematic artwork handoff
 
-Episode: **I'm Not Waiting to Be Chosen**. Target: 24 seconds, 1080 × 1920, 30 FPS. The supplied ElevenLabs MP3 is approximately 23.562 seconds. The original scene windows below are editable planning ranges; use the measured narration and editable caption data when finalizing the cut.
+Episode: **I'm Not Waiting to Be Chosen**. Final format: 24 seconds, 1080 × 1920, 30 FPS.
 
-## What is available
+The correction requires seven finished illustrations in the exact slots below. The attached MP3 and written briefs are available. The airplane-wing image, actual scene illustrations, master character sheet and compatible independent animation layers are **missing**. Do not fill missing slots with scene-description cards, numbers, filename labels, blank colors or presentation graphics.
 
-The supplied narration and project brief are available. The airplane-wing reference, master character sheet, all seven scene illustrations and all independent character/prop layers are **missing**. The engine's marked development plates are layout/timing aids. They are not cinematic artwork and do not demonstrate a finished character performance.
+Machine-readable inputs: [`../public/required-assets.json`](../public/required-assets.json). The fuller status inventory is [`../public/asset-manifest.json`](../public/asset-manifest.json). Inventory paths are relative to `public/`.
 
-The machine-readable inventory is [`../public/asset-manifest.json`](../public/asset-manifest.json). Paths in the inventory are relative to `public/`. Supplied audio is listed separately from missing artwork. The manifest distinguishes minimum flattened artwork from optional rig layers; an optional layer becomes required when an episode enables that feature.
+| Mandatory file | Required completed illustration |
+| --- | --- |
+| `public/scenes/01_hotel_lobby.png` | An original glamorous adult brunette arriving in an elegant hotel lobby. Painted architecture, polished stone, restrained brass and warm lighting; calm face, expressive eyes, chestnut curls and sculpted front swoop clearly readable. Compose for a first-scene visual test with caption space below the face. |
+| `public/scenes/02_dressing_room.png` | The same original woman in a beautiful dressing room at a large mirror, with upright posture and quiet self-regard. Her reflection, wardrobe and light must agree. Preserve the face proportions and recognizable hair silhouette. |
+| `public/scenes/03_meeting_room.png` | The same woman entering an upscale meeting room, in sophisticated tailored clothing. Composed expression, believable room perspective and a strong elegant silhouette. A still can imply an entrance; actual walking needs authored action drawings. |
+| `public/scenes/04_jewelry_detail.png` | A cinematic close-up of refined jewelry and luxurious accessories on a dressing table, with a graceful hand if appropriate. Draw actual objects with coherent lighting and perspective, and keep caption space away from the selected detail. |
+| `public/scenes/05_executive_desk.png` | The same woman seated at an executive desk, reviewing original plans/documents. Determined but calm expression, believable anatomy and composition suited to a subtle push toward her face. Avoid accidental generated text on documents. |
+| `public/scenes/06_penthouse.png` | The same woman at a tall penthouse window overlooking an elegant skyline at dusk. Painted city and interior, restrained luxury and soft curtains. Independent breeze motion requires separate curtain and hair artwork. |
+| `public/scenes/07_final_portrait.png` | A satisfying confident close-up of the same woman with a subtle smile, almond eyes, pearls, soft red lips and the established chestnut front swoop. Leave clear space below the face for “I AM BECOMING HER.” |
 
-## Minimum artwork for a camera-motion pilot
+## Shared art requirements
 
-Supply one approved full-frame PNG/WebP for every scene. The filenames below are the intended replacement slots; confirm them against the episode configuration before import. Flattened scenes permit pans, zooms, reframing, scene transitions, lighting treatment, grain, captions and separately added overlays. They do not create walking, blinking, head turns or gestures.
+Each mandatory PNG is a **fully illustrated cinematic shot**, not a contact sheet or a character cutout on empty color. Use portrait 9:16 framing at 1080 × 1920 minimum; 2160 × 3840 is preferable when camera cropping needs more detail. Export in sRGB, with complete frame coverage and painted bleed for the entire camera move. No baked-in captions, watermarks, interface guides, asset names or development instructions.
 
-| Scene / initial window | Required flattened slot | Illustration brief and composition |
-| --- | --- | --- |
-| 01 · 0–3 s | `scenes/scene-01/background.png` | Elegant hotel lobby with polished stone floor, warm lamps, refined brass details and the recurring brunette's composed expression. Frame her face above the caption region. Optional `heels.png` gives the requested opening floor/heel close-up before the portrait cut. |
-| 02 · 3–6 s | `scenes/scene-02/background.png` | Beautiful dressing room, large mirror, restrained luxurious dressing table; brunette with calm self-regard and upright posture. Reflection must match her pose, costume and light. Leave a readable lower-middle caption region. |
-| 03 · 6–9 s | `scenes/scene-03/background.png` | Upscale meeting room entrance, purposeful composition, elegant tailored outfit and composed expression. Implied movement in a still is acceptable for flattened mode; actual walking needs an authored action sequence. |
-| 04 · 9–12 s | `scenes/scene-04/background.png` | Close-up of a dressing table with pearl/gold jewelry and refined accessories. Use beautiful illustrated objects with matching perspective. Reserve caption space away from the selected accessory and hand. |
-| 05 · 12–16 s | `scenes/scene-05/background.png` | Executive desk, considered plans/documents, brunette seated and focused. Compose a slow push toward her determined expression without cropping the eyes. Documents should be original, free of accidental generated text or sensitive data. |
-| 06 · 16–20 s | `scenes/scene-06/background.png` | Luxurious penthouse overlooking a beautiful city skyline; brunette by a tall window, soft curtains and restrained evening light. Separate curtains and hair are needed for real breeze movement. |
-| 07 · 20–24 s | `scenes/scene-07/background.png` | Emotionally satisfying confident close-up, subtle smile, calm eyes, pearl earrings and the approved hair swoop. Compose for the final “I AM BECOMING HER.” caption below the face. |
+Use the same original adult female lead throughout: warm medium skin, chestnut vintage curls, sculpted front swoop, almond-shaped eyes, refined brows, elegant simplified nose, soft red lipstick, pearls and composed posture. Maintain face proportions, hair silhouette, palette and contour treatment across scenes.
 
-Every scene must use the same original character and traditional 1990s Western cel-animation style. Painted backgrounds, restrained flat-color characters and clean contours are the foundation; a texture filter cannot correct artwork in the wrong style.
+The artwork itself must use traditional 1990s Western television cel-animation construction: clean moderately bold dark outlines; angular yet attractive anatomy; broad restrained flat colors; one or two cel-shadow tones; limited highlights and painted-looking backgrounds. Exclude modern vector infographic characters, 3D renders, glossy hyper-detailed faces and modern anime styling. Optional softness and grain are finishing effects, not a replacement for suitable art.
 
-### Opening heel insert
+The airplane-wing reference named in the brief is unavailable. Do not claim it was examined or that generated art matches it. If proceeding from the written brief is authorized, document that review basis explicitly and treat the result as an original written-brief interpretation.
 
-The first scene requests a heel close-up followed by her confident expression. Supply `scenes/scene-01/heels.png` as a separately composed, full-frame portrait insert. It may show a drawn mid-step, but a single still will not perform a step. To show an actual footfall, provide an approved short pose sequence with planted-foot contact frames and correct floor reflection. The insert is optional for the minimal seven-image camera test and required to fulfill that exact opening shot.
+## Five-second visual gate
 
-## Layered mode handoff
+Only the first completed image is needed to begin `VINTAGE_VISUAL_TEST`. It must render a real illustrated woman and cinematic lobby, subtle camera movement and professional captions with no development labels. If compatible independent layers exist, include at least one genuine independent movement; if the image is flat, do not invent one.
 
-Each scene may replace its flattened illustration with a clean background plate plus aligned independent layers. The clean plate uses `background-clean.png`; foreground uses `foreground.png`; the character may use `character.png` for a single separable figure or a rig directory under `characters/main/scene-XX/`. Add only layers that actually exist. Set `plane: "foreground"` on a scene layer that must draw in front of the character; other scene layers default to the background plane. Preserve registration and painted overlap for correct occlusion. Do not turn a flattened face into a rig through CSS deformation.
+The test is five seconds at 30 FPS and exports `renders/pretty-wise-tips-vintage-test.mp4`. Inspect the actual PNG and rendered MP4 before recording a review. `config/visual-test-review.json` must bind approval to the current first-scene image and test-video SHA-256. A changed image/video invalidates that approval. A receipt does not prove resemblance to a reference that was never supplied.
 
-| Scene | Useful independent assets | What they enable |
-| --- | --- | --- |
-| 01 | Clean lobby plate, foreground floor/doorframe, character, heel contact poses | Genuine depth/parallax; authored entrance/step sequence |
-| 02 | Clean dressing room, character, matching reflection, head/eyes sprites, posture poses | Blinks and restrained head movement; posture change only with suitable drawings |
-| 03 | Clean meeting room, foreground doorframe/table, character walk/settle pose sequence | Parallax and actual walking/settling performance |
-| 04 | Clean dressing table, illustrated jewelry prop, resting/reaching/holding hand poses, occlusion masks | Picking up and adjusting an accessory when fully authored |
-| 05 | Clean office/desk, character rig, foreground documents, paper prop, hand poses | Breathing, blink, subtle head move; independent document/hand movement |
-| 06 | Clean penthouse, skyline/background layers, character rig, separate curtains and hair | Layered parallax and slight breeze motion without moving the entire room |
-| 07 | Portrait background, head/body/hair rig, open/half/closed eyes, neutral/smile expression | Restrained blink, head tilt and deliberate expression replacement |
+All seven images and a current visual-test review are prerequisites for `CINEMATIC_PILOT_FINAL`, which exports `renders/pretty-wise-tips-cinematic-pilot-final.mp4`. The final route must reject missing images by name and must never substitute development graphics.
 
-For rig exports, registration, pivots, expression sets and optional mouth shapes, see [`CHARACTER_SPEC.md`](CHARACTER_SPEC.md). Use artwork matching the same head angle for each scene. Do not reuse incompatible expressions just because their filenames match.
+## Optional independent layers
 
-## Export contract
+The mandatory seven files are flattened scene illustrations. They permit aspect-ratio-safe framing, zoom/pan, transitions, grading, subtle texture, captions and separately supplied overlays. They do not provide independent blinking, speaking, walking, head turning, hair motion or gestures.
 
-- PNG or lossless WebP, sRGB. Principal artwork must be raster illustration; SVG is reserved for auxiliary graphics.
-- Deliver portrait art at 1080 × 1920 minimum; ideally 2160 × 3840 with sufficient painted bleed for each camera move.
-- Use identical full-frame canvas dimensions and origin for every layer in a scene. Preserve alpha on independent layers.
-- Provide a clean painted background behind any removed character, curtain or prop. Avoid transparent holes and duplicate features.
-- Do not bake captions, brand text, film grain or interface-safe-area guides into illustration exports.
-- Place eyes and important gestures outside the configured caption bounds. Keep essential information clear of Instagram's interface areas; confirm in the current platform preview before publishing.
-- Keep artwork review separate from engine validation: code checks can detect missing files and invalid configuration; a person must approve identity, anatomy, perspective and the requested aesthetic.
+For layered mode, separately supply clean painted backgrounds, registered transparent character parts, eye and expression replacements, props and foreground occluders appropriate to each shot. No compatible independent layers are currently present. Configure only paths that really exist; do not reuse unrelated older characters as substitutes for this lead.
 
-## Replacing development assets
+| Shot | Additional artwork needed for real action |
+| --- | --- |
+| Lobby | Authored heel/contact and entrance poses; clean lobby plate and matching floor reflection |
+| Mirror | Same-angle eye/head sprites, posture poses and matching reflection treatment |
+| Meeting room | Authored walk/settle drawings and foreground doorway/table occluders |
+| Jewelry | Separate jewelry, resting/reaching/holding hand drawings and overlap/occlusion artwork |
+| Desk | Character rig, clean desk background, independently drawn documents and hand poses |
+| Penthouse | Registered skyline/interior depth layers, separate curtain and hair pieces |
+| Final portrait | Compatible head/body/hair parts, open/half/closed eyes and neutral/smile replacements |
 
-1. Copy approved art into its configured `public/` slot. Keep dimensions and file extensions aligned with the episode configuration.
-2. Set each scene to flattened or layered mode according to the artwork actually supplied. Configure optional layers, pivots, camera motion and caption positions in episode data.
-3. Remove development-placeholder flags only after real artwork is present. Update the manifest's `status` to `supplied` and include provenance/approval notes; a manifest status does not create a file.
-4. Run the project's asset validation and render checks. Missing configured files must stop production rendering instead of silently falling back.
-5. Inspect stills at scene boundaries, the entire caption track, movement extremes and the final frame. Render the cinematic pilot only after the artwork and caption timing are approved.
+Keep all parts in a shot on one identically registered full-frame canvas. Supply clean painted fill under removed features. Set scene-layer `plane: "foreground"` for actual foreground elements that must occlude the character; background is the default. See [CHARACTER_SPEC.md](CHARACTER_SPEC.md) for detailed layer and pose conventions.
 
-## Unfulfilled visual deliverables
+## Acceptance
 
-The original character reference sheet, approved character identity and finished seven-scene cinematic pilot depend on missing artwork. The functioning engine and any labeled development preview are valid technical deliverables, but they must not be presented as the completed visual production.
+Check all seven images together for identity and art-style consistency. Inspect anatomy, reflections, object perspective, line quality, missing painted areas, camera extremes and caption clearance. File validation can check presence, format, dimensions and configuration; aesthetic approval requires looking at the artwork and rendered motion. A valid filename alone is not a completed illustration.
