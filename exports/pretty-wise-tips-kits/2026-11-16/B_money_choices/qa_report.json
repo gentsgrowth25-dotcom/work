@@ -1,0 +1,287 @@
+{
+  "status": "PASS",
+  "scope": "Production stills/scripts/prompts/PDF; no audio or rendered video supplied",
+  "timing_status": "ESTIMATED",
+  "scenes": [
+    {
+      "scene_id": "01",
+      "status": "PASS",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference_ids": [
+        "character_identity",
+        "R18"
+      ],
+      "checks": {
+        "AUDIO_MATCH": "PASS",
+        "CHARACTER_MATCH": "PASS",
+        "OBJECT_MATCH": "PASS",
+        "ACTION_FEASIBILITY": "PASS",
+        "LOCATION_MATCH": "PASS",
+        "VINTAGE_STYLE": "PASS",
+        "ASPECT": "PASS",
+        "ANATOMY": "PASS",
+        "NO_GLITCHES": "PASS",
+        "VARIETY": "PASS",
+        "ASSET_INTEGRITY": "PASS",
+        "FILES_OPEN": "PASS"
+      },
+      "manual_visual_review": "Inspected generated full-size frame: identity, anatomy, cel style, single composition, props and feasible starting pose accepted.",
+      "audio_note": "Script-to-image match verified; actual audio not supplied. Timing remains ESTIMATED.",
+      "sha256": "57b070330172982d1b4aaa2a63e3346cdd4a8733bf7bec2f27598822242c1b57"
+    },
+    {
+      "scene_id": "02",
+      "status": "PASS",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference_ids": [
+        "character_identity",
+        "R01"
+      ],
+      "checks": {
+        "AUDIO_MATCH": "PASS",
+        "CHARACTER_MATCH": "PASS",
+        "OBJECT_MATCH": "PASS",
+        "ACTION_FEASIBILITY": "PASS",
+        "LOCATION_MATCH": "PASS",
+        "VINTAGE_STYLE": "PASS",
+        "ASPECT": "PASS",
+        "ANATOMY": "PASS",
+        "NO_GLITCHES": "PASS",
+        "VARIETY": "PASS",
+        "ASSET_INTEGRITY": "PASS",
+        "FILES_OPEN": "PASS"
+      },
+      "manual_visual_review": "Inspected generated full-size frame: identity, anatomy, cel style, single composition, props and feasible starting pose accepted.",
+      "audio_note": "Script-to-image match verified; actual audio not supplied. Timing remains ESTIMATED.",
+      "sha256": "adc9abf3cac05875753979dfb0383276c2651b486697e0cea2a06570cde76aa5"
+    },
+    {
+      "scene_id": "03",
+      "status": "PASS",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference_ids": [
+        "character_identity",
+        "R06"
+      ],
+      "checks": {
+        "AUDIO_MATCH": "PASS",
+        "CHARACTER_MATCH": "PASS",
+        "OBJECT_MATCH": "PASS",
+        "ACTION_FEASIBILITY": "PASS",
+        "LOCATION_MATCH": "PASS",
+        "VINTAGE_STYLE": "PASS",
+        "ASPECT": "PASS",
+        "ANATOMY": "PASS",
+        "NO_GLITCHES": "PASS",
+        "VARIETY": "PASS",
+        "ASSET_INTEGRITY": "PASS",
+        "FILES_OPEN": "PASS"
+      },
+      "manual_visual_review": "Inspected generated full-size frame: identity, anatomy, cel style, single composition, props and feasible starting pose accepted.",
+      "audio_note": "Script-to-image match verified; actual audio not supplied. Timing remains ESTIMATED.",
+      "sha256": "9e6494bb982eec7c6f6de5fa45849fffc2cd01150e89aee0c7ce6d8b547254a1"
+    },
+    {
+      "scene_id": "04",
+      "status": "PASS",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference_ids": [
+        "character_identity",
+        "R09"
+      ],
+      "checks": {
+        "AUDIO_MATCH": "PASS",
+        "CHARACTER_MATCH": "PASS",
+        "OBJECT_MATCH": "PASS",
+        "ACTION_FEASIBILITY": "PASS",
+        "LOCATION_MATCH": "PASS",
+        "VINTAGE_STYLE": "PASS",
+        "ASPECT": "PASS",
+        "ANATOMY": "PASS",
+        "NO_GLITCHES": "PASS",
+        "VARIETY": "PASS",
+        "ASSET_INTEGRITY": "PASS",
+        "FILES_OPEN": "PASS"
+      },
+      "manual_visual_review": "Inspected generated full-size frame: identity, anatomy, cel style, single composition, props and feasible starting pose accepted.",
+      "audio_note": "Script-to-image match verified; actual audio not supplied. Timing remains ESTIMATED.",
+      "sha256": "7dbfadc21d0453a706762883fb042f195237fae2da74f6aa31a524551ab9d012"
+    },
+    {
+      "scene_id": "05",
+      "status": "PASS",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference_ids": [
+        "character_identity",
+        "R04"
+      ],
+      "checks": {
+        "AUDIO_MATCH": "PASS",
+        "CHARACTER_MATCH": "PASS",
+        "OBJECT_MATCH": "PASS",
+        "ACTION_FEASIBILITY": "PASS",
+        "LOCATION_MATCH": "PASS",
+        "VINTAGE_STYLE": "PASS",
+        "ASPECT": "PASS",
+        "ANATOMY": "PASS",
+        "NO_GLITCHES": "PASS",
+        "VARIETY": "PASS",
+        "ASSET_INTEGRITY": "PASS",
+        "FILES_OPEN": "PASS"
+      },
+      "manual_visual_review": "Inspected generated full-size frame: identity, anatomy, cel style, single composition, props and feasible starting pose accepted.",
+      "audio_note": "Script-to-image match verified; actual audio not supplied. Timing remains ESTIMATED.",
+      "sha256": "e5c8d6d8de1b0a33f583f34818932ea33b6e3865ebc224b83e3c043d0f2bdcc5"
+    },
+    {
+      "scene_id": "06",
+      "status": "PASS",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference_ids": [
+        "character_identity",
+        "R19"
+      ],
+      "checks": {
+        "AUDIO_MATCH": "PASS",
+        "CHARACTER_MATCH": "PASS",
+        "OBJECT_MATCH": "PASS",
+        "ACTION_FEASIBILITY": "PASS",
+        "LOCATION_MATCH": "PASS",
+        "VINTAGE_STYLE": "PASS",
+        "ASPECT": "PASS",
+        "ANATOMY": "PASS",
+        "NO_GLITCHES": "PASS",
+        "VARIETY": "PASS",
+        "ASSET_INTEGRITY": "PASS",
+        "FILES_OPEN": "PASS"
+      },
+      "manual_visual_review": "Inspected generated full-size frame: identity, anatomy, cel style, single composition, props and feasible starting pose accepted.",
+      "audio_note": "Script-to-image match verified; actual audio not supplied. Timing remains ESTIMATED.",
+      "sha256": "8eba32e0655e40a0d676079081401f9b0cf580b4f0738bfaf575335aeb55b053"
+    },
+    {
+      "scene_id": "07",
+      "status": "PASS",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference_ids": [
+        "character_identity",
+        "R12"
+      ],
+      "checks": {
+        "AUDIO_MATCH": "PASS",
+        "CHARACTER_MATCH": "PASS",
+        "OBJECT_MATCH": "PASS",
+        "ACTION_FEASIBILITY": "PASS",
+        "LOCATION_MATCH": "PASS",
+        "VINTAGE_STYLE": "PASS",
+        "ASPECT": "PASS",
+        "ANATOMY": "PASS",
+        "NO_GLITCHES": "PASS",
+        "VARIETY": "PASS",
+        "ASSET_INTEGRITY": "PASS",
+        "FILES_OPEN": "PASS"
+      },
+      "manual_visual_review": "Inspected generated full-size frame: identity, anatomy, cel style, single composition, props and feasible starting pose accepted.",
+      "audio_note": "Script-to-image match verified; actual audio not supplied. Timing remains ESTIMATED.",
+      "sha256": "3cbc8accf486e2de1eea9771153dea70c4e448182f3821ac257fde53cb88aba3"
+    },
+    {
+      "scene_id": "08",
+      "status": "PASS",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference_ids": [
+        "character_identity",
+        "R11"
+      ],
+      "checks": {
+        "AUDIO_MATCH": "PASS",
+        "CHARACTER_MATCH": "PASS",
+        "OBJECT_MATCH": "PASS",
+        "ACTION_FEASIBILITY": "PASS",
+        "LOCATION_MATCH": "PASS",
+        "VINTAGE_STYLE": "PASS",
+        "ASPECT": "PASS",
+        "ANATOMY": "PASS",
+        "NO_GLITCHES": "PASS",
+        "VARIETY": "PASS",
+        "ASSET_INTEGRITY": "PASS",
+        "FILES_OPEN": "PASS"
+      },
+      "manual_visual_review": "Inspected generated full-size frame: identity, anatomy, cel style, single composition, props and feasible starting pose accepted.",
+      "audio_note": "Script-to-image match verified; actual audio not supplied. Timing remains ESTIMATED.",
+      "sha256": "3eed7711a235a5161982d47a66b1506e7ea05078ea68f5bc9e0cc2f050425d03"
+    },
+    {
+      "scene_id": "09",
+      "status": "PASS",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference_ids": [
+        "character_identity",
+        "R07"
+      ],
+      "checks": {
+        "AUDIO_MATCH": "PASS",
+        "CHARACTER_MATCH": "PASS",
+        "OBJECT_MATCH": "PASS",
+        "ACTION_FEASIBILITY": "PASS",
+        "LOCATION_MATCH": "PASS",
+        "VINTAGE_STYLE": "PASS",
+        "ASPECT": "PASS",
+        "ANATOMY": "PASS",
+        "NO_GLITCHES": "PASS",
+        "VARIETY": "PASS",
+        "ASSET_INTEGRITY": "PASS",
+        "FILES_OPEN": "PASS"
+      },
+      "manual_visual_review": "Inspected generated full-size frame: identity, anatomy, cel style, single composition, props and feasible starting pose accepted.",
+      "audio_note": "Script-to-image match verified; actual audio not supplied. Timing remains ESTIMATED.",
+      "sha256": "be683b375cceea96c6abd0ffa305b8bed9304183b8ab4d993ea95f779aae9ff8"
+    }
+  ],
+  "pdf_validation": {
+    "status": "PASS",
+    "page_count": 23,
+    "embedded_image_pages": 9,
+    "selectable_narration_and_prompts": true,
+    "all_pages_rendered": true,
+    "rendered_sample_pages": [
+      1,
+      2,
+      4,
+      8,
+      12,
+      13,
+      17,
+      21,
+      23
+    ],
+    "visual_sample_review": "PASS: cover, narration, first/middle/last scene and prompt pages, final QA inspected for clipping/order/readability."
+  }
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "date": "2026-11-16",
+    "episode": "A",
+    "scene_id": "01",
+    "location": "private dressing room",
+    "angle": "eye-level three-quarter medium",
+    "outfit": "cream silk blouse, burgundy trousers",
+    "money_motif": "none",
+    "main_prop": "Vanity, oblique oval mirror reflecting room only, closed burgundy jewelry box, face-up black-screen phone, lamp, flower vase, burgundy chair",
+    "scene_hash": "00cbbe08c2947c03b9627dd95da7a791e4a66d900013d81e1a5f02570dc30650"
+  },
+  {
+    "date": "2026-11-16",
+    "episode": "A",
+    "scene_id": "02",
+    "location": "New York sidewalk cafe",
+    "angle": "three-quarter medium",
+    "outfit": "camel coat over cream knit",
+    "money_motif": "none",
+    "main_prop": "Cafe table, face-up phone, espresso cup and saucer, flower vase, cafe chair, yellow taxi, other distant cars, awning, brick buildings",
+    "scene_hash": "c3fdc3a6ff9f9496b0e41f6c37e51ec130d3224d9134edfae0b15a527642b26d"
+  },
+  {
+    "date": "2026-11-16",
+    "episode": "A",
+    "scene_id": "03",
+    "location": "intimate evening cocktail lounge",
+    "angle": "eye-level group medium",
+    "outfit": "deep teal evening dress, pearl studs",
+    "money_motif": "none",
+    "main_prop": "Three cocktail glasses with straws and flowers, candle, table, lounge chairs, bottles behind bar",
+    "scene_hash": "fd4263f092bf5ea15806a4c743a85a0b8ae07d1f05b87ab3cff88412f3c518b7"
+  },
+  {
+    "date": "2026-11-16",
+    "episode": "A",
+    "scene_id": "04",
+    "location": "ornate restaurant",
+    "angle": "wide three-quarter, slightly low",
+    "outfit": "navy wrap dress, small gold earrings",
+    "money_motif": "none",
+    "main_prop": "Dining table, plates, glasses, silverware, roses, heroine chair, empty handbag chair, handbag, fireplace, ornate painted wall",
+    "scene_hash": "60eb25ff9d6b2f9648b5ba09260c85dc6384c02c9edefd9f7f84da00b928ca23"
+  },
+  {
+    "date": "2026-11-16",
+    "episode": "A",
+    "scene_id": "05",
+    "location": "city apartment reading nook",
+    "angle": "slightly elevated three-quarter medium",
+    "outfit": "dusty rose knit, ivory skirt",
+    "money_motif": "none",
+    "main_prop": "Closed burgundy journal, window bench, cushions, lamp, flower arrangement, city window",
+    "scene_hash": "2529c7982c6408982a33609a332fb9c7ed4492ca667a625b460a74e88b4128e6"
+  },
+  {
+    "date": "2026-11-16",
+    "episode": "A",
+    "scene_id": "06",
+    "location": "airport check-in concourse",
+    "angle": "rear three-quarter wide",
+    "outfit": "cream travel suit, green scarf, burgundy heels",
+    "money_motif": "none",
+    "main_prop": "One burgundy suitcase with extended handle, closed burgundy passport and black phone stacked in one hand, terminal counters, signs with abstract marks, airplane beyond glass",
+    "scene_hash": "200a86eb3140cffe631603bad264e1773eb4c2253c72acf92fef3e3b265ed7a1"
+  },
+  {
+    "date": "2026-11-16",
+    "episode": "A",
+    "scene_id": "07",
+    "location": "Santorini sunrise breakfast terrace",
+    "angle": "environmental side wide",
+    "outfit": "mauve silk robe",
+    "money_motif": "none",
+    "main_prop": "Coffee cup and saucer, fruit plate, flower jug, table and chair, white cliff buildings, blue dome, pool, caldera sea",
+    "scene_hash": "b48dd01394275673cc38c020a26117a1be4c6a8b766e493520aa48c974b52954"
+  },
+  {
+    "date": "2026-11-16",
+    "episode": "A",
+    "scene_id": "08",
+    "location": "Maldives wooden jetty",
+    "angle": "rear three-quarter wide",
+    "outfit": "ivory resort cover-up over burgundy swimsuit, flat sandals",
+    "money_motif": "none",
+    "main_prop": "One smartphone at lowered hand, wooden jetty, overwater villas, turquoise lagoon, jetty lamps",
+    "scene_hash": "1a20eceafde11d7aab4811c9decea24eae997136e8e0f24f75ca6ffb7ee0ff45"
+  },
+  {
+    "date": "2026-11-16",
+    "episode": "A",
+    "scene_id": "09",
+    "location": "Lake Como private boat",
+    "angle": "front three-quarter medium",
+    "outfit": "burgundy boat-neck blouse, cream skirt, pearl studs",
+    "money_motif": "none",
+    "main_prop": "Cream boat bench, wooden motorboat gunwale, metal cleat, lake, villas and wooded hills",
+    "scene_hash": "e86299e69d7df463c60659e9291e4f4ac72ef5288139db95edec946639041372"
+  },
+  {
+    "date": "2026-11-16",
+    "episode": "B",
+    "scene_id": "01",
+    "location": "symbolic private money salon",
+    "angle": "low three-quarter medium wide",
+    "outfit": "black tailored jumpsuit, gold earrings",
+    "money_motif": "banknote armchair",
+    "main_prop": "Fictional bundled-banknote armchair, floor lamp, plant, city window",
+    "scene_hash": "57b070330172982d1b4aaa2a63e3346cdd4a8733bf7bec2f27598822242c1b57"
+  },
+  {
+    "date": "2026-11-16",
+    "episode": "B",
+    "scene_id": "02",
+    "location": "design studio meeting room",
+    "angle": "eye-level two-person medium",
+    "outfit": "ochre tailored suit, ivory top",
+    "money_motif": "none",
+    "main_prop": "Paper schedule with geometric marks, table, closed book, fabric swatches, mannequin, flower vase, city window",
+    "scene_hash": "adc9abf3cac05875753979dfb0383276c2651b486697e0cea2a06570cde76aa5"
+  },
+  {
+    "date": "2026-11-16",
+    "episode": "B",
+    "scene_id": "03",
+    "location": "atelier worktable at night",
+    "angle": "over-shoulder profile medium close",
+    "outfit": "dusty blue shirt, sleeves rolled",
+    "money_motif": "none",
+    "main_prop": "Leather handbag prototype, separate leather sample, paper pattern, closed book, lamp, scissors, tool cup, pincushion, mannequin, fabric rack",
+    "scene_hash": "9e6494bb982eec7c6f6de5fa45849fffc2cd01150e89aee0c7ce6d8b547254a1"
+  },
+  {
+    "date": "2026-11-16",
+    "episode": "B",
+    "scene_id": "04",
+    "location": "ornate private showroom",
+    "angle": "eye-level two-person medium",
+    "outfit": "burgundy blazer and cream trousers",
+    "money_motif": "none",
+    "main_prop": "One blank proposal sheet, pen, marble table, handbag on pedestal, chairs, lamps, ornate showroom fireplace",
+    "scene_hash": "7dbfadc21d0453a706762883fb042f195237fae2da74f6aa31a524551ab9d012"
+  },
+  {
+    "date": "2026-11-16",
+    "episode": "B",
+    "scene_id": "05",
+    "location": "independent accessories boutique launch",
+    "angle": "environmental boutique wide",
+    "outfit": "teal belted midi dress, gold studs",
+    "money_motif": "none",
+    "main_prop": "Displayed handbags on shelves and behind glass counter, two cream shopping bags on counter, flower vase, plant, street window",
+    "scene_hash": "e5c8d6d8de1b0a33f583f34818932ea33b6e3865ebc224b83e3c043d0f2bdcc5"
+  },
+  {
+    "date": "2026-11-16",
+    "episode": "B",
+    "scene_id": "06",
+    "location": "quiet home finance desk",
+    "angle": "elevated three-quarter close medium",
+    "outfit": "cream cardigan, plum top",
+    "money_motif": "envelope saving",
+    "main_prop": "Exactly three envelopes, one open and two closed; modest stack of fictional notes, one loose note, wooden desk, potted plant, floor lamp",
+    "scene_hash": "8eba32e0655e40a0d676079081401f9b0cf580b4f0738bfaf575335aeb55b053"
+  },
+  {
+    "date": "2026-11-16",
+    "episode": "B",
+    "scene_id": "07",
+    "location": "palm-lined Los Angeles shopping street",
+    "angle": "street-level environmental wide",
+    "outfit": "white shirt, navy trousers, tan flats",
+    "money_motif": "none",
+    "main_prop": "Shop-window handbags, unbranded convertible, palms, sidewalk, flower planters",
+    "scene_hash": "3cbc8accf486e2de1eea9771153dea70c4e448182f3821ac257fde53cb88aba3"
+  },
+  {
+    "date": "2026-11-16",
+    "episode": "B",
+    "scene_id": "08",
+    "location": "Dubai apartment afternoon coffee nook",
+    "angle": "side medium wide",
+    "outfit": "soft ivory lounge set",
+    "money_motif": "none",
+    "main_prop": "Green-check bill envelope, pen, coffee cup and saucer, table, chair, flower vase, sheer curtain, clock showing 2:00, Burj Khalifa skyline",
+    "scene_hash": "3eed7711a235a5161982d47a66b1506e7ea05078ea68f5bc9e0cc2f050425d03"
+  },
+  {
+    "date": "2026-11-16",
+    "episode": "B",
+    "scene_id": "09",
+    "location": "Monaco yacht harbor deck",
+    "angle": "rear three-quarter environmental wide",
+    "outfit": "mauve linen matching set, pearl earrings",
+    "money_motif": "none",
+    "main_prop": "Yacht sofa bench, cushions, foreground table, deck rail, harbor water, moored yachts, hillside waterfront buildings",
+    "scene_hash": "be683b375cceea96c6abd0ffa305b8bed9304183b8ab4d993ea95f779aae9ff8"
+  }
+]
