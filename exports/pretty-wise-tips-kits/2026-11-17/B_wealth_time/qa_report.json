@@ -1,0 +1,309 @@
+{
+  "status": "PASS",
+  "timing_status": "ESTIMATED",
+  "audio_provided": false,
+  "scenes": [
+    {
+      "scene_id": "01",
+      "image_page": 1,
+      "status": "PASS",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference_ids": [
+        "character_identity",
+        "R15"
+      ],
+      "sha256": "dabe0a9449f6f47dbbc30eed80acc7627bda82fbbedc89981beb7e3ebbbe1985",
+      "checks": {
+        "AUDIO_MATCH": "PASS",
+        "CHARACTER_MATCH": "PASS",
+        "OBJECT_MATCH": "PASS",
+        "ACTION_FEASIBILITY": "PASS",
+        "LOCATION_MATCH": "PASS",
+        "VINTAGE_STYLE": "PASS",
+        "ASPECT": "PASS",
+        "ANATOMY": "PASS",
+        "NO_GLITCHES": "PASS",
+        "VARIETY": "PASS",
+        "ASSET_INTEGRITY": "PASS",
+        "FILES_OPEN": "PASS"
+      },
+      "review": "Full generated frame visually inspected; actual people/prop inventory recorded and final motion adapted to pose.",
+      "audio_note": "AUDIO_MATCH means script semantic match; no recorded audio supplied. Timing is ESTIMATED.",
+      "attempt_log": []
+    },
+    {
+      "scene_id": "02",
+      "image_page": 2,
+      "status": "PASS",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference_ids": [
+        "character_identity",
+        "R11"
+      ],
+      "sha256": "091bb103ff0b822d6844bf46980d12e981b76c973da35bc65272cdcbcf392080",
+      "checks": {
+        "AUDIO_MATCH": "PASS",
+        "CHARACTER_MATCH": "PASS",
+        "OBJECT_MATCH": "PASS",
+        "ACTION_FEASIBILITY": "PASS",
+        "LOCATION_MATCH": "PASS",
+        "VINTAGE_STYLE": "PASS",
+        "ASPECT": "PASS",
+        "ANATOMY": "PASS",
+        "NO_GLITCHES": "PASS",
+        "VARIETY": "PASS",
+        "ASSET_INTEGRITY": "PASS",
+        "FILES_OPEN": "PASS"
+      },
+      "review": "Full generated frame visually inspected; actual people/prop inventory recorded and final motion adapted to pose.",
+      "audio_note": "AUDIO_MATCH means script semantic match; no recorded audio supplied. Timing is ESTIMATED.",
+      "attempt_log": [
+        {
+          "file": "exec-79ef0324-f6eb-4259-b1b8-5e7c15ee8c3a.png",
+          "status": "REJECTED",
+          "reason": "Nighttime lighting conflicts with middle-of-day narration"
+        },
+        {
+          "file": "exec-5a5f1b16-ded7-451b-8a32-104b3748ec3c.png",
+          "status": "PASS",
+          "reason": "Daylight correction verified; same composition, people and hands"
+        }
+      ]
+    },
+    {
+      "scene_id": "03",
+      "image_page": 3,
+      "status": "PASS",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference_ids": [
+        "character_identity",
+        "R13"
+      ],
+      "sha256": "238a0174540c70c8bbb2b689061156ecb52b9857b9b6036fbf803ff2b1652e9e",
+      "checks": {
+        "AUDIO_MATCH": "PASS",
+        "CHARACTER_MATCH": "PASS",
+        "OBJECT_MATCH": "PASS",
+        "ACTION_FEASIBILITY": "PASS",
+        "LOCATION_MATCH": "PASS",
+        "VINTAGE_STYLE": "PASS",
+        "ASPECT": "PASS",
+        "ANATOMY": "PASS",
+        "NO_GLITCHES": "PASS",
+        "VARIETY": "PASS",
+        "ASSET_INTEGRITY": "PASS",
+        "FILES_OPEN": "PASS"
+      },
+      "review": "Full generated frame visually inspected; actual people/prop inventory recorded and final motion adapted to pose.",
+      "audio_note": "AUDIO_MATCH means script semantic match; no recorded audio supplied. Timing is ESTIMATED.",
+      "attempt_log": []
+    },
+    {
+      "scene_id": "04",
+      "image_page": 4,
+      "status": "PASS",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference_ids": [
+        "character_identity",
+        "R06"
+      ],
+      "sha256": "6ff47d94830969182dc571c19dd1441d5e3c23e20fa8665d14e12369e17ab215",
+      "checks": {
+        "AUDIO_MATCH": "PASS",
+        "CHARACTER_MATCH": "PASS",
+        "OBJECT_MATCH": "PASS",
+        "ACTION_FEASIBILITY": "PASS",
+        "LOCATION_MATCH": "PASS",
+        "VINTAGE_STYLE": "PASS",
+        "ASPECT": "PASS",
+        "ANATOMY": "PASS",
+        "NO_GLITCHES": "PASS",
+        "VARIETY": "PASS",
+        "ASSET_INTEGRITY": "PASS",
+        "FILES_OPEN": "PASS"
+      },
+      "review": "Full generated frame visually inspected; actual people/prop inventory recorded and final motion adapted to pose.",
+      "audio_note": "AUDIO_MATCH means script semantic match; no recorded audio supplied. Timing is ESTIMATED.",
+      "attempt_log": []
+    },
+    {
+      "scene_id": "05",
+      "image_page": 5,
+      "status": "PASS",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference_ids": [
+        "character_identity",
+        "R08"
+      ],
+      "sha256": "2a37729a9042180aa14a55118983876e8ac3ccfa3fd865283b78f49e6b857c5c",
+      "checks": {
+        "AUDIO_MATCH": "PASS",
+        "CHARACTER_MATCH": "PASS",
+        "OBJECT_MATCH": "PASS",
+        "ACTION_FEASIBILITY": "PASS",
+        "LOCATION_MATCH": "PASS",
+        "VINTAGE_STYLE": "PASS",
+        "ASPECT": "PASS",
+        "ANATOMY": "PASS",
+        "NO_GLITCHES": "PASS",
+        "VARIETY": "PASS",
+        "ASSET_INTEGRITY": "PASS",
+        "FILES_OPEN": "PASS"
+      },
+      "review": "Full generated frame visually inspected; actual people/prop inventory recorded and final motion adapted to pose.",
+      "audio_note": "AUDIO_MATCH means script semantic match; no recorded audio supplied. Timing is ESTIMATED.",
+      "attempt_log": []
+    },
+    {
+      "scene_id": "06",
+      "image_page": 6,
+      "status": "PASS",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference_ids": [
+        "character_identity",
+        "R17"
+      ],
+      "sha256": "9d269840395080a2abdccdb12d9bfdb891157ce1e893b5eeab817849a2ee68a7",
+      "checks": {
+        "AUDIO_MATCH": "PASS",
+        "CHARACTER_MATCH": "PASS",
+        "OBJECT_MATCH": "PASS",
+        "ACTION_FEASIBILITY": "PASS",
+        "LOCATION_MATCH": "PASS",
+        "VINTAGE_STYLE": "PASS",
+        "ASPECT": "PASS",
+        "ANATOMY": "PASS",
+        "NO_GLITCHES": "PASS",
+        "VARIETY": "PASS",
+        "ASSET_INTEGRITY": "PASS",
+        "FILES_OPEN": "PASS"
+      },
+      "review": "Full generated frame visually inspected; actual people/prop inventory recorded and final motion adapted to pose.",
+      "audio_note": "AUDIO_MATCH means script semantic match; no recorded audio supplied. Timing is ESTIMATED.",
+      "attempt_log": []
+    },
+    {
+      "scene_id": "07",
+      "image_page": 7,
+      "status": "PASS",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference_ids": [
+        "character_identity",
+        "R02"
+      ],
+      "sha256": "320d4d6256a9ad9d2d5b1d640ff3a1b14976879304f355c351ea5c3880426f3d",
+      "checks": {
+        "AUDIO_MATCH": "PASS",
+        "CHARACTER_MATCH": "PASS",
+        "OBJECT_MATCH": "PASS",
+        "ACTION_FEASIBILITY": "PASS",
+        "LOCATION_MATCH": "PASS",
+        "VINTAGE_STYLE": "PASS",
+        "ASPECT": "PASS",
+        "ANATOMY": "PASS",
+        "NO_GLITCHES": "PASS",
+        "VARIETY": "PASS",
+        "ASSET_INTEGRITY": "PASS",
+        "FILES_OPEN": "PASS"
+      },
+      "review": "Full generated frame visually inspected; actual people/prop inventory recorded and final motion adapted to pose.",
+      "audio_note": "AUDIO_MATCH means script semantic match; no recorded audio supplied. Timing is ESTIMATED.",
+      "attempt_log": []
+    },
+    {
+      "scene_id": "08",
+      "image_page": 8,
+      "status": "PASS",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference_ids": [
+        "character_identity",
+        "R20"
+      ],
+      "sha256": "68bd5584380cf8fb83befbb4464935e448d6631fe51e6bc29bb0f0833caf912b",
+      "checks": {
+        "AUDIO_MATCH": "PASS",
+        "CHARACTER_MATCH": "PASS",
+        "OBJECT_MATCH": "PASS",
+        "ACTION_FEASIBILITY": "PASS",
+        "LOCATION_MATCH": "PASS",
+        "VINTAGE_STYLE": "PASS",
+        "ASPECT": "PASS",
+        "ANATOMY": "PASS",
+        "NO_GLITCHES": "PASS",
+        "VARIETY": "PASS",
+        "ASSET_INTEGRITY": "PASS",
+        "FILES_OPEN": "PASS"
+      },
+      "review": "Full generated frame visually inspected; actual people/prop inventory recorded and final motion adapted to pose.",
+      "audio_note": "AUDIO_MATCH means script semantic match; no recorded audio supplied. Timing is ESTIMATED.",
+      "attempt_log": []
+    },
+    {
+      "scene_id": "09",
+      "image_page": 9,
+      "status": "PASS",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "reference_ids": [
+        "character_identity",
+        "R23"
+      ],
+      "sha256": "0cb3e341c720b3d7e7c8bab70f8223067ae32a78df6f6ab61657e60ef3a90458",
+      "checks": {
+        "AUDIO_MATCH": "PASS",
+        "CHARACTER_MATCH": "PASS",
+        "OBJECT_MATCH": "PASS",
+        "ACTION_FEASIBILITY": "PASS",
+        "LOCATION_MATCH": "PASS",
+        "VINTAGE_STYLE": "PASS",
+        "ASPECT": "PASS",
+        "ANATOMY": "PASS",
+        "NO_GLITCHES": "PASS",
+        "VARIETY": "PASS",
+        "ASSET_INTEGRITY": "PASS",
+        "FILES_OPEN": "PASS"
+      },
+      "review": "Full generated frame visually inspected; actual people/prop inventory recorded and final motion adapted to pose.",
+      "audio_note": "AUDIO_MATCH means script semantic match; no recorded audio supplied. Timing is ESTIMATED.",
+      "attempt_log": []
+    }
+  ],
+  "pdf_validation": {
+    "images_pages": 9,
+    "images_text_characters": 0,
+    "image_bounds_equal_page": true,
+    "native_aspect": "4:3",
+    "embedded_pixels_equal_originals": true,
+    "scripts_pages": 14,
+    "complete_selectable_script": true,
+    "complete_numbered_prompts": 9,
+    "all_pdf_pages_rendered": true,
+    "visual_sample_review": "PASS: cover, narration, map, first/middle/last prompts, QA, and first/middle/last image pages inspected; no clipping or page borders on Images PDFs."
+  }
+}

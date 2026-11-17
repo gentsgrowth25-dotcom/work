@@ -1,0 +1,13 @@
+IMAGE 2 — Design Conference Auditorium
+REFERENCE: Images PDF page 2, original PNG scene_02.png. Use only that PNG as the attached first frame.
+NARRATION CUE: “Rehearse one question until the moment passed.”
+DURATION: Generate approximately 4 seconds; suggested edit trim 3.50 seconds at 4.50–8.00. ALL timing is ESTIMATED until actual narration is recorded.
+
+Animate the attached image as the exact first frame of a silent, 4:3 landscape traditional 1990s Western TV cel-animated sequence.
+SCENE: design conference auditorium. Heroine, three nearby seated adult attendees and one adult woman speaker at lectern. Open plain notebook on heroine lap, pen held lightly in resting hand, auditorium seats, lectern, projected architectural image, curtains, flower vase. Cream blouse and plum trousers; seated upright, notebook open, pen held above page.
+CHARACTER ACTION: She lowers the pen to rest lightly on the open notebook, as though letting a question pass; do not close or morph the book.
+CAMERA: over-shoulder profile medium. Slow push toward her profile and notebook.
+ENVIRONMENT: Other attendees stay seated; speaker holds her visible gesture with minimal movement.
+STYLE: Matte flat cel colors, bold black ink contours, 1–2 discrete shadow tones, visible fine analog grain, slightly soft VHS television image and painted backdrop.
+LOCK: Preserve exact heroine face, hair swoop, skin tone, outfit, anatomy, people/prop counts, object identities and composition. Keep existing hand/leg positions except the single stated movement. Maintain the existing architecture and camera side. Closed mouths; no lip-sync.
+DO NOT: Invent crowds, props, products, passport, meetings or absent objects; no extra fingers or limbs, morphing, mirror panels, split frames, borders, captions, dialogue, lip-sync, audio, music, added text or 3D CGI. Do not animate stone statues as people.

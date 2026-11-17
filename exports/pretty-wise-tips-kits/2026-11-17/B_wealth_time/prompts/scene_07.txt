@@ -1,0 +1,13 @@
+IMAGE 7 — London Walled Rose Garden
+REFERENCE: Images PDF page 7, original PNG scene_07.png. Use only that PNG as the attached first frame.
+NARRATION CUE: “Then let the afternoon stay empty.”
+DURATION: Generate approximately 4 seconds; suggested edit trim 2.75 seconds at 21.55–24.30. ALL timing is ESTIMATED until actual narration is recorded.
+
+Animate the attached image as the exact first frame of a silent, 4:3 landscape traditional 1990s Western TV cel-animated sequence.
+SCENE: London walled rose garden. Heroine only. Park bench, closed book beside heroine, roses, clipped hedges, stone wall and gate, tree, distant Elizabeth Tower and Westminster roofline. Ivory cardigan over mauve dress, burgundy heels; seated still with hands on knees.
+CHARACTER ACTION: She leans back slightly and lets her gaze move across the garden.
+CAMERA: environmental side wide. Slow widening move along the bench.
+ENVIRONMENT: Leaves and rose stems stir gently; closed book stays on bench.
+STYLE: Matte flat cel colors, bold black ink contours, 1–2 discrete shadow tones, visible fine analog grain, slightly soft VHS television image and painted backdrop.
+LOCK: Preserve exact heroine face, hair swoop, skin tone, outfit, anatomy, people/prop counts, object identities and composition. Keep existing hand/leg positions except the single stated movement. Maintain the existing architecture and camera side. Closed mouths; no lip-sync.
+DO NOT: Invent crowds, props, products, passport, meetings or absent objects; no extra fingers or limbs, morphing, mirror panels, split frames, borders, captions, dialogue, lip-sync, audio, music, added text or 3D CGI. Do not animate stone statues as people.

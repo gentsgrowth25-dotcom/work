@@ -1,0 +1,13 @@
+IMAGE 9 — Paris Opera-House Entrance
+REFERENCE: Images PDF page 9, original PNG scene_09.png. Use only that PNG as the attached first frame.
+NARRATION CUE: “Confidence is the life I actually show up for.”
+DURATION: Generate approximately 5 seconds; suggested edit trim 4.50 seconds at 28.50–33.00. ALL timing is ESTIMATED until actual narration is recorded.
+
+Animate the attached image as the exact first frame of a silent, 4:3 landscape traditional 1990s Western TV cel-animated sequence.
+SCENE: Paris opera-house entrance. Heroine only; carved figures are stone architectural statues. Small plain ticket in lowered hand, burgundy heels, opera-house steps, ornate gold-lit entrance doors, stone sculptures and facade. Burgundy evening dress and pearls; standing grounded before steps, ticket down by hip.
+CHARACTER ACTION: She turns her shoulders slightly toward the entrance and lifts her chin with quiet resolve; keep feet planted.
+CAMERA: front slightly low environmental wide. Slow backward drift revealing more of the entrance.
+ENVIRONMENT: Warm interior lights remain steady; statues remain stone and motionless.
+STYLE: Matte flat cel colors, bold black ink contours, 1–2 discrete shadow tones, visible fine analog grain, slightly soft VHS television image and painted backdrop.
+LOCK: Preserve exact heroine face, hair swoop, skin tone, outfit, anatomy, people/prop counts, object identities and composition. Keep existing hand/leg positions except the single stated movement. Maintain the existing architecture and camera side. Closed mouths; no lip-sync.
+DO NOT: Invent crowds, props, products, passport, meetings or absent objects; no extra fingers or limbs, morphing, mirror panels, split frames, borders, captions, dialogue, lip-sync, audio, music, added text or 3D CGI. Do not animate stone statues as people.

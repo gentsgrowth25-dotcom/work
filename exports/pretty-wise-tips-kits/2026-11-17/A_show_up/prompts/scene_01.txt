@@ -1,0 +1,13 @@
+IMAGE 1 — Paris Contemporary Art Gallery
+REFERENCE: Images PDF page 1, original PNG scene_01.png. Use only that PNG as the attached first frame.
+NARRATION CUE: “I used to mistake being watched for being judged.”
+DURATION: Generate approximately 5 seconds; suggested edit trim 4.50 seconds at 0.00–4.50. ALL timing is ESTIMATED until actual narration is recorded.
+
+Animate the attached image as the exact first frame of a silent, 4:3 landscape traditional 1990s Western TV cel-animated sequence.
+SCENE: Paris contemporary art gallery. Heroine and two adult women in the background. Large abstract canvas, smaller framed canvas, two sculptures on plinths, burgundy bench, arched windows, stone gallery floor. Dusty teal sleeveless tailored jumpsuit; arms relaxed at sides, head angled toward canvas.
+CHARACTER ACTION: She releases her shoulders slightly and returns her gaze to the large canvas.
+CAMERA: standing three-quarter medium wide. Gentle lateral slide maintaining all three people.
+ENVIRONMENT: Very slight daylight drift; artworks and sculptures stay fixed.
+STYLE: Matte flat cel colors, bold black ink contours, 1–2 discrete shadow tones, visible fine analog grain, slightly soft VHS television image and painted backdrop.
+LOCK: Preserve exact heroine face, hair swoop, skin tone, outfit, anatomy, people/prop counts, object identities and composition. Keep existing hand/leg positions except the single stated movement. Maintain the existing architecture and camera side. Closed mouths; no lip-sync.
+DO NOT: Invent crowds, props, products, passport, meetings or absent objects; no extra fingers or limbs, morphing, mirror panels, split frames, borders, captions, dialogue, lip-sync, audio, music, added text or 3D CGI. Do not animate stone statues as people.

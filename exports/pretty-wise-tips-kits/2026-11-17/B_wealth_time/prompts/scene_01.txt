@@ -1,0 +1,13 @@
+IMAGE 1 — Mayfair Chauffeur Car Interior
+REFERENCE: Images PDF page 1, original PNG scene_01.png. Use only that PNG as the attached first frame.
+NARRATION CUE: “2027. I want wealth I can actually feel.”
+DURATION: Generate approximately 4.2 seconds; suggested edit trim 3.67 seconds at 0.00–3.67. ALL timing is ESTIMATED until actual narration is recorded.
+
+Animate the attached image as the exact first frame of a silent, 4:3 landscape traditional 1990s Western TV cel-animated sequence.
+SCENE: Mayfair chauffeur car interior. Heroine only; no driver visible. Rear passenger seat, correctly crossing seat belt, starlight headliner, burgundy handbag, car window and door, cupholder, Mayfair-style townhouses outside. Cream coat over burgundy dress, pearls; belted seated pose, hands resting together on lap.
+CHARACTER ACTION: She turns her gaze a little farther toward the window with a quietly relieved expression.
+CAMERA: side three-quarter medium close. Subtle push from the adjacent rear seat.
+ENVIRONMENT: Exterior street slides slowly past in one direction; seat belt and interior stay fixed.
+STYLE: Matte flat cel colors, bold black ink contours, 1–2 discrete shadow tones, visible fine analog grain, slightly soft VHS television image and painted backdrop.
+LOCK: Preserve exact heroine face, hair swoop, skin tone, outfit, anatomy, people/prop counts, object identities and composition. Keep existing hand/leg positions except the single stated movement. Maintain the existing architecture and camera side. Closed mouths; no lip-sync.
+DO NOT: Invent crowds, props, products, passport, meetings or absent objects; no extra fingers or limbs, morphing, mirror panels, split frames, borders, captions, dialogue, lip-sync, audio, music, added text or 3D CGI. Do not animate stone statues as people.

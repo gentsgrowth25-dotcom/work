@@ -1,0 +1,13 @@
+IMAGE 5 — Bright Small-Business Packing Warehouse
+REFERENCE: Images PDF page 5, original PNG scene_05.png. Use only that PNG as the attached first frame.
+NARRATION CUE: “I build systems. Train someone I trust.”
+DURATION: Generate approximately 4 seconds; suggested edit trim 3.21 seconds at 15.59–18.80. ALL timing is ESTIMATED until actual narration is recorded.
+
+Animate the attached image as the exact first frame of a silent, 4:3 landscape traditional 1990s Western TV cel-animated sequence.
+SCENE: bright small-business packing warehouse. Heroine and one adult female assistant with short curly hair. Open empty carton, ceramic bowl on tissue, extra tissue sheets, tape dispenser, workflow pictogram paper, checkmark sheet without readable words, tool cup, shelving and boxes, plant. Navy utility jumpsuit and gold studs; both women standing with hands resting on bench edge.
+CHARACTER ACTION: Heroine gestures once toward the existing ceramic bowl; the assistant looks at it.
+CAMERA: side two-person medium wide. Slow lateral slide along packing bench.
+ENVIRONMENT: Packing materials stay fixed; no cartons or products appear or disappear.
+STYLE: Matte flat cel colors, bold black ink contours, 1–2 discrete shadow tones, visible fine analog grain, slightly soft VHS television image and painted backdrop.
+LOCK: Preserve exact heroine face, hair swoop, skin tone, outfit, anatomy, people/prop counts, object identities and composition. Keep existing hand/leg positions except the single stated movement. Maintain the existing architecture and camera side. Closed mouths; no lip-sync.
+DO NOT: Invent crowds, props, products, passport, meetings or absent objects; no extra fingers or limbs, morphing, mirror panels, split frames, borders, captions, dialogue, lip-sync, audio, music, added text or 3D CGI. Do not animate stone statues as people.

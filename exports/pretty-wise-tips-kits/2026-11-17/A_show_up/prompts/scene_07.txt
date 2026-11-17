@@ -1,0 +1,13 @@
+IMAGE 7 — Tokyo Upscale Ramen Counter
+REFERENCE: Images PDF page 7, original PNG scene_07.png. Use only that PNG as the attached first frame.
+NARRATION CUE: “Eat alone without pretending to text.”
+DURATION: Generate approximately 4 seconds; suggested edit trim 3.00 seconds at 21.50–24.50. ALL timing is ESTIMATED until actual narration is recorded.
+
+Animate the attached image as the exact first frame of a silent, 4:3 landscape traditional 1990s Western TV cel-animated sequence.
+SCENE: Tokyo upscale ramen counter. Heroine and one adult male chef behind counter. Ramen bowl, chopsticks on ceramic rest, water glass, wooden counter, chair, pendants, stacked bowls, utensil pot, cooking equipment, vase and distant Tokyo Tower through window; no phone. Camel knit dress and gold studs; heroine seated, visible hand resting on lap.
+CHARACTER ACTION: She reaches with her visible resting hand for the existing chopsticks, leaving the bowl on the counter.
+CAMERA: side medium. Slow slide along the counter.
+ENVIRONMENT: Very faint steam from existing food; chef stays behind counter.
+STYLE: Matte flat cel colors, bold black ink contours, 1–2 discrete shadow tones, visible fine analog grain, slightly soft VHS television image and painted backdrop.
+LOCK: Preserve exact heroine face, hair swoop, skin tone, outfit, anatomy, people/prop counts, object identities and composition. Keep existing hand/leg positions except the single stated movement. Maintain the existing architecture and camera side. Closed mouths; no lip-sync.
+DO NOT: Invent crowds, props, products, passport, meetings or absent objects; no extra fingers or limbs, morphing, mirror panels, split frames, borders, captions, dialogue, lip-sync, audio, music, added text or 3D CGI. Do not animate stone statues as people.

@@ -1,0 +1,13 @@
+IMAGE 4 — Warm Recording Studio
+REFERENCE: Images PDF page 4, original PNG scene_04.png. Use only that PNG as the attached first frame.
+NARRATION CUE: “Now, I let my voice shake.”
+DURATION: Generate approximately 4 seconds; suggested edit trim 3.00 seconds at 12.00–15.00. ALL timing is ESTIMATED until actual narration is recorded.
+
+Animate the attached image as the exact first frame of a silent, 4:3 landscape traditional 1990s Western TV cel-animated sequence.
+SCENE: warm recording studio. Heroine only. Microphone, pop filter, boom arm, headphones around neck, table, chair, acoustic panels, plant, control-room window. Burgundy knit top, pearl earrings; hands separately on table, lips closed.
+CHARACTER ACTION: She takes one small steadying breath, keeping her lips closed for silent footage.
+CAMERA: close three-quarter portrait. Very slow push toward her face.
+ENVIRONMENT: Recording equipment remains fixed; subtle analog grain.
+STYLE: Matte flat cel colors, bold black ink contours, 1–2 discrete shadow tones, visible fine analog grain, slightly soft VHS television image and painted backdrop.
+LOCK: Preserve exact heroine face, hair swoop, skin tone, outfit, anatomy, people/prop counts, object identities and composition. Keep existing hand/leg positions except the single stated movement. Maintain the existing architecture and camera side. Closed mouths; no lip-sync.
+DO NOT: Invent crowds, props, products, passport, meetings or absent objects; no extra fingers or limbs, morphing, mirror panels, split frames, borders, captions, dialogue, lip-sync, audio, music, added text or 3D CGI. Do not animate stone statues as people.

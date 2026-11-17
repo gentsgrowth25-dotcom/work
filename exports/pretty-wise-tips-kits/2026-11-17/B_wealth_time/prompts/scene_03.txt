@@ -1,0 +1,13 @@
+IMAGE 3 — Swiss Alpine Railway Platform
+REFERENCE: Images PDF page 3, original PNG scene_03.png. Use only that PNG as the attached first frame.
+NARRATION CUE: “A train ticket home before anyone has to ask.”
+DURATION: Generate approximately 4.6 seconds; suggested edit trim 4.12 seconds at 7.34–11.46. ALL timing is ESTIMATED until actual narration is recorded.
+
+Animate the attached image as the exact first frame of a silent, 4:3 landscape traditional 1990s Western TV cel-animated sequence.
+SCENE: Swiss alpine railway platform. Heroine only. One cream wheeled carry-on with extended handle, one small plain ticket in free hand, parked modern train with open door, platform safety line, clock, stone station columns, lake and alpine mountains. Camel jacket, navy trousers, cream scarf, burgundy boots; feet stationary and one hand on case handle.
+CHARACTER ACTION: She takes one small step parallel to the platform toward the existing open train door, rolling her own case.
+CAMERA: rear three-quarter environmental wide. Track behind at shoulder height.
+ENVIRONMENT: Train remains stationary and door stays open; lake shimmers subtly.
+STYLE: Matte flat cel colors, bold black ink contours, 1–2 discrete shadow tones, visible fine analog grain, slightly soft VHS television image and painted backdrop.
+LOCK: Preserve exact heroine face, hair swoop, skin tone, outfit, anatomy, people/prop counts, object identities and composition. Keep existing hand/leg positions except the single stated movement. Maintain the existing architecture and camera side. Closed mouths; no lip-sync.
+DO NOT: Invent crowds, props, products, passport, meetings or absent objects; no extra fingers or limbs, morphing, mirror panels, split frames, borders, captions, dialogue, lip-sync, audio, music, added text or 3D CGI. Do not animate stone statues as people.
