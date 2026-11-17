@@ -1,0 +1,115 @@
+[
+  {
+    "scene_id": "01",
+    "image_pdf": "Image_01.pdf",
+    "prompt_pdf": "Prompt_01.pdf",
+    "image_pages": 1,
+    "image_text_characters": 0,
+    "full_bleed": true,
+    "source_pixels_preserved": true,
+    "prompt_pages": 1,
+    "prompt_complete": true,
+    "status": "PASS"
+  },
+  {
+    "scene_id": "02",
+    "image_pdf": "Image_02.pdf",
+    "prompt_pdf": "Prompt_02.pdf",
+    "image_pages": 1,
+    "image_text_characters": 0,
+    "full_bleed": true,
+    "source_pixels_preserved": true,
+    "prompt_pages": 1,
+    "prompt_complete": true,
+    "status": "PASS"
+  },
+  {
+    "scene_id": "03",
+    "image_pdf": "Image_03.pdf",
+    "prompt_pdf": "Prompt_03.pdf",
+    "image_pages": 1,
+    "image_text_characters": 0,
+    "full_bleed": true,
+    "source_pixels_preserved": true,
+    "prompt_pages": 1,
+    "prompt_complete": true,
+    "status": "PASS"
+  },
+  {
+    "scene_id": "04",
+    "image_pdf": "Image_04.pdf",
+    "prompt_pdf": "Prompt_04.pdf",
+    "image_pages": 1,
+    "image_text_characters": 0,
+    "full_bleed": true,
+    "source_pixels_preserved": true,
+    "prompt_pages": 1,
+    "prompt_complete": true,
+    "status": "PASS"
+  },
+  {
+    "scene_id": "05",
+    "image_pdf": "Image_05.pdf",
+    "prompt_pdf": "Prompt_05.pdf",
+    "image_pages": 1,
+    "image_text_characters": 0,
+    "full_bleed": true,
+    "source_pixels_preserved": true,
+    "prompt_pages": 1,
+    "prompt_complete": true,
+    "status": "PASS"
+  },
+  {
+    "scene_id": "06",
+    "image_pdf": "Image_06.pdf",
+    "prompt_pdf": "Prompt_06.pdf",
+    "image_pages": 1,
+    "image_text_characters": 0,
+    "full_bleed": true,
+    "source_pixels_preserved": true,
+    "prompt_pages": 1,
+    "prompt_complete": true,
+    "status": "PASS"
+  },
+  {
+    "scene_id": "07",
+    "image_pdf": "Image_07.pdf",
+    "prompt_pdf": "Prompt_07.pdf",
+    "image_pages": 1,
+    "image_text_characters": 0,
+    "full_bleed": true,
+    "source_pixels_preserved": true,
+    "prompt_pages": 1,
+    "prompt_complete": true,
+    "status": "PASS"
+  },
+  {
+    "scene_id": "08",
+    "image_pdf": "Image_08.pdf",
+    "prompt_pdf": "Prompt_08.pdf",
+    "image_pages": 1,
+    "image_text_characters": 0,
+    "full_bleed": true,
+    "source_pixels_preserved": true,
+    "prompt_pages": 1,
+    "prompt_complete": true,
+    "status": "PASS"
+  },
+  {
+    "scene_id": "09",
+    "image_pdf": "Image_09.pdf",
+    "prompt_pdf": "Prompt_09.pdf",
+    "image_pages": 1,
+    "image_text_characters": 0,
+    "full_bleed": true,
+    "source_pixels_preserved": true,
+    "prompt_pages": 1,
+    "prompt_complete": true,
+    "status": "PASS"
+  },
+  {
+    "narration_pdf": "ElevenLabs_Narration.pdf",
+    "pages": 1,
+    "spoken_script_preserved": true
+  }
+]

@@ -1,3 +1,14 @@
+# Individual scene and prompt PDFs — latest delivery format
+
+Each image and prompt is now its own one-page PDF. No splitting or extraction required.
+
+- [Episode A: nine individual image PDFs, nine prompt PDFs and narration](A_individual_pdfs/)
+- [Episode B: nine individual image PDFs, nine prompt PDFs and narration](B_individual_pdfs/)
+- [Episode A individual PDFs ZIP](PrettyWiseTips_2026-11-17_A_Individual_PDFs.zip)
+- [Episode B individual PDFs ZIP](PrettyWiseTips_2026-11-17_B_Individual_PDFs.zip)
+
+---
+
 # Pretty Wise Tips — 17 November 2026
 
 **Images PDFs are image-only and full-bleed:** nine edge-to-edge native 4:3 landscape pages, no text, margins, borders, labels, cover or page numbers. Page 1 matches Image 1 / scene_01.png, through page 9 / Image 9 / scene_09.png.
